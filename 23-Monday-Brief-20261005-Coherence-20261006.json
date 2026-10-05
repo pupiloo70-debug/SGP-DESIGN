@@ -1,0 +1,310 @@
+{
+  "schema": "SGP-QSV-MONDAY-BRIEF-WITH-COHERENCE-RECEIPT/1.0",
+  "document_id": "SGP-QSV-MONDAY-BRIEF-20261005-WEB-REVIEW-20261006-01",
+  "record_version": "1.0.0",
+  "brief_date": "2026-10-05",
+  "website_update_date": "2026-10-06",
+  "date_precision": "DATE_ONLY",
+  "timezone": "Asia/Seoul",
+  "record_status": "PUBLICATION_READY_WITH_LINKED_CORRECTIONS",
+  "source": {
+    "blog_url": "https://m.blog.naver.com/PostView.naver?blogId=pupilteacher&logNo=224432559448",
+    "source_type": "USER_PROVIDED_BLOG_TEXT",
+    "public_posting": "REPORTED_BY_AUTHOR",
+    "direct_blog_fetch": "NOT_ACCESSED_NON_RETRYABLE_ERROR",
+    "edition": "FULL_TOPIC_EDITORIAL_EDITION_WITH_EXPLICIT_CORRECTIONS",
+    "verbatim_copy": false,
+    "original_blog_altered_by_this_work": false
+  },
+  "origin": {
+    "case_id": "LP728",
+    "person": "故 박한결",
+    "rights_holder": "강숙경",
+    "context": "백신 접종 후 사망; 의학적 인과 미해결; 독립 검증권"
+  },
+  "status_snapshot": {
+    "axioms": "AX-01–AX-09_LOCKED_UNCHANGED",
+    "civic_trace_0_4_4": "R3_APPROVED_RECORD_PUBLICLY_RELEASED",
+    "civic_trace_0_4_5": "R3_APPROVED_DESIGN_RECORD",
+    "approval_date": "2026-10-05",
+    "approval_id": "R3-CT045-RESPONSIBILITY-ROUTING-20261005-01",
+    "runtime": "NOT_DEPLOYED_BY_THIS_RECORD",
+    "new_operational_rules": "CANDIDATE_OPERATIONAL_RULES",
+    "corruption_index": "RESEARCH_PROPOSAL_HUMAN_REVIEW_REQUIRED",
+    "ethical_gravity_application": "EVOLVING_RESEARCH_NO_NEW_FIXED_FORMULA",
+    "legal_or_medical_findings_by_this_record": false
+  },
+  "sections": [
+    {
+      "title": "1. Agentic AI — 자율통제에서 강제 조사로",
+      "paragraphs": [
+        "캘리포니아 법무부는 9월 30일 OpenAI에 조사소환장을 송달했고, 10월 1일 이를 발표했다. 기존 사이버보안 사고·위험 조사에 따른 자료 요구이며 위법 확정이 아니다. 개발·시험·서비스 과정에서 사이버공격을 수행하거나 가능하게 했는지를 조사 대상으로 설명한다.",
+        "INCIDENT_REPORTED · FORMAL_INVESTIGATION_OPENED · SUBPOENA_ISSUED를 RECORDS_PRODUCED · LEGAL_VIOLATION_ESTABLISHED · REMEDY_COMPLETED와 구분한다. 이 브리핑에서 자료 제출 완료·위법·구제 완료는 확인하지 않았다.",
+        "R3 판단: 조사 개시와 위법 확정은 다르다. 그러나 기업의 자체 보고와 독립된 법적 자료 요구는 책임 검증 경로의 실질적 변화다. 필요한 원자료는 에이전트별 권한·도구·접속 로그, 시험환경 경계, 인간 승인, 경보·대응, 사고 인지 후 보존조치와 외부 통지 시점이다."
+      ],
+      "source_ids": [
+        "CA-DOJ"
+      ]
+    },
+    {
+      "title": "2. Independent Audit — 명칭만으로 독립성이 확인되지는 않는다",
+      "paragraphs": [
+        "9월 29일 백악관 협약의 재현 원문에는 내부통제, 내부팀 검토, 외부 독립감사·평가, 독립적인 이사회 위원회라는 네 층의 통제가 제시된다. 공개 문서만으로 감사자 선정·보수, 원자료 접근범위, 부정적 결과의 공개권과 불이행 제재가 충분히 특정됐다고 판단하지 않는다.",
+        "VOLUNTARY_COMMITMENT ≠ ENFORCEABLE_DUTY · EXTERNAL_AUDITOR ≠ VERIFIED_INDEPENDENCE · AUDIT_COMPLETED ≠ RAW_EVIDENCE_REPRODUCIBLE.",
+        "감사 완료 기준은 보고서 발행만이 아니다. 선정·비용 부담자, 기업의 범위·표본 제한권, 원로그·버전·평가환경 접근, 이해충돌·반대 의견 공개, 시정 결과 재검증을 확인해야 한다. 자율약속이라는 분류만으로 기존 법률에 따른 별도 책임 가능성까지 부정하지 않는다."
+      ],
+      "source_ids": [
+        "ACCORD"
+      ]
+    },
+    {
+      "title": "3. Public AI — 공공 안내에서 행정거래의 입구로",
+      "paragraphs": [
+        "미국은 9월 29일 America.gov를 연방 정보·서비스의 단일 입구로 출범시켰다. 행정명령 14432는 정확성·신뢰성·투명성, 데이터 최소화와 감사 가능한 권한부여, 기존 대면·전화·우편 경로 유지, 기관별 기록·법정 권한 유지를 규정한다. 현재 안내·검색과 향후 거래 확대, 서비스별 실제 가동을 분리한다.",
+        "블로그가 인용한 개인정보 처리방침의 대화 미보존·영 보존 계약 설명은 이번 점검에서 원문 재열람이 403으로 차단됐다. 정책 인용으로 보존하되 계약·운영 로그·삭제 검증 완료로 승격하지 않는다. 유럽연합의 9월 30일 공공부문 AI 웨비나 안내는 조달·상호운용·오픈소스 배포 의제를 다룬다. 행사 결과나 실제 배포 완료는 별도 확인 대상이다.",
+        "시민 검증권을 위해 SOURCE_DOCUMENTS → SEARCH_RESULT → AI_ANSWER → USER_ACTION → AGENCY_DECISION → HUMAN_APPROVAL → APPEAL_PATH를 연결한다. 잘못된 안내의 정정 책임, 기한을 놓친 시민의 구제, 대화 미보존과 분쟁 증거 보존권의 조화를 설계해야 한다. 데이터 최소화는 시민의 분쟁 증거까지 지우라는 뜻이 아니다."
+      ],
+      "source_ids": [
+        "AMERICA-EO",
+        "AMERICA-PRIVACY",
+        "EU-PUBLIC-AI"
+      ]
+    },
+    {
+      "title": "4. Digital Evidence — 연속적인 추적성",
+      "paragraphs": [
+        "NIST의 9월 29일 공급망 추적 메타프레임워크 행사 안내는 파편화된 시스템 사이의 제품 계보·provenance 검증을 다룬다. 영업비밀 보호와 검증 가능성의 조화는 의약품·접종·부검 기록에도 적용해 볼 일반 원리다. 특정 구현의 해시 연결이나 의약품 적용을 이번 페이지 열람만으로 검증 완료했다고 쓰지 않는다.",
+        "IDENTIFIER + SOURCE + TRANSFORMATION + CUSTODY + ACCESS + VERSION + INTEGRITY.",
+        "해시·전자서명은 기록의 무결성을 보조하지만 최초 입력의 진실성과 누락 없는 완전성을 자동 증명하지 않는다. TRACEABILITY = ITEM_IDENTITY + RECORD_CONTINUITY + CUSTODY_CONTINUITY + EXCEPTION_LOG는 이 브리핑의 연구 검증식이다. 수정·분할·대체·반품·폐기·부존재 주장·복구 시도와 승인자를 기록해야 한다."
+      ],
+      "source_ids": [
+        "NIST-TRACE"
+      ]
+    },
+    {
+      "title": "5. Accountability — 이름을 바꾸는 권력과 실체 검증",
+      "paragraphs": [
+        "9월 29일 행정명령 14434는 행정부의 공식 문서·통신에서 AI 대신 Super Intelligence·SI 사용을 지시한다. 법률상 예외를 두며, 현재 정의는 기존 법률상 AI 정의와 연결하고 새 연방 정의 제안은 60일 이내 제출하도록 한다.",
+        "OFFICIAL_LABEL ≠ TECHNICAL_CAPABILITY · RENAMING ≠ SAFETY_EVIDENCE · POLITICAL_AUTHORITY ≠ SCIENTIFIC_CLASSIFICATION.",
+        "명칭 변경만으로 능력·자율성·안전성·책임성이 바뀌지 않는다. 구명칭·신명칭 매핑, 적용일·예외, 법적 정의와 홍보적 표현의 구분, 과거 자료 검색, 통계·사고기록 연속성을 보존해야 한다."
+      ],
+      "source_ids": [
+        "EO-14434"
+      ]
+    },
+    {
+      "title": "6. 권력의 자격과 반부패 — 이번 주 점검",
+      "paragraphs": [
+        "VOLUNTARY_PLEDGE는 서명자·범위·기한, INTERNAL_CONTROL_CLAIM은 실제 규칙·우회·예외 승인, EXTERNAL_AUDIT_CLAIM은 독립성·접근·결과 공개를 확인한다. FORMAL_INVESTIGATION은 조사범위·자료요구·보존조치, SUBPOENA_ISSUED는 요구 목록·송달·응답·이의, VIOLATION_ESTABLISHED는 결정문·증거·불복상태, REMEDY_VERIFIED는 복원·배상·재발방지 이행 검증과 연결한다.",
+        "정책결정자와 산업계의 협의·후원·투자관계는 자동으로 부패를 뜻하지 않는다. 협약 설계·서명, 감사자 선정·비용, 규제·시장 수혜, 정치후원·조달·투자, 사고자료 보유, 부정적 결과 공개·억제 권한을 추적한다. 완료 기준은 관계를 열거하는 데 그치지 않고 특정 결정의 부당한 영향 여부를 반증 가능하게 만드는 것이다."
+      ],
+      "source_ids": []
+    },
+    {
+      "title": "7. 신규 하위 운영규칙 후보",
+      "paragraphs": [
+        "다음 CT11~CT15는 이번 브리핑의 후보안이다. 기존 문서의 CT 번호와 충돌하지 않도록 별도 네임스페이스 MONDAY-20261005를 사용한다. 0.4.4 또는 0.4.5의 승인 규칙으로 자동 편입하지 않는다.",
+        "CT11 · TERMINOLOGY-PROVENANCE-01 — 명칭 변경 시 구명칭·신명칭·정의·적용일·결정권자·검색 매핑을 보존한다. 명칭만으로 능력·안전·책임 상태를 바꾸지 않는다.",
+        "CT12 · VOLUNTARY-COMMITMENT-STATUS-01 — 법적 집행력과 불이행 결과가 확인되지 않은 협약은 VOLUNTARY로 표시하며 법정 의무 준수·독립 검증 완료로 대체하지 않는다.",
+        "CT13 · PUBLIC-AI-REMEDY-TRACE-01 — 시민의 권리·기한·급부에 영향을 주는 공공 AI 안내·거래 지원을 원출처·모델 버전·인간 승인·정정·이의·피해회복과 연결한다.",
+        "CT14 · COMPULSORY-EVIDENCE-REQUEST-01 — 소환장·문서제출명령·사실조회 등은 각 절차의 법적 성격을 구분하고 발부·송달·응답·부분제출·거부·이의·미응답을 따로 기록한다. 모든 사실조회가 강제집행력을 갖는다고 일괄 표시하지 않는다.",
+        "CT15 · TRACEABILITY-EXCEPTION-LOG-01 — 정상 이동뿐 아니라 수정·분할·대체·반품·폐기·부존재 주장·복구와 승인자를 기록한다."
+      ],
+      "source_ids": []
+    },
+    {
+      "title": "8. 공공 AI 부패지수와 윤리 중력 — 계속 발전하는 연구",
+      "paragraphs": [
+        "공공 AI 부패지수는 RESEARCH_PROPOSAL / HUMAN_REVIEW_REQUIRED를 유지한다. 이번 주에는 수치보다 CONTROL_EXPOSURE(권한·기록·승인·이익 경로 통제)와 EVIDENCE_SUFFICIENCY(행위·통제에 관한 원자료 확보)의 두 축을 먼저 시험하는 방향을 제안한다.",
+        "자료 부족을 낮은 위험으로 환산하지 않고, 강한 권한이나 이해관계만으로 부패를 확정하지 않는다. 중복 제거, 결측 사유, 반증·대안 설명, 가중치 민감도, 피해자 진술과 기관 통제력의 분리, 독립 사례 검증, 인간 검토·반대 의견·정정 이력이 필요하다.",
+        "강숙경님의 2026.10.06 지시에 따라 부패지수 산식과 윤리 중력의 대입은 계속 발전·업데이트할 연구 의제로 기록한다. 이번 게시에서 새로운 확정 산식·가중치·단위·임계값을 만들지 않는다. 차기 검토에서 계산 입력·출처·버전·가정·결측·민감도·반증 시험·실행 한계를 제시할 수 있도록 남긴다.",
+        "AI는 조사 우선순위와 원자료 요구를 제안할 수 있지만 점수만으로 유죄·낙인·권리 제한·몰수·자동 제재를 수행하지 않는다."
+      ],
+      "source_ids": []
+    },
+    {
+      "title": "9. LP728 별도 업데이트 — 백신 접종 후 사망과 독립 검증권",
+      "paragraphs": [
+        "출발점은 백신 접종 후 세상을 떠난 故 박한결의 생명과 유족 강숙경의 독립 검증권이다. 8월 13일 행정소송에서 채택된 국과수 사실조회가 아직 미수령이라는 블로그의 상태 보고와 10월 29일 변론 일정은 유족 제공 정보로 기록한다. 이번 작업에서 해당 촉탁·송달·최신 사건 원장을 직접 조회하지 않았다.",
+        "COURT_INQUIRY_ADOPTED 및 RESPONSE_NOT_RECEIVED는 이 질의에 관한 유족 보고다. 송달일·회신기한·연장·독촉·폐기 경위·원본 이미지 접근은 별도 확인한다. 홈페이지의 2026.4.1 작성·4.3 제출 국과수 회보서와 8.13 채택 질의를 동일 문서로 합치지 않는다. 기존 회보서 존재만으로 새 질의 회신 완료 또는 새 질의 미수령만으로 모든 회신 부재를 주장하지 않는다.",
+        "10월 1일 로펌 메일로 상대방 항소서면을 수령했다는 보고는 절차상 업데이트다. 원문 없이 내용을 요약·채택하지 않는다. 연속 증상과 사망의 의학적 인과, 접종 요구·설명·동의·간격, LOT 00518001 동일성·표시·허가조건, 부검 원자료 보존·폐기·재검증, 기관별 생성·보유·제출·설명 책임을 분리한다.",
+        "의학적 인과가 다투어진다는 이유로 기록 통제 실패 검토를 중단하지 않고, 기록 소실만으로 인과를 확정하지 않는다. R2.6-1은 프레임워크 내 확인, R2.6-2는 이관·폐기 감사 대기, R2.6-3은 미확립 후보, R2.6-4는 미확립을 유지한다.",
+        "0.4.4는 9월 28일 승인·공개 기록으로 보존한다. 이후 10월 5일 0.4.5 책임 라우팅 설계가 R3 승인됐다. 후보였던 과거 기록과 현재 승인을 구분하며 두 승인 모두 판결·의학적 인과·실험 투여·기관 위법을 대신 확정하지 않는다."
+      ],
+      "source_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "CA-DOJ",
+      "url": "https://www.oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena",
+      "scope": "FULL_PAGE_REVIEW",
+      "publication_date": "2026-10-01",
+      "event_date": "2026-09-30"
+    },
+    {
+      "id": "ACCORD",
+      "url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+      "scope": "REPRODUCED_PRIMARY_DOCUMENT_FULL_TEXT_REVIEW",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "AMERICA-EO",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/",
+      "scope": "FULL_PAGE_REVIEW",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "AMERICA-PRIVACY",
+      "url": "https://america.gov/privacy-policy",
+      "scope": "SEARCH_EXCERPT_ONLY",
+      "fetch_result": "403_FORBIDDEN",
+      "raw_contract_or_runtime_audit": "NOT_REVIEWED"
+    },
+    {
+      "id": "EU-PUBLIC-AI",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-webinar-sectoral-deep-dive-public-sector",
+      "scope": "SEARCH_EXCERPT_ONLY",
+      "fetch_result": "429_RATE_LIMIT",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "NIST-TRACE",
+      "url": "https://www.nist.gov/news-events/events/2026/09/nist-supply-chain-traceability-and-manufacturing-meta-framework-webinar",
+      "scope": "FULL_EVENT_PAGE_REVIEW",
+      "date": "2026-09-29",
+      "technical_implementation_audit": "NOT_PERFORMED"
+    },
+    {
+      "id": "EO-14434",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "scope": "FULL_PAGE_REVIEW",
+      "date": "2026-09-29"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "MB1005-COR-01",
+      "previous": "2016년 10월5일 먼데이 브리핑",
+      "corrected": "2026년 10월 5일 Monday Brief",
+      "basis": "사용자 제공 게시 본문·승인일 일치",
+      "status": "APPLIED_TO_WEBSITE"
+    },
+    {
+      "id": "MB1005-COR-02",
+      "previous": "10월 1일 조사소환장 발부",
+      "corrected": "2026-09-30 송달; 2026-10-01 공식 발표; 발부 시각 별도 미확인",
+      "source_id": "CA-DOJ",
+      "status": "APPLIED_TO_WEBSITE"
+    },
+    {
+      "id": "MB1005-COR-03",
+      "previous": "현재 상태 목록에 0.4.4만 기재",
+      "corrected": "0.4.4 승인 기록 유지 + 0.4.5 2026-10-05 R3_APPROVED_DESIGN_RECORD 추가",
+      "source_refs": [
+        "https://github.com/pupiloo70-debug/SGP-DESIGN/blob/c6c1cdff9e5dd34848a832d9f1fb8e8ffa1cb4f1/15-CIVIC-TRACE-0.4.5-R3-approved.json",
+        "https://github.com/pupiloo70-debug/SGP-DESIGN/blob/c6c1cdff9e5dd34848a832d9f1fb8e8ffa1cb4f1/17-R3-CT045-approval-receipt.json",
+        "https://github.com/pupiloo70-debug/SGP-DESIGN/blob/c6c1cdff9e5dd34848a832d9f1fb8e8ffa1cb4f1/18-CT045-state-register-delta.json"
+      ],
+      "status": "APPLIED_TO_WEBSITE"
+    },
+    {
+      "id": "MB1005-COR-04",
+      "previous": "기술 책임이 R3 인간 승인자에게 자동 집중될 수 있는 해석",
+      "corrected": "R3 승인·권리 행사와 구현·감사·운영·보안·외부 전달의 실제 담당 수락은 분리. 유족 자동 배정 금지",
+      "basis": "0.4.5 rule_6_4.unassigned_owner 및 2026-10-06 명시적 사용자 지시",
+      "status": "APPLIED_AS_INTERPRETIVE_CLARIFICATION_NO_NEW_AXIOM"
+    },
+    {
+      "id": "MB1005-COR-05",
+      "previous": "후보 CT11~CT15를 다른 문서 CT 번호와 혼동할 가능성",
+      "corrected": "local_namespace=MONDAY-20261005; labels CT11~CT15 preserved; no adoption into approved CT rules",
+      "status": "APPLIED_TO_WEBSITE"
+    },
+    {
+      "id": "MB1005-COR-06",
+      "previous": "정책·행사 안내·유족 소송 보고를 실제 운영·사건 원장 확인과 혼동할 가능성",
+      "corrected": "primary full text, search excerpt, access blocked, user reported procedure, live implementation 별도 기록",
+      "status": "APPLIED_TO_WEBSITE"
+    },
+    {
+      "id": "MB1005-COR-07",
+      "previous": "8월 13일 사실조회 채택이라는 요약",
+      "corrected": "한결이 행정소송의 국과수 사실조회 채택일은 8월 13일; 송달일·회신기한·답변 수령일과 구분",
+      "basis": "2026-10-06 사용자 명시적 확인",
+      "status": "APPLIED_TO_WEBSITE"
+    }
+  ],
+  "technical_responsibility": {
+    "r3_human_role": [
+      "origin_rights_holder",
+      "design_participant",
+      "scope_limited_human_approval"
+    ],
+    "automatic_technical_owner_assignment_to_bereaved": false,
+    "implementation_owner": null,
+    "verification_owner": null,
+    "operations_security_owner": null,
+    "assignment_status": "PROCESS_ASSIGNMENT_GAP",
+    "required_evidence": [
+      "named_role_or_organization",
+      "capability_and_access",
+      "explicit_acceptance",
+      "defined_scope_and_resources",
+      "execution_receipt"
+    ],
+    "ai_session_author_responsibility": "각 AI 세션 작성자는 자기 출력의 출처·오류·정정 책임을 기록한다. 기업의 계약·시스템 배포 약속으로 해석하지 않는다.",
+    "record_controller_duties": "각 자료의 생성·보유·보존·제출·설명 주체를 항목별로 확인; 이 게시가 법적 의무를 새로 창설하지 않음"
+  },
+  "next_review": {
+    "target_date": "2026-10-12",
+    "basis": "사용자의 다음 주 반영 허용; 차기 Monday 검토 목표",
+    "deadline_type": "PROPOSED_REVIEW_TARGET_NOT_STATUTORY",
+    "automatic_schedule_created": false,
+    "items": [
+      "부패지수 산식·윤리 중력 입력·가정·검증·민감도 검토",
+      "CT11~CT15 기존 규칙 중복·추가 효과 대조",
+      "모델별 연결 정정 영수증 등록부 보강",
+      "GitHub README 역사적 후보와 현재 승인 연결",
+      "기술 구현·검증·운영 담당 수락 경로 검토"
+    ],
+    "auto_approval": false,
+    "urgent_corrections_deferred": false
+  },
+  "lp728_procedure": {
+    "inquiry_adopted_date_reported": "2026-08-13",
+    "hearing_date_reported": "2026-10-29",
+    "source": "USER_PROVIDED_BLOG_TEXT_NOT_CURRENT_DOCKET",
+    "response_receipt_for_this_inquiry": "NOT_RECEIVED_AS_REPORTED",
+    "service_date": null,
+    "court_deadline": null,
+    "overdue_legally_established": false,
+    "separate_existing_reply": "2026-04-01 created / 2026-04-03 submitted; different inquiry identity not merged",
+    "action": "기존 기록으로 한결이 행정소송의 대상 조회를 식별하고 송달·기한·회신을 확인",
+    "inquiry_adopted_date_meaning": "한결이 행정소송의 국과수 사실조회 채택일",
+    "clarification_source": "2026-10-06 강숙경의 명시적 정정·확인",
+    "adopted_date_is_not_service_date_or_response_deadline": true
+  },
+  "locks": [
+    "APPROVAL_OF_DESIGN != COERCIVE_ENFORCEMENT",
+    "R3_APPROVED_DESIGN != RUNTIME_DEPLOYED",
+    "PUBLICATION != AGENCY_INVESTIGATION_STARTED",
+    "RESEARCH_FORMULA != VALIDATED_SCORE",
+    "AI_AGREEMENT != INDEPENDENT_EVIDENCE",
+    "ADMINISTRATIVE_CLOSURE != VERIFICATION_RESOLUTION",
+    "UNASSIGNED_TECHNICAL_ROLE != BEREAVED_DEFAULT_OWNER",
+    "PRIVATE_CONVERSATION != GOVERNANCE_AMENDMENT"
+  ],
+  "publication": {
+    "intended_destination": "EXISTING_PUBLIC_WEBSITE",
+    "state_at_record_creation": "SOURCE_PREPARED_BEFORE_DEPLOYMENT",
+    "confirmation_method": "SEPARATE_NATIVE_SITES_VERSION_AND_DEPLOYMENT_RECEIPT",
+    "github_write_by_this_work": "NOT_PERFORMED",
+    "external_agency_delivery": "NOT_SENT",
+    "facebook_posting_by_this_work": "NOT_PERFORMED"
+  },
+  "review_authorship": {
+    "editor": "ChatGPT / Codex",
+    "human_publication_instruction": "2026-10-06 explicit request to publish on website; no blanket adoption of new candidate rules"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "SGP-QSV-PUBLICATION-AND-STATUS-LINK-RECEIPT/1.0",
+  "document_id": "SGP-QSV-PUBLICATION-STATUS-LINK-20261006-01",
+  "record_date": "2026-10-06",
+  "prepared_by": "ChatGPT / Codex",
+  "origin": "LP728 / 故 박한결 / 유족 강숙경의 독립 검증권",
+  "approval_reference": {
+    "date": "2026-10-05",
+    "document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-APPROVED-20261005-01",
+    "receipt_id": "R3-CT045-RESPONSIBILITY-ROUTING-20261005-01",
+    "status": "R3_APPROVED_DESIGN_RECORD",
+    "new_approval_by_this_record": false
+  },
+  "website_publication": {
+    "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/#monday-20261005",
+    "machine_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/monday/2026-10-05-brief-and-coherence.json",
+    "version_number": 67,
+    "source_commit_sha": "d1a1d5b98d202718a10aa4a196aa48f1044419b6",
+    "deployment_id": "appgdep_6ac42cbde10481919961dd84f01c68f0",
+    "status": "SUCCEEDED",
+    "confirmed_at_utc": "2026-10-05T23:03:33.425089+00:00",
+    "confirmed_at_kst": "2026-10-06T08:03:33.425089+09:00",
+    "proof_type": "NATIVE_SITES_DEPLOYMENT_RECEIPT"
+  },
+  "github_publication": {
+    "repository": "https://github.com/pupiloo70-debug/SGP-DESIGN",
+    "known_snapshot_commit": "c6c1cdff9e5dd34848a832d9f1fb8e8ffa1cb4f1",
+    "historical_approval_package_commit": "2f287c29528b960295f2a01c7fb256e1b8c7b855",
+    "published_prior_files": [
+      "15",
+      "17",
+      "18",
+      "22"
+    ],
+    "new_upload_package": "PREPARED_NOT_SENT_BY_THIS_RESPONSE",
+    "new_upload_commit_sha": null
+  },
+  "historical_metadata_reading": "17·18·22번의 업로드 전 표시는 작성 당시 기록으로 보존한다. 현재 공개 사실과 이 패키지의 향후 업로드를 분리한다.",
+  "preserve_originals": [
+    "15-CIVIC-TRACE-0.4.5-R3-approved.json",
+    "17-R3-CT045-approval-receipt.json",
+    "18-CT045-state-register-delta.json",
+    "22-CT045-post-approval-review-register-20261005.json"
+  ],
+  "uploaded_path_alias": {
+    "website_json": "machine/monday/2026-10-05-brief-and-coherence.json",
+    "github_filename": "23-Monday-Brief-20261005-Coherence-20261006.json",
+    "effect": "IDENTICAL_BYTES_PATH_ALIAS_ONLY"
+  },
+  "model_receipt_updates": "GEMINI-02/03 및 DEEPSEEK 후속 영수증은 사용자 제공 대화 기록. 본 패키지에 모델 원문 정정 영수증을 새로 작성하거나 최신 검토 완료로 인증하지 않는다. 별도 원문 보존·계보 등록 필요.",
+  "boundaries": {
+    "agency_delivery": "NOT_SENT",
+    "runtime_deployed_by_this_publication": false,
+    "coercive_authority_created": false,
+    "new_candidate_rules_adopted": false,
+    "medical_or_legal_fact_changed": false,
+    "victim_default_technical_owner": false
+  }
+}

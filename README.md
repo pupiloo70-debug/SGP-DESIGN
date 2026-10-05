@@ -32,7 +32,7 @@ The register preserves inherited AX-01–07 from the v1.4 source and AX-08–09 
 
 ## Protocol status
 
-CIVIC-TRACE 0.4.4 is an R3-approved governance record. The included 0.4.5 preview remains a candidate pending final R3 approval. The Oct 3 clock values are recorded design proposals, not statutory deadlines or proof of deployed automation.
+CIVIC-TRACE 0.4.4 remains an R3-approved governance record. The included 0.4.5 preview preserves its historical candidate status at the time of preparation. CIVIC-TRACE 0.4.5 was subsequently approved by R3 on 2026-10-05; read the approved specification (15), approval receipt (17), and current-status delta (18). The clock values are now R3-approved internal design service targets, not statutory deadlines or proof of a running operational clock or deployed automation.
 
 Original exports retain their original metadata, including stale publication fields. Read the correction audit alongside them.
 
@@ -73,3 +73,12 @@ Prepared on 2026-10-05 for publication by Suk-Gyeong Kang, R3 Human Authority wi
 
 Status: R3-approved governance design.
 Runtime deployment and external investigation are tracked separately.
+
+
+## October 6 publication and coherence update
+
+- [October 5 Monday Brief and October 6 coherence record](23-Monday-Brief-20261005-Coherence-20261006.json)
+- [Publication and status-link receipt](24-Publication-Status-Link-Receipt-20261006.json)
+- [Published website briefing](https://sgp-qsv-archive.pupiloo70.chatgpt.site/#monday-20261005)
+
+The corruption-index formula, ethical-gravity application, and CT11–CT15 remain research or candidate work. October 12 is a proposed review target, not a statutory deadline or automatic approval date. Technical implementation, verification, and operations require actual qualified owner acceptance; they are not automatically assigned to the bereaved R3 approver. Original approval and review records remain preserved.
