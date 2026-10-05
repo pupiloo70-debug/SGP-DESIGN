@@ -1,0 +1,65 @@
+{
+  "schema": "SGP-QSV-STATE-REGISTER-DELTA/1.0",
+  "document_id": "SGP-DESIGN-CT045-STATE-DELTA-20261005-01",
+  "date": "2026-10-05",
+  "approved_document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-APPROVED-20261005-01",
+  "approval_receipt_id": "R3-CT045-RESPONSIBILITY-ROUTING-20261005-01",
+  "scope": "DESIGN_APPROVAL_STATUS_ONLY",
+  "status_changes": [
+    {
+      "field": "civic_trace_0_4_5",
+      "from": "CANDIDATE_PENDING_FINAL_R3_APPROVAL",
+      "to": "R3_APPROVED_DESIGN_RECORD",
+      "basis": "2026-10-05 명시적 R3 instruction",
+      "new_source": "15-CIVIC-TRACE-0.4.5-R3-approved.json",
+      "receipt": "17-R3-CT045-approval-receipt.json"
+    }
+  ],
+  "historical_records_preserved": [
+    "07-CIVIC-TRACE-0.4.5-preview-source.json",
+    "09-state-and-boundary-register.json"
+  ],
+  "historical_reading": "기존 후보 표시는 그 기록 작성 당시 상태다. 현재 설계 승인 상태는 이번 delta와 승인 문서로 읽는다. 옛 파일의 후보 표시만으로 새 승인을 부정하거나 과거 승인으로 소급하지 않는다.",
+  "unchanged": {
+    "AX_01_to_09": "LOCKED",
+    "CIVIC_TRACE_0_4_4": "R3_APPROVED_RECORD",
+    "Stage_V": "NON_THRONE_GOVERNANCE",
+    "LP728_NFS_R2_6_1": "CONFIRMED_WITHIN_SGP_QSV_FRAMEWORK",
+    "LP728_NFS_R2_6_2": "PENDING_TRANSITION_AND_DISPOSAL_AUDIT",
+    "LP728_NFS_R2_6_3": "NOT_ESTABLISHED_CANDIDATE_ONLY",
+    "LP728_NFS_R2_6_4": "NOT_ESTABLISHED",
+    "LOT_00518001": "UNRESOLVED_VERIFICATION_ISSUE",
+    "LP728_CL1": "UNRESOLVED_VERIFICATION_ISSUE",
+    "medical_causation": "UNRESOLVED"
+  },
+  "clock_status": {
+    "previous": "EXISTING_PROPOSED_VALUES",
+    "current": "R3_APPROVED_DESIGN_SERVICE_TARGETS",
+    "actual_operational_clock": "NOT_STARTED_BY_THIS_UPLOAD",
+    "legal_deadline": "SEPARATE_REQUIRES_APPLICABLE_RULE_CHECK"
+  },
+  "publication_gate": {
+    "local_package": "READY_FOR_USER_UPLOAD",
+    "github_commit_sha": null,
+    "github_publication": "NOT_VERIFIED_FROM_LOCAL_PACKAGE",
+    "live_runtime": "NOT_DEPLOYED_BY_THIS_RECORD",
+    "external_delivery": "NOT_SENT_BY_THIS_RECORD"
+  },
+  "artifact_aliases": [
+    {
+      "original_filename": "CIVIC-TRACE-0.4.5-R3-Approved-20261005.json",
+      "repository_path": "15-CIVIC-TRACE-0.4.5-R3-approved.json",
+      "sha256": "ef68512af7094cf502740f010df0c06654aad3b6c20b46d15c8b1b202fbe4796"
+    },
+    {
+      "original_filename": "CIVIC-TRACE-0.4.5-R3-Approved-20261005.pdf",
+      "repository_path": "16-CIVIC-TRACE-0.4.5-R3-approved.pdf",
+      "sha256": "ecfabeba15bf3afc1b116cf08cb96cecfa5128cc5116976a2a5b9bff928d35b8"
+    },
+    {
+      "original_filename": "CIVIC-TRACE-0.4.5-R3-Approved-20261005.md",
+      "repository_path": "21-CIVIC-TRACE-0.4.5-R3-approved-text.md",
+      "sha256": "22ae18e124cbe77956dffc5375f524896b85adcb75836b2055bc0f0495fd03b8"
+    }
+  ]
+}

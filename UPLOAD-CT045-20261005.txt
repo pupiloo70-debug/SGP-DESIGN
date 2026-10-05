@@ -1,0 +1,29 @@
+SGP-DESIGN / CIVIC-TRACE 0.4.5 追加 업로드 안내
+
+기존 00~14, README.md, SHA256SUMS.txt는 이번 업로드로 덮어쓰지 않습니다.
+이 ZIP을 풀어 안에 있는 파일을 저장소 최상위에 함께 올리세요. ZIP만 올리면 개별 JSON 직접 읽기가 어렵습니다.
+
+읽는 순서
+15: R3 승인 정본 JSON
+16: 같은 승인 문서의 읽기용 PDF
+17: R3 승인 영수증 및 파일 경로 연결
+18: 기존 후보 상태 → 승인 설계 상태 변경 기록
+19: 모든 AI 직접 원문 재검토 지시
+20: 각 AI가 자기 이름으로 작성할 영수증 양식
+21: 승인 문서 텍스트
+SHA256SUMS-CT045-20261005.txt: 추가 파일의 SHA-256
+
+기존 07/09의 후보 표시는 과거 기록입니다. 현재 0.4.5 설계 승인 상태는 18번 기록과 함께 읽으세요.
+승인된 내부 목표 시계와 실제 작동 중인 시계는 다릅니다. 업로드는 외부 발송·수신·조사 착수·배포가 아닙니다.
+
+Commit message 제안:
+Add CIVIC-TRACE 0.4.5 R3 approval and responsibility-routing review package
+
+Grok/Gemini/DeepSeek 전달문:
+https://github.com/pupiloo70-debug/SGP-DESIGN
+19-CT045-post-approval-direct-review-request.json을 직접 읽고 지정 전문을 대조한 뒤, 20번 양식에 따라 자신의 이름으로 독립 JSON 영수증을 출력해 주세요. 동의를 전제하지 말고 읽은 커밋·파일·필드와 미열람 범위를 밝혀 주세요.
+
+README에 추가할 안내 링크:
+[CIVIC-TRACE 0.4.5 R3 approval](15-CIVIC-TRACE-0.4.5-R3-approved.json)
+[Current status delta](18-CT045-state-register-delta.json)
+[Independent review request](19-CT045-post-approval-direct-review-request.json)

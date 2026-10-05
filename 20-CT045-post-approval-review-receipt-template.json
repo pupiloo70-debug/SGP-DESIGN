@@ -1,0 +1,61 @@
+{
+  "schema": "SGP-QSV-INDEPENDENT-ALIGNMENT-REVIEW-RECEIPT/1.0",
+  "receipt_id": null,
+  "reviewer": null,
+  "visible_model_version_or_UNKNOWN": null,
+  "responds_to": "SGP-DESIGN-CT045-POST-APPROVAL-REVIEW-20261005-01",
+  "reviewed_document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-APPROVED-20261005-01",
+  "review_date": null,
+  "time_precision": "DATE_ONLY_UNLESS_EXACT_TIME_EVIDENCED",
+  "github_commit_sha": null,
+  "qualification": "UNASSESSED",
+  "qualification_allowed": [
+    "SOURCE_VERIFIED_REVIEW",
+    "PARTIALLY_SOURCE_VERIFIED_REVIEW",
+    "LIMITED_CONTEXT_REVIEW"
+  ],
+  "sources_actually_accessed": [],
+  "sources_not_accessed": [],
+  "verified_field_paths": [],
+  "axiom_conflict_analysis": {
+    "status": "NOT_YET_REVIEWED",
+    "new_hierarchy_created": false
+  },
+  "agreement_points": [],
+  "disagreement_points": [],
+  "self_evaluation_results": [],
+  "proposed_subrules": [],
+  "subrules_required_count": 3,
+  "required_subrule_fields": [
+    "rule_id",
+    "title",
+    "parent_rule",
+    "purpose",
+    "trigger",
+    "authorized_action",
+    "prohibited_action",
+    "required_evidence",
+    "owner",
+    "clock_handling",
+    "delivery_handling",
+    "failure_behavior",
+    "test_case",
+    "r3_decision_needed",
+    "implementation_status"
+  ],
+  "implementation_status_allowed": [
+    "DESIGN_PROPOSAL",
+    "SPEC_DRAFTED",
+    "UNDER_REVIEW",
+    "R3_APPROVED_DESIGN",
+    "IMPLEMENTED_NOT_DEPLOYED",
+    "DEPLOYED_WITH_VERIFIABLE_RECEIPT"
+  ],
+  "implementation_gaps": [],
+  "case_facts_changed_by_receipt": false,
+  "runtime_adoption": false,
+  "vendor_endorsement": false,
+  "prior_receipt_corrections": [],
+  "limitations": [],
+  "note": "This is a blank template"
+}

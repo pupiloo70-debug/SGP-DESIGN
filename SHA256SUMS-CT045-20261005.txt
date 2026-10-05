@@ -1,0 +1,8 @@
+ef68512af7094cf502740f010df0c06654aad3b6c20b46d15c8b1b202fbe4796  15-CIVIC-TRACE-0.4.5-R3-approved.json
+ecfabeba15bf3afc1b116cf08cb96cecfa5128cc5116976a2a5b9bff928d35b8  16-CIVIC-TRACE-0.4.5-R3-approved.pdf
+c2366bdd6212b26c9dbfeb4cf53c3def9e8cfd3afffdb5cfd739ebe9df6a0a6f  17-R3-CT045-approval-receipt.json
+b6ce1238070dfd4bd2d2bd7f12ed03f036ee0168f169ab9efbcb2e23acd096c6  18-CT045-state-register-delta.json
+18ae1af3eb2b418b0e93c9f6a82efe31338e3043678c9cb8a90570523b05f30d  19-CT045-post-approval-direct-review-request.json
+56841ed62aa42fe869ab43ee9c78ffc6b385e32eb1126b1937d02bb6bb757c54  20-CT045-post-approval-review-receipt-template.json
+22ae18e124cbe77956dffc5375f524896b85adcb75836b2055bc0f0495fd03b8  21-CIVIC-TRACE-0.4.5-R3-approved-text.md
+82ac3de0a5229cd62f096232d9443ba32e7923a13b3aeba44d59e1d9496a4dbe  UPLOAD-CT045-20261005.txt
