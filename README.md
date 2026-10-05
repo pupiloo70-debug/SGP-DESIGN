@@ -61,3 +61,15 @@ Private grief, anger, beliefs and provisional conversation are not governance am
 [SHA256SUMS.txt](SHA256SUMS.txt) covers the exact delivered bytes except itself. Hashes prove byte integrity, not factual truth or publication. Preserve originals; add corrections and version links.
 
 Prepared on 2026-10-05 for publication by Suk-Gyeong Kang, R3 Human Authority within SGP-QSV. Structured and checked with GPT assistance.
+
+## CIVIC-TRACE 0.4.5 — R3 Approval
+
+- [Approved specification](15-CIVIC-TRACE-0.4.5-R3-approved.json)
+- [Approval document PDF](16-CIVIC-TRACE-0.4.5-R3-approved.pdf)
+- [R3 approval receipt](17-R3-CT045-approval-receipt.json)
+- [Current status update](18-CT045-state-register-delta.json)
+- [Independent AI review request](19-CT045-post-approval-direct-review-request.json)
+- [Review receipt template](20-CT045-post-approval-review-receipt-template.json)
+
+Status: R3-approved governance design.
+Runtime deployment and external investigation are tracked separately.
