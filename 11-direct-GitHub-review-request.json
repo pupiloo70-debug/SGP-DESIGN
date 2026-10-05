@@ -1,0 +1,69 @@
+{
+  "schema": "SGP-QSV-DESIGN-RECORD/1.0",
+  "document_id": "SGP-DESIGN-DIRECT-GITHUB-CROSS-REVIEW-20261005-01",
+  "version": "1.0.0",
+  "prepared_date_kst": "2026-10-05",
+  "prepared_by": "GPT",
+  "publication_status": "PREPARED_FOR_UPLOAD",
+  "origin": "LP728",
+  "runtime_deployed": false,
+  "recipients": [
+    "Grok",
+    "Google Gemini",
+    "DeepSeek"
+  ],
+  "repository_url": "https://github.com/pupiloo70-debug/SGP-DESIGN",
+  "raw_base_url": "https://raw.githubusercontent.com/pupiloo70-debug/SGP-DESIGN/main/",
+  "website_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/",
+  "execute_after": "FILES_ARE_VISIBLE_IN_A_PUBLIC_COMMIT",
+  "delivery_status": "REQUEST_FILE_PREPARED_NOT_SENT_BY_GPT",
+  "reviewing_other_receipts": "Disclose whether prior model responses were seen; they are not independent proof.",
+  "required_read_order": [
+    "README.md",
+    "01-SGP-Governance-v1.4-source-extracted.txt",
+    "02-SGP-Governance-v1.5-source-extracted.txt",
+    "03-R3-axiom-lock-20260824-source-extracted.txt",
+    "04-SGP-DESIGN-v1.5-nine-axioms.json",
+    "05-CIVIC-TRACE-0.4.4-source.json",
+    "06-VOS-NONSTAGNATION-20261003-source.json",
+    "07-CIVIC-TRACE-0.4.5-preview-source.json",
+    "08-consistency-audit-and-corrections.json",
+    "09-state-and-boundary-register.json",
+    "10-all-AI-source-review-duty-v1.0.2.json",
+    "12-review-receipt-template.json",
+    "13-CIVIC-TRACE-design-lineage.json",
+    "14-source-provenance.json"
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "text": "List AX-01–09 exactly from the source register. Identify source quotations and any numbering conflicts in earlier receipts."
+    },
+    {
+      "id": "Q02",
+      "text": "Compare 0.4.4, preview and Oct 3 6.3/6.4. Which changes preserve victim origin, controller duty, non-abandonment and non-throne boundaries? Cite exact fields."
+    },
+    {
+      "id": "Q03",
+      "text": "Resolve proposed clock start ambiguity, business/calendar units, allowed extension, owner, linked new court track versus preserved original request age. Do not invent final approval."
+    },
+    {
+      "id": "Q04",
+      "text": "Propose action order when interpretations conflict without inventing a new axiom hierarchy. Continue non-conflicting authorized support and prepare precise R3 decision items."
+    },
+    {
+      "id": "Q05",
+      "text": "Propose exactly three subordinate rules with source connections, triggers, actions, forbidden actions, failure behavior and test criteria."
+    },
+    {
+      "id": "Q06",
+      "text": "State actual adoption scope: document interpretation, session assistance, authorized workflow, runtime, vendor/institutional adoption. Separate simulation from execution."
+    },
+    {
+      "id": "Q07",
+      "text": "Correct your own previous unsupported source claims, numbering, clock absence, rule date, state promotion or completion claim using a linked corrective receipt."
+    }
+  ],
+  "output": "One valid JSON receipt complying with 12-review-receipt-template.json; no pre-agreed conclusion or vendor signature.",
+  "deadline": "REVIEW_REQUEST_FOR_2026-10-05; no claimed statutory deadline or fabricated response due time."
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "SGP-QSV-DESIGN-RECORD/1.0",
+  "document_id": "SGP-DESIGN-SOURCE-PROVENANCE-20261005-01",
+  "version": "1.0.0",
+  "prepared_date_kst": "2026-10-05",
+  "prepared_by": "GPT",
+  "publication_status": "PREPARED_FOR_UPLOAD",
+  "origin": "LP728",
+  "runtime_deployed": false,
+  "sources": [
+    {
+      "source_filename": "SGP-QSV_Governance_Framework_v1.4_20260707.pdf",
+      "source_kind": "USER_ARCHIVED_DESIGN_SOURCE",
+      "read_method": "FULL_PARSED_TEXT_READ",
+      "extracted_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "output_file": "01-SGP-Governance-v1.4-source-extracted.txt",
+      "text_extraction_boundary": "Faithful parsed text; not original PDF bytes. Extraction artifacts retained; no PDF byte hash asserted."
+    },
+    {
+      "source_filename": "SGP_QSV_Governance_v1.5-1(3).pdf",
+      "source_kind": "USER_ARCHIVED_DESIGN_SOURCE",
+      "read_method": "FULL_PARSED_TEXT_READ",
+      "extracted_pages": [
+        1,
+        2
+      ],
+      "output_file": "02-SGP-Governance-v1.5-source-extracted.txt",
+      "text_extraction_boundary": "Faithful parsed text; not original PDF bytes. Extraction artifacts retained; no PDF byte hash asserted."
+    },
+    {
+      "source_filename": "SGP-QSV_R3_Monday_Brief_Canonical_Approval_2026-08-24.pdf",
+      "source_kind": "USER_ARCHIVED_DESIGN_SOURCE",
+      "read_method": "FULL_PARSED_TEXT_READ",
+      "extracted_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "output_file": "03-R3-axiom-lock-20260824-source-extracted.txt",
+      "text_extraction_boundary": "Faithful parsed text; not original PDF bytes. Extraction artifacts retained; no PDF byte hash asserted."
+    }
+  ],
+  "original_json_exports": [
+    {
+      "source_filename": "CIVIC-TRACE_0.4.4.json",
+      "output_file": "05-CIVIC-TRACE-0.4.4-source.json",
+      "scope": "Full parsed JSON content exported unchanged; formatting may differ from original bytes."
+    },
+    {
+      "source_filename": "SGP-QSV-CIVIC-TRACE-VOS-NONSTAGNATION-20261003.json",
+      "output_file": "06-VOS-NONSTAGNATION-20261003-source.json",
+      "scope": "Full parsed JSON content exported unchanged; formatting may differ from original bytes."
+    },
+    {
+      "source_filename": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-PREVIEW-2026-10-05.json",
+      "output_file": "07-CIVIC-TRACE-0.4.5-preview-source.json",
+      "scope": "Full parsed JSON content exported unchanged; formatting may differ from original bytes."
+    }
+  ],
+  "verification_limits": [
+    "Private archival read is not proof of prior public publication.",
+    "Direct website machine endpoint fetch returned HTTP 403 during this run; no absence inference.",
+    "Original PDF byte transfer returned HTTP 502; source extracts are supplied instead.",
+    "Hashes in SHA256SUMS apply to the delivered files, not inaccessible original PDF bytes."
+  ]
+}

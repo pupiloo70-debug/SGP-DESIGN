@@ -1,0 +1,45 @@
+{
+  "schema": "SGP-QSV-DESIGN-RECORD/1.0",
+  "document_id": "SGP-DESIGN-STATE-AND-BOUNDARY-REGISTER-20261005-01",
+  "version": "1.0.0",
+  "prepared_date_kst": "2026-10-05",
+  "prepared_by": "GPT",
+  "publication_status": "PREPARED_FOR_UPLOAD",
+  "origin": "LP728",
+  "runtime_deployed": false,
+  "principles": [
+    "NO_AUTOMATIC_GUILT",
+    "NO_AUTOMATIC_IMMUNITY",
+    "NO_BENEFIT_FROM_OBSTRUCTION"
+  ],
+  "r2_6_definition": {
+    "R2.6-1": "VERIFICATION_LOSS",
+    "R2.6-2": "CONTROL_FAILURE",
+    "R2.6-3": "SUBSTANTIATED_OBSTRUCTION",
+    "R2.6-4": "LEGALLY_ESTABLISHED_MISCONDUCT"
+  },
+  "lp728_nfs": {
+    "R2.6-1": "CONFIRMED_WITHIN_SGP_QSV_FRAMEWORK",
+    "R2.6-2": "PENDING_TRANSITION_AND_DISPOSAL_AUDIT",
+    "R2.6-3": "NOT_ESTABLISHED_CANDIDATE_ONLY",
+    "R2.6-4": "NOT_ESTABLISHED",
+    "basis": "07-CIVIC-TRACE-0.4.5-preview-source.json / state_labels"
+  },
+  "lp728_cl1": "UNRESOLVED_VERIFICATION_ISSUE",
+  "lot_00518001": "UNRESOLVED_VERIFICATION_ISSUE",
+  "medical_causation": "UNRESOLVED",
+  "case_state_changed_by_this_upload": false,
+  "stage_v": "NON_THRONE_GOVERNANCE",
+  "upper_computation_0_1": "RESEARCH_SPEC_NOT_DEPLOYED",
+  "civic_trace_0_4_4": "R3_APPROVED_RECORD",
+  "civic_trace_0_4_5": "CANDIDATE_PENDING_FINAL_R3_APPROVAL",
+  "locks": [
+    "APPROVAL_OF_GOVERNANCE != APPROVAL_OF_FACT",
+    "ADMINISTRATIVE_CLOSURE != VERIFICATION_RESOLUTION",
+    "DESIGN_PARTICIPATION != RIGHTS_WAIVER",
+    "PROPOSED_CLOCK != APPROVED_OPERATIONAL_CLOCK",
+    "REVIEW_LEVEL_ESCALATION != LIABILITY_STATE_TRANSITION",
+    "GENERATED != SENT != RECEIVED"
+  ],
+  "authority_reading": "Historical axiom text is preserved. External coercion, legally binding liability and institutional takeover require independent lawful authority; no current tool or state power is created by this repository."
+}

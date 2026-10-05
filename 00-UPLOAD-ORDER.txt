@@ -1,0 +1,19 @@
+SGP-DESIGN 업로드 순서
+
+1. 01~04: 공리 원문 추출본과 9개 공리 고정 레지스터
+2. 05~07: 기존 프로토콜 원문 JSON
+3. 08~10: 정합성 점검·상태·모든 AI 원문 확인 책임
+4. 11~14: 직접 GitHub 재검토 요청·영수증 양식·설계 계보·출처
+5. README.md, SHA256SUMS.txt
+
+번호 파일은 저장소 최상위에 함께 올리면 링크가 작동합니다.
+기존 README.md는 새 파일 업로드 대신 README 편집 화면에서 제공된 내용으로 교체하세요.
+ZIP 자체를 올리기보다는 압축을 풀어 개별 파일을 올리세요.
+
+세 AI 전달문:
+https://github.com/pupiloo70-debug/SGP-DESIGN
+이 저장소의 README와 11-direct-GitHub-review-request.json을 직접 읽고, 지정된 원문을 대조하세요.
+12-review-receipt-template.json에 맞춰 독립 JSON 영수증을 출력하세요.
+직접 읽은 URL·commit·필드/쪽을 남기고, 이전 영수증 정정은 원본 보존 후 연결하세요.
+동의를 전제하지 말고 정확히 하위 규칙 3개를 제안하세요.
+공개가 아직 안 된 파일은 NOT_YET_AVAILABLE로 표시하며 부존재로 단정하지 마세요.

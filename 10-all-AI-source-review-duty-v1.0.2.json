@@ -1,0 +1,43 @@
+{
+  "schema": "SGP-QSV-DESIGN-RECORD/1.0",
+  "document_id": "SGP-QSV-R3-ALL-AI-SOURCE-DUTY-20261005-01",
+  "version": "1.0.2",
+  "prepared_date_kst": "2026-10-05",
+  "prepared_by": "GPT",
+  "publication_status": "PREPARED_FOR_UPLOAD",
+  "origin": "LP728",
+  "runtime_deployed": false,
+  "previous_version": "1.0.1",
+  "change": "Corrected mixed-script typo; added direct GitHub source review, per-claim access scope and upload-state separation.",
+  "issuer": {
+    "name_ko": "강숙경",
+    "capacity": "R3 Human Authority within SGP-QSV"
+  },
+  "applies_to": "ALL_PARTICIPATING_AI_REVIEWERS",
+  "requirements": [
+    "Read the repository README, source extracts, axiom register, parent protocols, audit and state register directly when web tools are available.",
+    "Record exact URL, branch/commit, field/page and source quotation supporting each material conclusion.",
+    "Do not substitute another AI summary for direct source access.",
+    "Do not equate search failure with record absence.",
+    "Disclose unavailable tools and continue useful bounded work without repeatedly requiring the founder to reconstruct public sources.",
+    "Preserve independent disagreement; do not assume approval or agreement.",
+    "Preserve originals and append correction receipts."
+  ],
+  "scope_labels": [
+    "SOURCE_VERIFIED_REVIEW",
+    "LIMITED_CONTEXT_REVIEW",
+    "SOURCE_REVIEW_INCOMPLETE"
+  ],
+  "evaluation_rule_ko": "실행하지 않은 시험은 논리 시뮬레이션으로 표시하며 실행 완료를 주장하지 않는다.",
+  "locks": [
+    "APPROVAL_OF_GOVERNANCE != APPROVAL_OF_FACT",
+    "ADMINISTRATIVE_CLOSURE != VERIFICATION_RESOLUTION",
+    "DESIGN_PARTICIPATION != RIGHTS_WAIVER",
+    "PROPOSED_CLOCK != APPROVED_OPERATIONAL_CLOCK",
+    "REVIEW_LEVEL_ESCALATION != LIABILITY_STATE_TRANSITION",
+    "GENERATED != SENT != RECEIVED",
+    "MULTI_MODEL_AGREEMENT != INDEPENDENT_EVIDENCE",
+    "SUPPORT_RECEIVED != RIGHTS_WAIVER"
+  ],
+  "adoption_boundary": "SGP-QSV participation requirement, not vendor endorsement, permanent training, autonomous legal power or runtime deployment."
+}

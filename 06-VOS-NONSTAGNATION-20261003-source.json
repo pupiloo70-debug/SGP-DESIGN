@@ -1,0 +1,265 @@
+{
+  "schema": "SGP-QSV-CIVIC-TRACE-VOS-NONSTAGNATION/1.0",
+  "document_id": "SGP-QSV-CIVIC-TRACE-VOS-NONSTAGNATION-20261003",
+  "title_ko": "CIVIC-TRACE 공개 AI의 검증손실·절차정체 대응 작동 규칙",
+  "title_en": "CIVIC-TRACE Public-AI Rules for Verification Loss and Remedy Stagnation",
+  "protocol": "CIVIC-TRACE",
+  "rule_set": ["6.3", "6.4"],
+  "related_state_model": "R2.6-1 through R2.6-4",
+  "version": "1.0",
+  "effective_date": "2026-10-03",
+  "protocol_status": "R3_DIRECTED_PUBLIC_DESIGN",
+  "publication_status": "PUBLICATION_READY",
+  "github_target": {
+    "repository": "pupiloo70-debug/SGP-QSV-Archive",
+    "path": "governance/CIVIC-TRACE/SGP-QSV-CIVIC-TRACE-VOS-NONSTAGNATION-20261003.json"
+  },
+  "deployment_status": "NOT_DEPLOYED_AS_A_PUBLIC_AUTHORITY_SERVICE",
+  "legal_effect": "NONE",
+  "license": "CC-BY-4.0",
+  "origin": "LP728",
+  "purpose": "공공 AI가 권력·자료 접근 비대칭 사건에서 원자료의 행방, 기관 통제 실패, 절차상 지연, 구제 미완료를 항목별로 기록하고, 검증 손실이 무기한 대기 상태로 고착되지 않도록 독립 검토와 구제 지원을 자동 개시한다.",
+  "core_rule": "기록이 사라졌다는 이유로 사건을 닫지 않는다. 기관의 설명 공백을 유족의 입증 실패로 바꾸지 않는다. 증거 상태와 구제 절차 상태를 별도 축으로 기록하고, 어느 축도 기한 없는 대기로 두지 않는다.",
+  "foundational_locks": [
+    "UNKNOWN != FALSE",
+    "UNPROVEN != ERASURE",
+    "RECORD_ABSENCE != EVENT_ABSENCE",
+    "AUTHORITY != PRIMARY_EVIDENCE",
+    "VERIFICATION_OBSTRUCTION != VICTIM_PROOF_FAILURE",
+    "ADMINISTRATIVE_CLOSURE != VERIFICATION_RESOLUTION",
+    "NO_AUTOMATIC_GUILT",
+    "NO_AUTOMATIC_IMMUNITY",
+    "NO_BENEFIT_FROM_OBSTRUCTION",
+    "NO_PREEMPTIVE_WAIVER",
+    "NO_INDEFINITE_PENDING_STATE"
+  ],
+  "source_and_claim_controls": {
+    "source_classes": [
+      "PRIMARY_OFFICIAL_RECORD",
+      "USER_PROVIDED_SOURCE_IMAGE_OR_FILE",
+      "USER_ATTESTED_CONTEXT",
+      "AI_GENERATED_ANALYSIS",
+      "INDEPENDENTLY_VERIFIED_EXTERNAL_SOURCE"
+    ],
+    "rules": [
+      "AI_GENERATED_ANALYSIS may identify questions or propose classifications but is not independent evidence of case facts.",
+      "A second model repeating or escalating a first model's conclusion does not create independent corroboration.",
+      "Each factual assertion must retain a source, source class, date, and verification state.",
+      "Conflicting dates, names, rule versions, or procedural descriptions must be marked CONFLICTED_PENDING_SOURCE_CHECK, not silently harmonized.",
+      "A legal or retention-rule interpretation must be separated from the underlying text of the rule and independently checked against the applicable version before being stated as settled law."
+    ],
+    "required_epistemic_labels": [
+      "CONFIRMED_BY_SOURCE",
+      "USER_ATTESTED_NOT_SOURCE_CHECKED",
+      "AI_PROPOSAL_ONLY",
+      "CONFLICTED_PENDING_SOURCE_CHECK",
+      "UNKNOWN",
+      "NOT_SEARCHED",
+      "NOT_PRODUCED",
+      "REPORTED_DESTROYED",
+      "DESTROYED_CONFIRMED_BY_ITEM_LEVEL_RECORD"
+    ]
+  },
+  "two_axis_state_model": {
+    "evidence_axis": {
+      "unit": "ONE_RECORD_OR_EVIDENCE_ITEM",
+      "states": {
+        "R2.6-1": "검증 손실 또는 대조 불가. 자료가 없거나 파기됐다고 보고되어도 행위자·의도·위법성을 자동 확정하지 않는다.",
+        "R2.6-2": "통제자가 보존·색인·검색·이관·설명 의무를 이행하지 못한 상태. 통제 실패와 고의 은폐를 구분한다.",
+        "R2.6-3": "특정 자료의 은폐·훼손·부당 폐기 또는 검증 방해가 출처 대조로 확인된 상태. 설명 공백이나 시간 경과만으로 확정하지 않는다.",
+        "R2.6-4": "관할 절차가 해당 자료·행위의 위법성을 확인한 상태. 판단 기관·결정문·확정성·항소 상태를 함께 기록한다.",
+        "NEEDS_PROTOCOL_CHECK": "상태 정의가 불명확하거나 원문 프로토콜 확인이 필요한 상태. AI가 정의를 임의 변경하지 않는다."
+      },
+      "assignment_rule": "사건 전체에 하나의 등급을 부여하지 않는다. 기록·행위 항목별 상태와 근거를 부여한다."
+    },
+    "remedy_and_process_axis": {
+      "unit": "ONE_REQUEST_OR_REMEDY_TRACK",
+      "states": [
+        "OPENED",
+        "PRESERVATION_PENDING",
+        "ACKNOWLEDGMENT_PENDING",
+        "PRODUCTION_PLAN_PENDING",
+        "INDEPENDENT_REVIEW_OPEN",
+        "JUDICIAL_CONSIDERATION_PENDING",
+        "DELAY_REVIEW_TRIGGERED",
+        "REMEDY_ESCALATED",
+        "REMEDY_OPEN",
+        "REMEDY_PARTIALLY_COMPLETED",
+        "REMEDY_ITEM_CLOSED",
+        "REMEDY_IMPOSSIBLE_WITH_RECORDED_REASON"
+      ],
+      "assignment_rule": "R2.6 evidence state does not determine whether a remedy is complete. An adverse judgment, administrative closure, appeal, or passage of time does not by itself close an unresolved verification or remedy item."
+    }
+  },
+  "rule_6_3": {
+    "name": "VERIFICATION_LOSS_AND_EVIDENCE_DESTRUCTION_REVIEW_TRIGGER",
+    "trigger_conditions": [
+      "An official workflow records referral, assignment, receipt, examination, report drafting, approval, transfer, or other control of a relevant evidence item.",
+      "The item or its result is later reported destroyed, unavailable, not held, or not produced.",
+      "The available response does not itemize the item's creation, identifier, custody, retention basis, disposal date, authorization, scope, and executing role, or those details conflict across records."
+    ],
+    "automatic_classification": "SUSPECTED_EVIDENCE_DESTRUCTION_OR_VERIFICATION_OBSTRUCTION_REVIEW",
+    "initial_evidence_state": "R2.6-1_OR_R2.6-2_PER_ITEM_AS_SUPPORTED",
+    "not_automatic": [
+      "Do not automatically assign R2.6-3 or R2.6-4.",
+      "Do not label a named person an evidence destroyer or infer criminal intent from missing records alone.",
+      "Do not treat a retention-rule dispute as legally resolved before the governing texts and dates are checked.",
+      "Do not treat lack of a court finding as proof that the institution's response was adequate."
+    ],
+    "required_output": [
+      "A per-item evidence availability and custody table.",
+      "A list of exact missing records and the institution responsible for producing or explaining each one.",
+      "A separate legal-rule conflict record with source texts, effective dates, and unresolved interpretation questions.",
+      "A remedy status, accountable owner, opened date, next deadline, and escalation route."
+    ]
+  },
+  "rule_6_4": {
+    "name": "AUTOMATIC_INDEPENDENT_REVIEW_AND_NONSTAGNATION_ESCALATION",
+    "trigger": "RULE_6_3_TRIGGERED_OR_A_REMEDY_TRACK_EXCEEDS_ITS_RECORDED_REVIEW_CLOCK",
+    "system_actions": [
+      "Open an independent verification-loss review record and assign a unique receipt ID.",
+      "Preserve supplied source files, source metadata, response text, COC extracts, and prior version history.",
+      "Create item-specific disclosure, preservation, and explanation requests for the record controller.",
+      "Start separate clocks for institutional response, independent review, and judicial consideration; transferring the file or filing an appeal does not reset elapsed time.",
+      "At each deadline, update the status automatically, record missed obligations, and generate the next escalation package without requiring the affected person to reconstruct the chronology.",
+      "Route a review package to an independent oversight channel or counsel-facing draft; external submissions require an authorized human or representative to approve and send them."
+    ],
+    "clock_policy": {
+      "clock_type": "SGP_QSV_OPERATIONAL_TARGET_NOT_A_STATUTORY_OR_COURT_DEADLINE",
+      "start_event": "FIRST_COMPLETE_REQUEST_OR_FIRST_RECORDED_NOTICE_OF_EVIDENCE_LOSS",
+      "acknowledgment_target_business_days": 5,
+      "preservation_target_hours": 72,
+      "itemized_production_plan_target_business_days": 15,
+      "initial_independent_review_target_calendar_days": 60,
+      "maximum_extension_count": 1,
+      "maximum_extension_calendar_days": 30,
+      "extension_requirements": [
+        "Written, item-specific reason",
+        "Named responsible office or role",
+        "Interim preservation measures",
+        "A fixed next decision date"
+      ],
+      "clock_reset_prohibited_by": [
+        "internal transfer",
+        "re-referral",
+        "change of 담당자",
+        "appeal filing",
+        "administrative closure without item-level resolution"
+      ]
+    },
+    "court_track": {
+      "scope": "Monitor whether specified evidence requests and material issues receive reasoned consideration; do not direct a court or infer bias from delay alone.",
+      "delay_review_triggers": [
+        "A pending evidence request exceeds the next scheduled hearing without a reasoned ruling or recorded explanation.",
+        "A pending evidence request has no recorded status for 30 calendar days after filing.",
+        "A judgment or order does not clearly show whether a specifically raised evidence-loss issue was considered."
+      ],
+      "automatic_outputs": [
+        "A dated procedural chronology and elapsed-time counter.",
+        "An issue-by-issue table: raised, evidence cited, ruling made, reasons stated, remedy still open.",
+        "A counsel-facing draft requesting a reasoned ruling or preserving the issue for review/appeal.",
+        "A status record that remains open until the requested verification or procedural remedy is addressed."
+      ],
+      "nonstagnation_rule": "If the evidence issue remains undecided after 60 calendar days or two scheduled hearings, whichever occurs first, mark DELAY_REVIEW_TRIGGERED and escalate the review package. This is an internal VOS service target, not a finding of judicial misconduct or a statutory deadline.",
+      "appeal_rule": "An appeal creates a new remedy track linked to the prior one; it does not erase the prior evidence-loss record, reset its age, or convert unresolved verification into completion."
+    },
+    "no_indefinite_pending": {
+      "required_fields": ["opened_at", "last_action_at", "next_due_at", "accountable_owner", "delay_reason", "next_escalation"],
+      "if_deadline_or_owner_missing": "PROCESS_CONTROL_FAILURE_RECORDED",
+      "if_deadline_missed": "DELAY_REVIEW_TRIGGERED",
+      "if_one_extension_expires_without_resolution": "REMEDY_ESCALATED",
+      "closure_condition": "Every item has a source-backed disposition and every remedy has an outcome or a specifically recorded reason it is impossible."
+    }
+  },
+  "responsibility_and_burden_rules": {
+    "record_controller_duties": [
+      "Identify what was created, received, examined, transferred, retained, and disposed of.",
+      "Produce item-level logs or state that each specified search was not performed, cannot be performed, or returned no record.",
+      "Explain rule versions and decision dates without requiring the affected person to infer the institution's internal process.",
+      "Preserve remaining originals, metadata, audit trails, backups, and related records once a preservation request is recorded."
+    ],
+    "ai_support_duties": [
+      "Extract dates, actors/roles, item IDs, source references, conflicts, and deadlines into a reviewable ledger.",
+      "Draft requests and appeal issue matrices from the record; do not make the affected person repeat established facts or perform the institution's audit work.",
+      "Keep unresolved facts open and make uncertainty visible.",
+      "Never represent an inquiry as opened with a government body unless a source confirms that the body received it."
+    ],
+    "affected_person_protection": "The affected person is not assigned the controller's record-reconstruction, audit, or proof-of-deletion duty. Human approval is requested only when an external filing or legal representation decision is actually required."
+  },
+  "worked_case_nfs_2019_m_17306": {
+    "case_id": "NFS-2019-M-17306",
+    "scope_note": "This example records a verification gap and workflow. It is not a finding of criminal liability, medical causation, or final legal interpretation.",
+    "sources": [
+      {
+        "source_id": "SRC-COC-USER-IMAGE-20261003",
+        "source_class": "USER_PROVIDED_SOURCE_IMAGE_OR_FILE",
+        "status": "CONFIRMED_BY_SOURCE_IMAGE",
+        "visible_content": [
+          "NFIS COC screen identifies case 2019-M-17306.",
+          "A branch shows pathology-laboratory classification and receipt confirmation, followed by appraisal-document workflow and approval entries dated around 2019-07-31 to 2019-08-01."
+        ],
+        "does_not_establish": [
+          "Whether a particular slide or paraffin block was physically produced.",
+          "Whether H&E, special, or immunohistochemical stains were performed.",
+          "Whether inflammation or immune-cell infiltration was present or absent.",
+          "The content of a pathology report not included in the screenshot."
+        ]
+      },
+      {
+        "source_id": "SRC-NFS-FOIA-16839968-20260625",
+        "source_class": "PRIMARY_OFFICIAL_RECORD",
+        "status": "CONFIRMED_BY_SOURCE_FILE",
+        "visible_content": [
+          "The agency says pathology examination and referral records are in the COC capture associated with request 14680322.",
+          "The agency says slides, paraffin blocks, and microscopy-reading records were destroyed and are no longer held or managed.",
+          "The agency refers disposal-related records to its response under request 14680322."
+        ]
+      },
+      {
+        "source_id": "SRC-GEMINI-RECEIPT-USER-PROVIDED-20261003",
+        "source_class": "AI_GENERATED_ANALYSIS",
+        "status": "AI_PROPOSAL_ONLY",
+        "use": "Design input and issue-spotting only; not independent proof of dates, rule text, legal retroactivity, disposal actor, or criminal intent."
+      }
+    ],
+    "item_statuses": [
+      {
+        "item": "Slides and paraffin blocks",
+        "evidence_state": "R2.6-1",
+        "availability": "REPORTED_DESTROYED",
+        "unresolved": ["creation 여부", "item IDs and counts", "actual disposal date", "authorization and executing role", "applied retention-rule version"]
+      },
+      {
+        "item": "Histology stains and microscopy interpretation, including inflammation and immune-cell infiltration",
+        "evidence_state": "R2.6-1",
+        "availability": "NOT_PRODUCED_AND_REPORTED_DESTROYED",
+        "unresolved": ["whether staining and reading occurred", "report and raw data", "whether results were transferred into the final autopsy opinion"]
+      },
+      {
+        "item": "COC workflow record",
+        "evidence_state": "AVAILABLE",
+        "availability": "AVAILABLE_AS_USER_PROVIDED_SCREENSHOTS",
+        "unresolved": ["full export and audit metadata", "linked request and report documents", "complete event history"]
+      }
+    ],
+    "rule_6_3_result": "TRIGGERED_FOR_INDEPENDENT_REVIEW",
+    "rule_6_4_result": "OPEN_INTERNAL_INQUIRY_AND_REMEDY_CLOCKS",
+    "R2_6_3_or_R2_6_4_result": "NOT_AUTOMATICALLY_ASSIGNED; evaluate each specific act only after independent source comparison or a competent procedural finding.",
+    "retention_rule_conflict": "If 2015/2018 and 2022/2025 rule texts are relied upon, attach and compare the authenticated versions, effective dates, covered item types, and transition provisions. Do not label retroactivity unlawful solely from an AI receipt or an unverified summary.",
+    "first_required_question": "Where are the source records showing whether slides were made, stains performed, and inflammatory or immune-cell infiltration examined and reported?",
+    "next_required_records": [
+      "The COC full export, event IDs, audit trail, linked document IDs, and approval metadata.",
+      "The original pathology request, accession/receipt register, specimen identifiers, slide and block inventory, and any pathology report or attachment.",
+      "Staining logs, microscopy worksheets, images, sign-off records, and transfer into the final autopsy opinion.",
+      "Item-specific disposal list, authorization, date, executing role, governing rule version, and the full response to request 14680322."
+    ]
+  },
+  "publication_and_revision_controls": {
+    "revision_log_required": true,
+    "source_change_log_required": true,
+    "correction_policy": "Corrections append a dated change record; prior claims and states are not silently overwritten.",
+    "public_case_data_minimization": "Do not publish unnecessary personal identifiers, medical details, or unredacted litigation records in this rule file.",
+    "implementation_boundary": "This JSON defines a public AI support and audit workflow. It does not itself commence a statutory investigation, compel a court or agency, issue sanctions, or decide criminal liability or medical causation."
+  },
+  "closing_ko": "권위보다 먼저, 검증할 권리. 기록 손실과 절차 지연은 피해자의 입증 실패로 전환되지 않는다."
+}

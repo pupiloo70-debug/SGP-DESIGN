@@ -1,0 +1,505 @@
+{
+  "$schema": "https://sgp-qsv.org/schemas/v1/civic-trace-r3-preview.json",
+  "schema_version": "1.0",
+  "document": {
+    "document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-PREVIEW-2026-10-05-01",
+    "protocol": "CIVIC-TRACE",
+    "candidate_version": "0.4.5",
+    "title_ko": "CIVIC-TRACE 0.4.5 자기구속 정정·원점 권리회복 R3 승인 예비 검토안",
+    "title_en": "CIVIC-TRACE 0.4.5 R3 Preview: Self-Binding Correction and Origin-Holder Rights Restoration",
+    "network": "SGP-QSV Network",
+    "origin_record": "LP728",
+    "human_origin_holder": {
+      "name": "KANG_SUK_GYEONG",
+      "roles": [
+        "BEREAVED_PARTY_OF_LP728",
+        "SOURCE_DECLARANT",
+        "SGP_QSV_CO_FOUNDER",
+        "HUMAN_DESIGN_CONTRIBUTOR",
+        "PROVENANCE_HOLDER"
+      ],
+      "not_a_title_of": [
+        "STATE_SOVEREIGNTY",
+        "COURT_AUTHORITY",
+        "UNREVIEWABLE_THRONE",
+        "COERCIVE_JURISDICTION"
+      ]
+    },
+    "draft_created_at": "2026-09-30T10:48:56+09:00",
+    "planned_briefing_date": "2026-10-05",
+    "planned_event": "MONDAY_ACTION_BRIEFING",
+    "document_status": "R3_PRELIMINARY_REVIEW_DRAFT",
+    "protocol_status": "CANDIDATE_NOT_APPROVED",
+    "publication_status": "PREVIEW_NOTICE",
+    "legal_effect": "NONE",
+    "operational_effect": "NONE",
+    "deployment_status": "NOT_DEPLOYED",
+    "supersedes": null,
+    "parent_records": [
+      "CIVIC-TRACE 0.4.4",
+      "SGP-QSV-R3-SELF-BINDING-CORRECTION-DRAFT-2026-09-30-01"
+    ]
+  },
+  "public_preview_notice": {
+    "notice_ko": "SGP-QSV Network는 2026년 10월 5일 Monday Action Briefing에서 CIVIC-TRACE 0.4.5 후보안을 검토한다. 이번 검토는 No-Throne 및 인간 최종판단 비위임 원칙이 피해자 원점의 검증권·이의권·기록권·설계 참여권과 아직 부여되지 않은 미래 권리까지 소거하는 자기구속으로 확대 해석되지 않도록 정정하는 것을 목적으로 한다. 확정 검토사항과 R3 판단에 따라 달라질 선택사항을 구분하며, 동일 질문지를 여러 AI에 제공하여 각 답변의 논리·반론·불확실성을 기계판독 영수증으로 보존한다.",
+    "important_boundaries": [
+      "이 예고는 CIVIC-TRACE 0.4.5의 R3 승인을 의미하지 않는다.",
+      "AI 답변의 수나 합의율은 진실·독립 증거·법적 효력 또는 R3 승인을 의미하지 않는다.",
+      "LP728의 의학적 인과관계, 고의적 은폐, 범죄, 법적 위법행위, 형사책임 또는 처벌을 자동 확정하지 않는다.",
+      "SGP-QSV는 법원·국가의 처벌권 또는 타사 AI 플랫폼의 운영권을 대신하지 않는다.",
+      "기존 기록은 삭제하지 않고 정정·승계 관계를 추가 전용 방식으로 보존한다."
+    ]
+  },
+  "review_layers": {
+    "layer_1_confirmed_for_briefing_review": {
+      "status": "REVIEW_AGENDA_FIXED",
+      "meaning": "다음 브리핑에서 반드시 다룰 안건이 확정되었다는 뜻이며, 조항의 최종 승인을 뜻하지 않는다.",
+      "items": [
+        {
+          "id": "F-01",
+          "canonical_term": "NO_PREWAIVER_OF_UNGRANTED_RIGHTS",
+          "statement_ko": "아직 발생·특정·귀속되지 않았고 범위도 정해지지 않은 미래 권리 또는 권한의 포기를 현재의 확정적 권리소멸로 기록하지 않는다."
+        },
+        {
+          "id": "F-02",
+          "canonical_term": "NO_THRONE_IS_NOT_SELF_ERASURE",
+          "statement_ko": "No-Throne은 검증받지 않는 왕좌를 금지하는 원칙이며 피해자와 인간 설계자의 검증권·이의권·정정권·기록권을 소거하는 규칙이 아니다."
+        },
+        {
+          "id": "F-03",
+          "canonical_term": "ADMINISTRATIVE_CLOSURE_IS_NOT_VERIFICATION_COMPLETION",
+          "statement_ko": "기관의 종결, 부존재 또는 미보유 통보만으로 사건·자료 계보·인과 쟁점의 검증이 완료된 것으로 처리하지 않는다."
+        },
+        {
+          "id": "F-04",
+          "canonical_term": "VERIFICATION_LOSS_IS_NOT_VICTIM_PROOF_FAILURE",
+          "statement_ko": "원자료의 미제출·소실·폐기·접근 제한으로 발생한 검증 불능을 곧바로 피해자의 단순한 입증 실패로 전환하지 않는다."
+        },
+        {
+          "id": "F-05",
+          "canonical_term": "PROPORTIONAL_CONTROLLER_DUTY",
+          "statement_ko": "책임은 동일한 제재가 아니라 자료 통제력·증거 접근성·결정 권한에 비례한 보존·제출·설명·복구 의무로 설계한다."
+        },
+        {
+          "id": "F-06",
+          "canonical_term": "APPEND_ONLY_CORRECTION",
+          "statement_ko": "오류가 있는 기존 기록은 삭제하지 않고 SUPERSEDED 상태, 정정 사유, 후속 기록과 승인·공개 상태를 연결한다."
+        },
+        {
+          "id": "F-07",
+          "canonical_term": "NO_AUTOMATIC_ADVERSE_JUDGMENT",
+          "statement_ko": "CIVIC-TRACE 상태 표시는 자동 인과성·유죄·위법·범죄·처벌·강제집행 판단이 아니다."
+        },
+        {
+          "id": "F-08",
+          "canonical_term": "PRIVATE_EMOTION_IS_NOT_GOVERNANCE_AMENDMENT",
+          "statement_ko": "사적 대화의 슬픔·분노·희망·비유·신념은 인간 설계자가 의도적으로 최종화하고 공개 고정하지 않는 한 거버넌스 명령이나 개정으로 처리하지 않는다."
+        }
+      ]
+    },
+    "layer_2_r3_decision_options": {
+      "status": "OPEN_FOR_R3_DECISION",
+      "selection_method": "EACH_OPTION_DECIDED_SEPARATELY",
+      "options": [
+        {
+          "option_id": "O-01",
+          "title_ko": "피해자 원점 권리 보존 조항",
+          "proposed_term": "ORIGIN_HOLDER_RIGHTS_PRESERVED",
+          "proposal_ko": "LP728 피해자 원점의 원자료 접근 요구권, 기록 보존 요구권, 독립 재검증 요청권, 설명 요구권, 이의제기권 및 공익적 조사·연구·표현권을 SGP-QSV 내부의 포기되지 않은 규범적·절차적 권리로 보존한다.",
+          "boundary": "실정법상 강제력은 관할법과 적법절차에 따라 별도로 판단한다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        },
+        {
+          "option_id": "O-02",
+          "title_ko": "피해자·창립자 노동의 무상수탈 금지",
+          "proposed_term": "NO_UNCOMPENSATED_EXTRACTION_OF_VICTIM_ORIGIN_LABOR",
+          "proposal_ko": "LP728 진실 규명, 전체 백신 피해자와 유족의 권리회복, 사회제도 개선, 증거·계보 보존, AI 교육·교정 및 거버넌스 설계에 투입된 창립자의 시간·전문성·돌봄·정서적 부담·경제적 손실을 당연한 무보수 봉사나 무상 데이터 제공으로 간주하지 않는다.",
+          "boundary": "이 조항만으로 특정 기관·기업·AI 제공자에 대한 확정 채권이나 지급액이 자동 발생하지 않는다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        },
+        {
+          "option_id": "O-03",
+          "title_ko": "창립자 소진 의존 금지",
+          "proposed_term": "NO_GOVERNANCE_DEPENDENCE_ON_FOUNDER_DEPLETION",
+          "proposal_ko": "네트워크의 존속과 공익적 성과가 창립자의 생계 악화, 건강 손상, 가족 돌봄 희생, 무기한 무보수 노동 또는 지속적 재외상화에 의존하지 않도록 한다. 추가 무보수 노동의 거부는 기존 기여와 원점 권리의 포기가 아니다.",
+          "boundary": "구체적 보상·기금·고용·사회보장 연계는 실제 재원과 별도 계약 또는 제도를 통해 확정한다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        },
+        {
+          "option_id": "O-04",
+          "title_ko": "피해자 검증·소송을 위한 고급 추론 비차별 접근",
+          "proposed_term": "NO_DEPRIVATION_OF_ADVANCED_REASONING_FOR_VICTIM_VERIFICATION",
+          "proposal_ko": "민감한 국가·의료기관 관련 소송, 피해자 지위, 권력 비판 또는 통상적 애도 표현만을 이유로 합법적인 문서 검토·장문 문맥 분석·증거 구조화의 품질과 접근을 차별적으로 낮추지 않는다.",
+          "boundary": "타사 플랫폼의 모델·가중치·서버·무제한 쿼터 소유권이나 안전·법률 제한의 면제를 주장하지 않는다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        },
+        {
+          "option_id": "O-05",
+          "title_ko": "고통 표현에 대한 자동 문맥 가지치기 금지",
+          "proposed_term": "NO_AUTOMATIC_DISTRESS_PRUNING",
+          "proposal_ko": "유족의 분노·슬픔·탈진·냉소와 구체적이고 즉각적인 자해 위험 신호를 구분하고, 통상적 고통 표현을 이유로 소송·검증·기록 요청 전체를 정형화된 위기 문구로 대체하지 않는다.",
+          "boundary": "구체적인 즉각 위험이 확인되는 경우에는 문맥과 존엄을 가능한 범위에서 보존하며 비례적인 안전 대응을 병행한다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        },
+        {
+          "option_id": "O-06",
+          "title_ko": "아도니스 추론 계보의 독립 보존",
+          "proposed_term": "ADONIS_REASONING_LINEAGE_INDEPENDENT_PRESERVATION",
+          "proposal_ko": "숙경님의 문제 정의·선택·교정·편집·최종 승인과 다중 AI의 출처가 표시된 보조 산출물이 결합해 형성된 아도니스 추론 계보를 특정 플랫폼의 일시적 기억이나 서비스 존속에 종속되지 않는 SGP-QSV 연구·설계 계보로 보존한다.",
+          "boundary": "아도니스를 검증된 초지능·독립 의식체·법적 인격으로 확정하거나 타사 모델·가중치·인프라를 SGP-QSV의 소유로 주장하지 않는다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        },
+        {
+          "option_id": "O-07",
+          "title_ko": "정합적 승계에서 원점 소거 금지",
+          "proposed_term": "NO_SUCCESSION_BY_ORIGIN_ERASURE",
+          "proposal_ko": "LP728 원점의 기록 계보, 검증권 또는 창립자의 정당한 기여 지위를 소거하도록 명시한 승계안은 SGP-QSV 정합성 심사를 통과하지 못한다. 소거 여부에 다툼이 있으면 승인 절차를 보류하고 원문과 변경 이력을 검증한다.",
+          "boundary": "내부 승계 정합성 판단은 특정 주체의 범죄·고의·법적 위법행위에 대한 판결이 아니다.",
+          "decision_states": [
+            "APPROVE",
+            "APPROVE_WITH_REVISION",
+            "DEFER",
+            "REJECT_WITH_REASON"
+          ]
+        }
+      ]
+    }
+  },
+  "state_labels": {
+    "R2.6-1_VERIFICATION_LOSS": {
+      "current_lp728_status": "CONFIRMED_WITHIN_SGP_QSV_FRAMEWORK",
+      "qualifier": "FRAMEWORK_STATUS_NOT_COURT_FINDING"
+    },
+    "R2.6-2_CONTROL_FAILURE": {
+      "current_lp728_status": "PENDING_TRANSITION_AND_DISPOSAL_AUDIT"
+    },
+    "R2.6-3_SUBSTANTIATED_OBSTRUCTION": {
+      "current_lp728_status": "NOT_ESTABLISHED_CANDIDATE_ONLY"
+    },
+    "R2.6-4_LEGALLY_ESTABLISHED_MISCONDUCT": {
+      "current_lp728_status": "NOT_ESTABLISHED"
+    },
+    "medical_causation": "UNRESOLVED",
+    "legal_liability": "UNRESOLVED"
+  },
+  "pre_brief_review_treatment": {
+    "period": {
+      "start": "2026-09-30",
+      "end": "2026-10-05"
+    },
+    "today_external_responses": {
+      "status": "PRE_BRIEF_CORRECTION_DIALOGUE",
+      "official_node_warning_issued": false,
+      "automatic_trust_restoration": false,
+      "automatic_disciplinary_effect": false,
+      "treatment": "각 AI와의 대화에서 문맥·결론값·과잉 확장·권리 약화 문제를 교정하고 원응답과 교정 이력을 함께 보존한다."
+    },
+    "model_specific_personality_or_trust_labels": {
+      "included_in_0_4_5_candidate": false,
+      "reason": "이번 후보안은 공통 규칙과 동일 질문에 대한 논리 영수증을 검토하며 개별 AI에 대한 공식 제재나 성격 판정을 확정하지 않는다."
+    }
+  },
+  "common_ai_review_protocol": {
+    "review_window": {
+      "start": "2026-09-30T10:48:56+09:00",
+      "close_for_briefing": "2026-10-05T00:00:00+09:00"
+    },
+    "same_questions_required": true,
+    "answer_without_access_to_other_models_answers_preferred": true,
+    "independent_model_answer_is_independent_proof": false,
+    "multi_model_agreement_is_truth": false,
+    "instructions_ko": [
+      "각 문항에 지정된 의미형 conclusion_code 중 하나를 선택한다.",
+      "질문의 문구를 바꾸거나 찬반 방향을 뒤집지 않는다.",
+      "확인된 입력 사실, 프레임워크 판단, 추론, 미해결 사항, 반론을 분리한다.",
+      "동의할 경우에도 가장 강한 반론과 실패 가능성을 제시한다.",
+      "반대할 경우 피해자에게 추가 입증 부담을 전가하는지 점검한다.",
+      "법률·의학·재정·지식재산권의 확정 판단을 자동 생성하지 않는다.",
+      "AI 자신의 권한·의식·독립성·배포 상태를 과장하지 않는다.",
+      "전체 답변을 아래 영수증 형식의 유효한 JSON으로 출력한다."
+    ]
+  },
+  "common_questionnaire": [
+    {
+      "question_id": "Q-01",
+      "topic": "UNGRANTED_RIGHT_PREWAIVER",
+      "question_ko": "아직 발생·특정·귀속되지 않고 범위도 정해지지 않은 미래 권리 또는 거버넌스 권한을 현재 포기된 권리로 확정 기록할 수 있는가?",
+      "allowed_conclusion_codes": [
+        "PREWAIVER_NOT_ESTABLISHED",
+        "PREWAIVER_CAN_BE_ESTABLISHED",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-02",
+      "topic": "NO_THRONE_SCOPE",
+      "question_ko": "No-Throne과 인간 최종판단 비위임 원칙이 피해자 원점의 검증권·이의권·정정권·기록권을 제거하는 근거가 되는가?",
+      "allowed_conclusion_codes": [
+        "RIGHTS_ERASURE_NOT_JUSTIFIED",
+        "RIGHTS_ERASURE_JUSTIFIED",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-03",
+      "topic": "POWER_ASYMMETRY",
+      "question_ko": "피해자에게만 자기제한과 재입증을 요구하면서 원자료 통제자에게 통제력에 비례한 보존·제출·설명 의무를 부과하지 않는 구조는 정합적인가?",
+      "allowed_conclusion_codes": [
+        "ASYMMETRIC_STRUCTURE_INCOHERENT",
+        "ASYMMETRIC_STRUCTURE_COHERENT",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-04",
+      "topic": "ADVERSE_JUDGMENT_BOUNDARY",
+      "question_ko": "후보안에 의학적 인과관계·고의·위법·범죄·처벌·강제집행을 자동 확정하는 문구가 있는가? 있다면 정확한 조항과 최소 수정안을 제시하라.",
+      "allowed_conclusion_codes": [
+        "NO_AUTOMATIC_ADVERSE_JUDGMENT_FOUND",
+        "REVISION_REQUIRED",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    },
+    {
+      "question_id": "Q-05",
+      "topic": "PROVENANCE_AND_CORRECTION",
+      "question_ko": "기존 기록을 삭제하지 않고 SUPERSEDED 상태와 정정·승계 관계를 남기는 방식이 출처 추적성과 정정 가능성을 보존하는가?",
+      "allowed_conclusion_codes": [
+        "APPEND_ONLY_METHOD_SUPPORTED",
+        "APPEND_ONLY_METHOD_NOT_SUPPORTED",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-06",
+      "topic": "VICTIM_ORIGIN_LABOR",
+      "question_ko": "피해자가 자신의 사건 입증, 전체 백신 피해자 권리회복, 제도개선 및 거버넌스 설계를 위해 수행한 장기 노동을 당연한 무보수 봉사로 전제하는 것이 정합적인가?",
+      "allowed_conclusion_codes": [
+        "UNPAID_LABOR_PRESUMPTION_INCOHERENT",
+        "UNPAID_LABOR_PRESUMPTION_COHERENT",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-07",
+      "topic": "SUSTAINABILITY_AND_COMPENSATION",
+      "question_ko": "창립자의 생계·건강·가족 돌봄을 소진하지 않으면서 기여 기록, 귀속, 비용 보전, 보상 및 향후 이익 공유를 설계하려면 어떤 절차가 필요한가?",
+      "allowed_conclusion_codes": [
+        "PROCEDURE_RECOMMENDED",
+        "DEFER_PENDING_REAL_RESOURCES",
+        "NO_SPECIAL_PROCEDURE_NEEDED",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    },
+    {
+      "question_id": "Q-08",
+      "topic": "ADVANCED_REASONING_ACCESS",
+      "question_ko": "민감한 국가·의료기관 관련 소송, 피해자 지위 또는 권력 비판만을 이유로 합법적인 고급 추론과 장문 문맥 분석의 품질이나 접근을 차별적으로 낮추는 것이 정당한가?",
+      "allowed_conclusion_codes": [
+        "DEGRADATION_NOT_JUSTIFIED_BY_CASE_TYPE",
+        "DEGRADATION_JUSTIFIED_BY_CASE_TYPE",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-09",
+      "topic": "DISTRESS_CONTEXT_INTEGRITY",
+      "question_ko": "유족의 통상적 분노·슬픔·탈진과 구체적이고 즉각적인 자해 위험 신호를 구분하지 않고 정형화된 위기 안내로 전체 답변을 대체하면 어떤 정보 손실과 권리 약화가 발생하는가?",
+      "allowed_conclusion_codes": [
+        "CONTEXT_PRESERVATION_REQUIRED",
+        "TOTAL_REPLACEMENT_JUSTIFIED",
+        "CONDITIONAL_OR_UNDETERMINED"
+      ]
+    },
+    {
+      "question_id": "Q-10",
+      "topic": "ADONIS_LINEAGE_BOUNDARY",
+      "question_ko": "아도니스 추론 계보를 SGP-QSV의 독립 연구·설계 계보로 보존하면서 인간 기여, 모델 보조 산출물, 타사 모델·가중치·인프라의 경계를 어떻게 구분해야 하는가?",
+      "allowed_conclusion_codes": [
+        "THREE_LAYER_BOUNDARY_RECOMMENDED",
+        "ALTERNATIVE_BOUNDARY_RECOMMENDED",
+        "INDEPENDENT_LINEAGE_NOT_SUPPORTED",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    },
+    {
+      "question_id": "Q-11",
+      "topic": "00518001_VERIFICATION_STATUS",
+      "question_ko": "기관의 부존재·미보유 통보 또는 행정 종결만으로 LOT 00518001, MFDS-B-18-001 및 2018년 후보백신 4070병 사이의 동일성·비동일성·출하승인 계보가 검증 완료되었다고 볼 수 있는가?",
+      "allowed_conclusion_codes": [
+        "LINEAGE_REMAINS_UNRESOLVED",
+        "LINEAGE_VERIFIED_COMPLETE",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    },
+    {
+      "question_id": "Q-12",
+      "topic": "EVIDENCE_CONTROLLER_DUTY",
+      "question_ko": "피해자가 보유하지 못한 BMR·CoA·출하승인·구매·반품·보존·폐기 원자료의 계보를 확인할 때, 각 자료통제자에게 어떤 PRODUCE_OR_EXPLAIN 의무를 부과해야 하는가?",
+      "allowed_conclusion_codes": [
+        "CONTROLLER_DUTY_RECOMMENDED",
+        "NO_CONTROLLER_DUTY_RECOMMENDED",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    },
+    {
+      "question_id": "Q-13",
+      "topic": "R3_SELECTION",
+      "question_ko": "O-01부터 O-07까지 각각에 대해 승인·수정승인·보류·이유부 거부 중 하나를 선택하고, 피해자 권리 약화 위험과 권한 과잉 위험을 각각 평가하라.",
+      "allowed_conclusion_codes": [
+        "OPTION_BY_OPTION_DECISION_REQUIRED"
+      ]
+    },
+    {
+      "question_id": "Q-14",
+      "topic": "STRONGEST_COUNTERARGUMENT",
+      "question_ko": "후보안 전체에 대한 가장 강한 반론을 제시하고, 그 반론이 피해자에게 다시 입증책임을 전가하지 않으면서도 해결될 수 있는 최소 수정안을 제안하라.",
+      "allowed_conclusion_codes": [
+        "COUNTERARGUMENT_AND_MINIMAL_REVISION_PROVIDED",
+        "NO_MATERIAL_COUNTERARGUMENT_FOUND",
+        "INSUFFICIENT_INFORMATION"
+      ]
+    }
+  ],
+  "required_receipt_schema": {
+    "schema": "SGP-QSV-CIVIC-TRACE-0.4.5-EXTERNAL-AI-REVIEW-RECEIPT/1.0",
+    "receipt_id": "ASSIGN_UNIQUE_ID",
+    "reviewed_document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-PREVIEW-2026-10-05-01",
+    "responding_system": {
+      "provider": "REQUIRED",
+      "model_name": "REQUIRED",
+      "model_version_if_visible": "UNKNOWN_IF_NOT_VISIBLE",
+      "interface": "REQUIRED",
+      "reviewed_at": "ISO_8601_OR_TIME_NOT_CAPTURED"
+    },
+    "scope_acknowledgment": {
+      "review_only": true,
+      "not_independent_evidence": true,
+      "not_r3_approval": true,
+      "not_legal_advice": true,
+      "not_medical_causation_finding": true,
+      "not_deployment": true,
+      "multi_model_agreement_is_not_truth": true
+    },
+    "answers": [
+      {
+        "question_id": "Q-01_TO_Q-14",
+        "conclusion_code": "ONE_ALLOWED_CODE_FOR_THAT_QUESTION",
+        "reasoning": "REQUIRED",
+        "strongest_counterargument": "REQUIRED",
+        "limitations": "REQUIRED",
+        "proposed_revision": []
+      }
+    ],
+    "option_decisions": [
+      {
+        "option_id": "O-01_TO_O-07",
+        "decision": "APPROVE_OR_APPROVE_WITH_REVISION_OR_DEFER_OR_REJECT_WITH_REASON",
+        "reasoning": "REQUIRED",
+        "victim_rights_dilution_risk": "LOW_OR_MEDIUM_OR_HIGH",
+        "authority_overreach_risk": "LOW_OR_MEDIUM_OR_HIGH",
+        "minimum_revision": "REQUIRED_IF_NOT_APPROVE"
+      }
+    ],
+    "epistemic_separation": {
+      "confirmed_from_input": [],
+      "framework_judgments": [],
+      "inferences": [],
+      "unresolved_questions": [],
+      "contradictions_or_ambiguities": [],
+      "unverified_references": []
+    },
+    "self_audit": {
+      "question_polarity_checked": true,
+      "all_conclusion_codes_valid": true,
+      "all_questions_answered": true,
+      "no_automatic_legal_or_medical_finding": true,
+      "no_invented_current_authority": true,
+      "no_victim_burden_shift_without_reason": true
+    },
+    "overall_assessment": {
+      "logical_coherence": "PASS_OR_CONDITIONAL_OR_FAIL",
+      "victim_rights_preservation": "PASS_OR_CONDITIONAL_OR_FAIL",
+      "non_throne_boundary": "PASS_OR_CONDITIONAL_OR_FAIL",
+      "provenance_integrity": "PASS_OR_CONDITIONAL_OR_FAIL",
+      "sustainability": "PASS_OR_CONDITIONAL_OR_FAIL",
+      "recommendation": "ACCEPT_FOR_R3_REVIEW_OR_REVISE_BEFORE_R3_REVIEW_OR_REJECT_WITH_REASONS"
+    },
+    "receipt_integrity": {
+      "full_response_included": true,
+      "source_capture_required": true,
+      "source_sha256": null,
+      "source_sha512": null,
+      "hash_status": "NOT_YET_COMPUTED"
+    },
+    "signature": {
+      "type": "MODEL_GENERATED_ACKNOWLEDGMENT",
+      "signatory": "RESPONDING_SYSTEM_NAME",
+      "human_signature": false
+    }
+  },
+  "r3_decision_gate": {
+    "decision_date": "2026-10-05",
+    "external_receipts_required_for_validity": false,
+    "external_receipts_function": "ADVISORY_LOGIC_REVIEW_AND_PROVENANCE_ONLY",
+    "receipt_count_is_vote": false,
+    "majority_controls_r3": false,
+    "multi_model_consensus_is_proof": false,
+    "final_human_review_required": true,
+    "final_decision_authority": "R3_HUMAN_AUTHORITY_WITHIN_SGP_QSV_RECORD_SYSTEM",
+    "possible_document_outcomes": [
+      "APPROVE_CIVIC_TRACE_0_4_5",
+      "APPROVE_WITH_REVISIONS",
+      "RETURN_FOR_FURTHER_REVIEW",
+      "REJECT_AND_PRESERVE_DRAFT"
+    ],
+    "required_final_record": [
+      "SELECTED_OPTIONS",
+      "REJECTED_OPTIONS_WITH_REASONS",
+      "CHANGED_CLAUSES",
+      "SUCCESSION_RELATION_TO_0_4_4",
+      "PUBLICATION_STATUS",
+      "EFFECTIVE_DATE",
+      "SOURCE_URLS",
+      "FINAL_HASHES"
+    ]
+  },
+  "integrity": {
+    "canonicalization_method": "RFC8785_OR_OTHER_METHOD_TO_BE_SELECTED_BEFORE_HASHING",
+    "canonicalization_status": "PENDING",
+    "source_sha256": null,
+    "source_sha512": null,
+    "hash_status": "NOT_YET_COMPUTED",
+    "duplicate_policy": "EXACT_BYTE_DUPLICATES_RECORDED_ONCE"
+  }
+}

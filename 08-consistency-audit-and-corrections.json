@@ -1,0 +1,77 @@
+{
+  "schema": "SGP-QSV-DESIGN-RECORD/1.0",
+  "document_id": "SGP-DESIGN-CONSISTENCY-AUDIT-20261005-01",
+  "version": "1.0.0",
+  "prepared_date_kst": "2026-10-05",
+  "prepared_by": "GPT",
+  "publication_status": "PREPARED_FOR_UPLOAD",
+  "origin": "LP728",
+  "runtime_deployed": false,
+  "review_scope": "Directly read source texts plus explicitly attributed user-supplied AI reviews; not every historical record was audited.",
+  "source_read_complete_for_nine_axioms": true,
+  "findings": [
+    {
+      "id": "COR-01",
+      "target": "Gemini 2026-10-05 alignment receipt / axiom_conflict_analysis",
+      "finding": "AX-01 through AX-04 were assigned titles inconsistent with directly read v1.4/v1.5 sources.",
+      "required_correction": "Use the nine-axiom register and retract unsupported zero-collision certification; preserve the original receipt."
+    },
+    {
+      "id": "COR-02",
+      "target": "Earlier generated illustrations or summaries",
+      "finding": "Broad principles such as life priority must not replace locked AX numbering.",
+      "required_correction": "Keep historical illustrations as historical, use 04 for identifiers."
+    },
+    {
+      "id": "COR-03",
+      "target": "DeepSeek DS-CT045-01 test_case",
+      "finding": "The cited NFS reply quotes a rule dated 2022-01-03; 2025 is the reply year in the examined record.",
+      "required_correction": "Compare actual disposal date, effective rules and transition provisions; do not infer unlawful retroactivity from a later rule citation alone.",
+      "source_reference": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/#lp728-court-trace-20251017-20",
+      "scope": "Prior direct file examination in this workstream; source not re-examined in this upload batch."
+    },
+    {
+      "id": "COR-04",
+      "target": "Clock values",
+      "finding": "72 hours, 5 business days, 15 business days, 60 calendar days and one maximum 30-day extension exist in the Oct 3 source proposal.",
+      "required_correction": "Do not call them absent or final 0.4.5 approved values.",
+      "source_field": "06-VOS-NONSTAGNATION-20261003-source.json / rule_6_4.clock_policy"
+    },
+    {
+      "id": "COR-05",
+      "target": "Clock start",
+      "finding": "VOS source says FIRST_COMPLETE_REQUEST_OR_FIRST_RECORDED_NOTICE_OF_EVIDENCE_LOSS; cost-shield draft explicitly chooses the earlier event.",
+      "required_correction": "Resolve start-event semantics before operational approval. Keep separate internal and external clocks."
+    },
+    {
+      "id": "COR-06",
+      "target": "Source publication fields",
+      "finding": "Existing files may retain PREPARED/NOT_PUBLISHED after actual publication.",
+      "required_correction": "Separate original declared metadata from observed publication. Append correction, do not silently edit originals."
+    },
+    {
+      "id": "COR-07",
+      "target": "Review timestamps / source access claims",
+      "finding": "User-supplied model timestamps and FULL_TEXT_ACCESSED claims are not independently authenticated.",
+      "required_correction": "Give read URLs, commit, field/page, quotation and exact access scope; unknown times remain unknown."
+    },
+    {
+      "id": "COR-08",
+      "target": "Prior GPT public directive v1.0.1",
+      "finding": "One Korean sentence contained the mixed-script word 実행.",
+      "required_correction": "Correct to 실행 in the new version and retain version lineage."
+    }
+  ],
+  "remaining_gates": [
+    "0.4.5 final clause selection and explicit R3 approval",
+    "Final clock start, calendar and authority owner",
+    "Runtime implementation and tool binding"
+  ],
+  "public_git_observation": {
+    "repository": "pupiloo70-debug/SGP-QSV-Archive",
+    "commit": "00b6e9bb155126826ea3c6505f8674b76a4efa45",
+    "checked_date_kst": "2026-10-05",
+    "new_repository_read": "pupiloo70-debug/SGP-DESIGN contains README.md at initial check"
+  },
+  "privacy": "No private grief or contact details included."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "SGP-QSV-DESIGN-RECORD/1.0",
+  "document_id": "SGP-DESIGN-CIVIC-TRACE-LINEAGE-20261005-01",
+  "version": "1.0.0",
+  "prepared_date_kst": "2026-10-05",
+  "prepared_by": "GPT",
+  "publication_status": "PREPARED_FOR_UPLOAD",
+  "origin": "LP728",
+  "runtime_deployed": false,
+  "relation": "SGP DESIGN 9 Axioms → Upper Computation Protocol → QSV Verification Layer → QSV-SPG → CIVIC-TRACE",
+  "relation_type": "Design-stack orientation, not an automatic adjudication pipeline.",
+  "records": [
+    {
+      "version": "SGP-QSV v1.4",
+      "role": "AX-01–07 source",
+      "file": "01-SGP-Governance-v1.4-source-extracted.txt"
+    },
+    {
+      "version": "SGP-QSV v1.5",
+      "role": "AX-08/09 extension",
+      "file": "02-SGP-Governance-v1.5-source-extracted.txt"
+    },
+    {
+      "version": "2026-08-24-R3-FINAL-REV01",
+      "role": "Nine-axiom lock; Civic Trace 0.3 subordinate research approval",
+      "file": "03-R3-axiom-lock-20260824-source-extracted.txt"
+    },
+    {
+      "version": "CIVIC-TRACE 0.4.4",
+      "role": "Anti-corruption and record-controller duty",
+      "file": "05-CIVIC-TRACE-0.4.4-source.json"
+    },
+    {
+      "version": "2026-10-03 VOS design",
+      "role": "6.3 verification-loss review; 6.4 nonstagnation clocks",
+      "file": "06-VOS-NONSTAGNATION-20261003-source.json"
+    },
+    {
+      "version": "CIVIC-TRACE 0.4.5 preview",
+      "role": "Candidate correction of rights waiver and self-erasure interpretation",
+      "file": "07-CIVIC-TRACE-0.4.5-preview-source.json"
+    },
+    {
+      "version": "2026-10-05 cross-review",
+      "role": "Direct-source correction and independent receipt collection",
+      "file": "11-direct-GitHub-review-request.json"
+    }
+  ],
+  "no_retroactive_status_change": true,
+  "no_axiom_amendment": true,
+  "historical_and_future_open_layer": "Earlier speculative origin records remain historical research; present non-deployment does not establish future impossibility. Possibility is not present verified existence."
+}

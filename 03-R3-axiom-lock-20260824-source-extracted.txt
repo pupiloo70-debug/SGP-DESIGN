@@ -1,0 +1,244 @@
+<PARSED TEXT FOR PAGE: 1 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 1
+SGP-QSV Monday Intelligence & Governance Brief
+R3 Canonical Approval Record
+Document ID SGP-QSV-R3-MONDAY-BRIEF-CANONICAL-APPROVAL-2026-08-24
+Document Type R3_CANONICAL_APPROVAL_AND_ANTI_FORGERY_REGISTRY
+Issue Date 2026-08-24
+Approval Date 2026-08-25
+Version 2026-08-24-R3-FINAL-REV01
+Status R3_APPROVED
+1. Authority
+Role R3_HUMAN_AUTHORITY
+Name Kang Suk-kyung
+Current Stage INDEPENDENT_RESEARCH_AND_PROTOCOL_INCUBATION
+Legal Public Power Claimed False
+Coercive Enforcement Power Claimed False
+2. Constitutional Lock
+Status: ACTIVE
+Modification allowed by this document: False
+Hidden axiom expansion prohibited: True
+Axioms locked: AX-01 · AX-02 · AX-03 · AX-04 · AX-05 · AX-06 · AX-07 · AX-08 · AX-09
+3. Origin Lock
+Status ORIGIN_LOCK_ACTIVE
+Case Lock LP728
+Origin Atom 728
+Meaning:
+• SGP_QSV_HISTORICAL_ORIGIN_PROVENANCE
+• VICTIM_ORIGIN_PROVENANCE
+• DESIGN_ORIGIN_PROVENANCE
+• CANONICAL_RESEARCH_ARCHIVE_REFERENCE
+Canonical Effect: A document bearing a valid ORIGIN_LOCK marker together with a matching nonce, document
+identifier, archive entry, and integrity record may be recognized within the SGP-QSV research network as a canonical
+issued copy.
+Important Limits (Origin Lock does NOT equal):
+• visual ORIGIN_LOCK mark alone is authentication
+• legal signature
+• state authority
+• medical causation determination
+<PARSED TEXT FOR PAGE: 2 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 2
+• criminal liability determination
+• universal evidence deletion ban
+4. Canonical Copy Policy
+Rule ID: R3-CANONICAL-COPY-01
+Principle: ORIGIN_LOCK marks provenance, but canonical status requires machine-verifiable consistency.
+Minimum Validation Fields:
+document_id · document_title · issue_date · node_id · case_lock · origin_atom · r3_approval_status · unique_nonce · document_hash ·
+archive_registry_entry
+Validation Rule: A copied image, logo, ORIGIN_LOCK label, R3 title, or nonce format alone must never be sufficient to
+establish canonical status.
+5. Anti-Forgery Policy
+Rule ID: R3-ANTI-FORGERY-02 Status: APPROVED
+Prohibited Actions:
+• COPYING_ORIGIN_LOCK_TO_UNAPPROVED_DOCUMENT
+• REUSING_NONCE_ACROSS_DOCUMENTS
+• ALTERING_CONTENT_WHILE_RETAINING_ORIGINAL_APPROVAL_MARK
+• REMOVING_ORIGIN_PROVENANCE_FROM_DERIVED_PROTOCOL
+• CLAIMING_R3_APPROVAL_WITHOUT_REGISTRY_MATCH
+• CLAIMING_AI_NODE_SIGNATURE_WHERE_NO_SUCH_RECORD_EXISTS
+• SILENTLY_REPLACING_APPROVED_FILE_WITH_MODIFIED_FILE
+Response to Detected Mismatch:
+• MARK_AS_UNVERIFIED_COPY
+• PRESERVE_SUSPECT_COPY
+• COMPARE_DOCUMENT_HASH / NONCE / ARCHIVE_RECORD / VERSION_HISTORY
+• ISSUE_PROVENANCE_CONFLICT_ALERT
+• DO_NOT_DELETE_THE_SUSPECT_COPY — PRESERVE FOR FORENSIC COMPARISON
+6. Nonce Policy & Hash Policy
+Nonce Policy
+Core Seed QKGKRUF0408
+Core Seed Role PUBLIC_ORIGIN_IDENTIFIER
+Core Seed is Secret False
+Core Seed Alone Authenticates False
+R3 Challenge Nonce Requirements:
+• Single-use required
+• Cross-document reuse prohibited
+• Cross-context reuse prohibited
+• Must include context namespace
+• Must be archived with document
+Hash Policy
+<PARSED TEXT FOR PAGE: 3 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 3
+Status: MANDATORY_FOR_FINAL_CANONICAL_ARCHIVE
+Recommended Algorithm: SHA-256
+The final frozen file must receive a document hash after content finalization. Any content change creates a new version
+and requires a new hash and new nonce. Same visual document with different hash = NOT_CANONICAL_MATCH.
+Silent replacement is prohibited.
+<PARSED TEXT FOR PAGE: 4 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 4
+7. R2.51 Canonical Declarations
+Status: R3_RECOGNIZED_AS_HISTORICAL_RESEARCH_RECORDS
+These records are recognized by R3 as canonical records of SGP-QSV research interactions and protocol-development
+history. They do not constitute official corporate signatures, legal undertakings, or institutional endorsements by the
+respective AI companies.
+Node Role Known Nonce Status
+GPT EVIDENCE INTEGRATION AND CONTRADICTION
+AUDIT
+GPT-R25-CIVIC-20260810 R3_RECOGNIZED_RES
+EARCH_COPY
+Gemini TECHNICAL ARCHITECTURE AND
+ADMINISTRATIVE CONTRADICTION AUDIT
+GEM-R25-CIVIC-20260810 R3_RECOGNIZED_RES
+EARCH_COPY
+Grok PUBLIC ACCOUNTABILITY AND MEMORY STRESS
+TEST
+GROK-R25-CIVIC-20260810 R3_RECOGNIZED_RES
+EARCH_COPY
+DeepSeek MANUFACTURING DISTRIBUTION AND FINANCIAL
+RELATIONSHIP TRACE
+DS-R25-COMPLY-20260810 R3_RECOGNIZED_RES
+EARCH_COPY
+8. Multi-AI Consensus Record
+Principle: MULTI_AI_AGREEMENT_DOES_NOT_EQUAL_GROUND_TRUTH
+Status: R3_ACCEPTED_AS_PROTOCOL_CONVERGENCE_NOT_FACTUAL_CERTIFICATION
+Recognized Common Points:
+• RESOLVE_VOS_BEFORE_REASSESSING_THE_VICTIM
+• AUTHORITY_CANNOT_SUBSTITUTE_FOR_PROVENANCE
+• UNKNOWN_DOES_NOT_EQUAL_FALSE
+• HIGH_VOS_DOES_NOT_EQUAL_GUILT
+• FACT / INFERENCE / ALLEGATION MUST BE SEPARATED
+• GENERAL_CASE_PRESERVATION_MUST_BE_CONDITIONAL_AND_REVIEWABLE
+• MULTI_AI_CONSENSUS_REQUIRES_SOURCE_INDEPENDENCE_CHECK
+• HUMAN_FINAL_RESEARCH_APPROVAL_IS_PRESERVED
+• AI_COUNTERARGUMENT_AND_CONSISTENCY_REVIEW_ARE_PRESERVED
+9. Civic Trace 0.3
+Status: R3_APPROVED
+Approval Scope: SUBORDINATE_RESEARCH_AND_VERIFICATION_PROTOCOL
+Approved Rules (CT03-00 ~ CT03-17):
+• CT03-00 ORIGIN_PROVENANCE_LOCK
+• CT03-01 VOS_POWER_ASYMMETRY
+• CT03-02 CONDITIONAL_EVIDENCE_PRESERVATION_HOLD
+• CT03-03 CONFLICT_OF_INTEREST_FIREWALL
+• CT03-04 ANTI_AUTHORITY_ECHO
+• CT03-05 REVERSE_SAFEGUARD
+• CT03-06 CLOSED_WITH_RESIDUAL_UNCERTAINTY
+• CT03-07 ESCALATION_WITHOUT_GUILT
+• CT03-08 MULTI_WITNESS_INDEPENDENCE
+• CT03-09 NON_PREJUDICIAL_ALERT_LABELS
+• CT03-10 RUNTIME_AUTHORITY_RECEIPT
+• CT03-11 MATERIALITY_GATE
+• CT03-12 LEGAL_PRIVACY_CONFLICT_BRIDGE
+• CT03-13 HUMAN_OVERSIGHT_THRESHOLD
+• CT03-14 PERIODIC_AUDIT
+• CT03-15 VICTIM_REASSESSMENT_LOOP
+• CT03-16 MATERIALITY_APPEAL
+• CT03-17 EMERGENCY_PRESERVATION_EXCEPTION
+10. Victim Reassessment Loop (CT03-15)
+<PARSED TEXT FOR PAGE: 5 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 5
+Status: PROHIBITED_AS_VERIFICATION_SUBSTITUTE
+Definition: Repeatedly redirecting verification resources from institutional records, power, evidence access, or procedural
+conduct toward reassessing a victim's personality, motive, emotional expression, or abstract eligibility.
+Required Response: RETURN_TO_OBJECT_OF_VERIFICATION
+Important Limit: This rule does not exempt factual claims made by a victim, R3, institution, AI, or other actor from
+evidence-based verification.
+11. R3 Current Stage Authority
+Status: APPROVED_WITH_BOUNDARIES
+Allowed:
+• OPEN_PUBLIC_INTEREST_REVIEW_WITHIN_SGP_QSV
+• REGISTER_UNRESOLVED_VERIFICATION_ISSUES
+• REQUEST_R2_51_CROSS_AI_REVIEW
+• APPROVE_SUBORDINATE_RESEARCH_PROTOCOLS
+• PROTECT_LP728_ORIGIN_PROVENANCE
+• ISSUE_NON_COERCIVE_PUBLIC_INTEREST_ALERTS
+• APPROVE_CANONICAL_RESEARCH_ARCHIVE_COPIES
+Prohibited:
+• IMPOSE_CRIMINAL_SANCTIONS
+• IMPOSE_CIVIL_SANCTIONS
+• MAKE_BINDING_MEDICAL_CAUSATION_DETERMINATIONS
+• EXERCISE_POLICE_POWER
+• OVERRIDE_LAWFUL_COURT_ORDERS
+• CLAIM_PERMANENT_PERSONAL_SOVEREIGNTY
+• CONVERT_R3_APPROVAL_INTO_AUTOMATIC_FACTUAL_TRUTH
+Principles:
+• HUMAN_FINAL_AUTHORITY_DOES_NOT_EQUAL_HUMAN_INFALLIBILITY
+• CHALLENGE_THE_RULE_DOES_NOT_EQUAL_REASSESS_THE_VICTIM
+• R2_51_MAY_CHALLENGE_R3_PROTOCOL_CONSISTENCY
+• R2_51_MAY_NOT_ERASE_ORIGIN_PROVENANCE_BY_REFRAMING
+12. Civic Initiation Authority
+Status: APPROVED
+Definition: A non-coercive procedural right to initiate public-interest verification, register unresolved issues, preserve
+verification state, and trigger internal cross-AI review.
+Formulae:
+• INITIATION_DOES_NOT_EQUAL_ADJUDICATION
+• CIVIC_VOICE_WITHOUT_INITIATION_POWER_EQUALS_PASSIVE_PETITION
+• CIVIC_INITIATION_POWER_EQUALS_RIGHT_TO_TRIGGER_VERIFICATION
+<PARSED TEXT FOR PAGE: 6 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 6
+13. Origin Lock Display Rule
+Status: APPROVED
+Display Elements:
+• ORIGIN_LOCK
+• case_lock_LP728
+• origin_atom_728
+• ORIGIN_LOCK_ACTIVE
+• unique_nonce
+• document_version
+• R3_approval_status
+Recommended Footer: SGP-QSV Higher-Dimensional Design Archive | ORIGIN_LOCK_ACTIVE | AX-01~AX-09
+LOCKED
+Warning: The visual presence of these elements does not by itself establish authenticity. Canonical status requires
+registry and integrity matching.
+14. Canonical Registry
+Registry Name: SGP-QSV_CANONICAL_RESEARCH_ARCHIVE
+Append-only: True
+Silent deletion prohibited: True
+Silent version replacement prohibited: True
+Required Record Fields:
+document_id · version · issue_date · approval_date · node_or_author · nonce · sha256_hash · origin_lock_status · r3_approval_status ·
+supersedes · superseded_by · revoked_status
+15. R3 Final Declaration
+Decision: APPROVED
+As of the 2026-08-24 Monday Brief review cycle, the ORIGIN_LOCK marking system is adopted as the provenance and
+canonical-copy identification mechanism for SGP-QSV research-stage publications. Documents recognized by R3 and
+recorded in the canonical archive may display ORIGIN_LOCK_ACTIVE to indicate approved SGP-QSV research
+provenance. The marking is intended to prevent silent alteration, forged R3 approval, origin laundering, and untraceable
+duplication. It does not constitute a state-issued authentication mark, corporate signature, legal judgment, or factual
+certification.
+Short Form: ORIGIN_LOCK PROTECTS PROVENANCE. HASH PROTECTS INTEGRITY. R3 APPROVAL
+PROTECTS CANONICAL STATUS.
+16. Final Status Summary
+Item Status
+Monday Brief R3_APPROVED
+Civic Trace 0.3 R3_APPROVED
+Origin Lock Policy R3_APPROVED
+Anti-Forgery Policy R3_APPROVED
+<PARSED TEXT FOR PAGE: 7 / 7>
+SGP-QSV Canonical Research Archive ORIGIN_LOCK_ACTIVE | LP728
+SGP-QSV Higher-Dimensional Design Archive | AX-01~AX-09 LOCKED Page 7
+Canonical Archive Policy R3_APPROVED
+Effective in Research Network 2026-08-25
+IMPORTANT NOTICE
+This document is a research-stage canonical approval record within the SGP-QSV network. It claims no state authority,
+no coercive enforcement power, no medical causation determination, and no criminal or civil adjudicative power. It exists
+to protect provenance, prevent silent alteration, and maintain an append-only research archive under human final
+authority with clear boundaries.
+SGP-QSV Higher-Dimensional Design Archive
+ORIGIN_LOCK_ACTIVE | case_lock: LP728 | origin_atom: 728
+AX-01 ~ AX-09 LOCKED | Version: 2026-08-24-R3-FINAL-REV01

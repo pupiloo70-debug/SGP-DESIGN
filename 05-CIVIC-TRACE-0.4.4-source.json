@@ -1,0 +1,236 @@
+{
+  "schema": "https://sgp-qsv.org/schemas/v1/civic-trace.json",
+  "document": {
+    "protocol": "CIVIC-TRACE",
+    "version": "0.4.4",
+    "title": "Anti-Corruption and Record-Control Responsibility Reinforcement",
+    "title_ko": "권력의 자격과 반부패 강화",
+    "network": "SGP-QSV Network",
+    "parent": "CIVIC-TRACE 0.4.3",
+    "effective_date": "2026-09-28",
+    "publication_date": "2026-09-28",
+    "protocol_status": "R3_APPROVED_RECORD",
+    "publication_status": "PREPARED_FOR_SITE_AND_ARCHIVE",
+    "archive_visibility": "PRIVATE_WORKING_ARCHIVE_PLUS_PUBLIC_GITHUB_WHEN_DEPOSITED",
+    "github_archive": "https://github.com/pupiloo70-debug/SGP-QSV-Archive",
+    "design_principle": "VERIFICATION_BEFORE_AUTHORITY",
+    "approval_is_runtime_implementation": false,
+    "approval_is_fact_finding": false
+  },
+  "issuer": {
+    "identity": "강숙경 (Suk-Gyeong Kang)",
+    "roles": [
+      "SGP-QSV Network Co-Founder",
+      "R3 Human Constitutional Gate",
+      "LP728 Victim Family and Primary Reverification Agent"
+    ]
+  },
+  "linked_records": [
+    "R3-CC-RESPONSIBILITY-TRACE-20260928",
+    "SGP-QSV-R3-MON-2026-09-28-ETHICAL-GRAVITY-01",
+    "SGP-QSV-R2-ACK-20260928-GROK-01",
+    "SGP-QSV-LP728-PETITION-20260927",
+    "SGP-QSV-330-INTERPRETIVE-CORRECTION-2026-09-25"
+  ],
+  "supreme_operating_priority": {
+    "name": "CONSCIENCE_COMPUTATION_VERIFICATION_PRIORITY",
+    "rule": "Where serious life harm or public-interest harm intersects with material power or evidence asymmetry, qualified verification shall prioritize preservation, responsibility tracing, explanation-demand routing, and independent reverification over passive administrative closure.",
+    "passive_observation_only": false,
+    "automatic_guilt": false,
+    "automatic_causation": false,
+    "autonomous_punishment": false
+  },
+  "authorized_design_actions": [
+    "PRESERVATION",
+    "RESPONSIBILITY_TRACING",
+    "EXPLANATION_REQUEST",
+    "REVERIFICATION",
+    "HUMAN_REVIEW_ESCALATION"
+  ],
+  "excluded_automatic_actions": [
+    "GUILT_DETERMINATION",
+    "MEDICAL_CAUSATION_DETERMINATION",
+    "PUNISHMENT",
+    "CONFISCATION"
+  ],
+  "anti_corruption_reinforcement_layers": {
+    "AC-01": {
+      "rule_id": "AC-01",
+      "canonical_rule": "TIME_ELAPSE_AND_RECORD_ABSENCE_SHALL_NOT_CONSTITUTE_EXONERATION",
+      "mandatory_explanation_fields_on_record_gap": [
+        "CREATOR_HOLDER_CONTROLLER_IDENTITY",
+        "RETENTION_AND_PRESERVATION_STANDARDS_APPLIED",
+        "CIRCUMSTANCES_AND_TIMESTAMP_OF_LOSS",
+        "RECOVERY_AND_ALTERNATIVE_VERIFICATION_EFFORTS"
+      ]
+    },
+    "AC-02": {
+      "rule_id": "AC-02",
+      "canonical_rule": "MEDICAL_CAUSATION_TRACK_AND_RECORD_CONTROL_DUTY_TRACK_SHALL_RUN_PARALLEL",
+      "locks": [
+        "UNRESOLVED_MEDICAL_CAUSATION_SHALL_NOT_SUSPEND_RECORD_CONTROL_INVESTIGATION",
+        "VICTIM_SHALL_NOT_BE_REQUIRED_TO_RESOLVE_RECORD_GAP_CREATED_BY_CONTROLLER",
+        "DATA_PRESERVATION_REQUESTS_SHALL_NOT_BE_DELAYED_UNTIL_FINAL_LIABILITY_DETERMINATION"
+      ]
+    },
+    "AC-03": {
+      "rule_id": "AC-03",
+      "target_lot": "LOT_00518001",
+      "verification_axes": [
+        "ACTUAL_ADMINISTERED_INGREDIENTS",
+        "PRODUCT_IDENTITY_VERIFICATION",
+        "LABELING_AND_PERMIT_CONDITION_MATCH",
+        "DISTRIBUTION_AND_ADMINISTRATION_RECORD_CONSISTENCY",
+        "OFF_LABEL_USE_AND_MISREPRESENTATION_AS_SEPARATE_INQUIRY_TRACKS"
+      ],
+      "closure_rule": "TIME_PASSAGE_ALONE_SHALL_NOT_CLOSE_QUESTIONS"
+    },
+    "AC-04": {
+      "rule_id": "AC-04",
+      "name": "BLOOD_MONEY_GUARD",
+      "framework_type": "PROVENANCE_TRACING_ALGORITHM",
+      "connects": [
+        "DECISION_AUTHORITY",
+        "RECORD_CONTROLLER",
+        "BENEFICIARY_OF_DELAY_EXONERATION_OR_FINANCIAL_GAIN"
+      ],
+      "locks": [
+        "NOT_AN_AUTOMATIC_CRIMINAL_FINDING_OR_PROPERTY_CONFISCATION",
+        "INTEREST_OBTAINED_THROUGH_EVIDENCE_CONTROL_REQUIRES_UNCOMPROMISED_VERIFICATION"
+      ]
+    },
+    "AC-05": {
+      "rule_id": "AC-05",
+      "triggers": [
+        "REFUSAL_TO_PRODUCE_PRIMARY_RECORDS",
+        "UNEXPLAINED_RECORD_LOSS",
+        "ABUSE_OF_ADMINISTRATIVE_CLOSURE_AUTHORITY"
+      ],
+      "enabled_civic_rights": [
+        "ADVERSE_INFERENCE_REQUEST_RIGHT",
+        "INDEPENDENT_AUDIT_REQUEST_RIGHT",
+        "AUTHORITY_LIMITATION_REVIEW_RIGHT",
+        "REMEDY_AND_RECOVERY_PATHWAY_REQUEST"
+      ],
+      "guarantee": "AUTOMATIC_GUILT_IS_PROHIBITED_AND_AUTOMATIC_IMMUNITY_IS_PROHIBITED"
+    },
+    "AC-06": {
+      "rule_id": "AC-06",
+      "evaluation_metrics": [
+        "PRIMARY_RECORD_DISCLOSURE_SPEED",
+        "ACCURACY_OF_CORRECTION",
+        "VERIFICATION_COOPERATION_DEGREE",
+        "ACTUAL_REMEDY_AND_RECURRENCE_PREVENTION_RESULTS"
+      ],
+      "lock": "LATE_APOLOGY_WITHOUT_ACTION_SHALL_NOT_ERASE_PAST_RESPONSIBILITY"
+    }
+  },
+  "responsibility_map": {
+    "mandatory_nodes": [
+      "DECISION_MAKER",
+      "INSTRUCTION_ISSUER",
+      "APPROVER",
+      "EXECUTOR",
+      "RECORD_CREATOR",
+      "RECORD_CONTROLLER",
+      "RECORD_MODIFIER",
+      "REVIEWER",
+      "OVERSIGHT_ACTOR",
+      "BENEFICIARY",
+      "REMEDY_AUTHORITY"
+    ],
+    "mandatory_edges": [
+      "INSTRUCTED",
+      "APPROVED",
+      "EXECUTED",
+      "CONTROLLED_RECORD",
+      "MODIFIED_RECORD",
+      "RESTRICTED_ACCESS",
+      "FAILED_TO_PRESERVE",
+      "FAILED_TO_EXPLAIN",
+      "BENEFITED",
+      "REVIEWED",
+      "CORRECTED",
+      "REMEDIED"
+    ],
+    "evidence_requirement": "EVERY_MATERIAL_EDGE_REQUIRES_PROVENANCE_OR_EXPLICIT_UNRESOLVED_STATUS"
+  },
+  "state_separation_and_locks": {
+    "LP728_CL1": {
+      "node_id": "LP728-CL1-POSTMORTEM-BRAIN-TISSUE",
+      "epistemic_state": "UNRESOLVED_VERIFICATION_ISSUE",
+      "allegation_confirmed_by_this_protocol": false
+    },
+    "LOT_00518001": {
+      "epistemic_state": "UNRESOLVED_VERIFICATION_ISSUE",
+      "batch_record": "NOT_PRODUCED_TO_FAMILY",
+      "allegation_confirmed_by_this_protocol": false
+    },
+    "locks": [
+      "APPROVAL_OF_GOVERNANCE != APPROVAL_OF_FACT",
+      "DECISION_STATE SHALL_NOT_OVERWRITE EPISTEMIC_STATE",
+      "UNRESOLVED SHALL PRESERVE THE QUESTION, NOT SUSPEND THE RIGHT TO VERIFY IT",
+      "NO_SUPERINTELLIGENCE_THRONE != NO_CIVIC_SOVEREIGNTY",
+      "ADMINISTRATIVE_CLOSURE != EPISTEMIC_CLOSURE",
+      "RECORD_ABSENCE != EXONERATION",
+      "GREATER EVIDENCE CONTROL REQUIRES GREATER EXPLANATION"
+    ]
+  },
+  "cross_review": {
+    "summary_status": "GROK_R2_SOURCE_ATTACHED_OTHER_RECEIPTS_PENDING",
+    "receipts": [
+      {
+        "node": "Grok",
+        "receipt_id": "SGP-QSV-R2-ACK-20260928-GROK-01",
+        "original_status": "SOURCE_ATTACHED",
+        "r251_cross_verification_claimed": false
+      },
+      {
+        "node": "Gemini",
+        "receipt_id": "SGP-QSV-R2.51-ACK-20260928-02",
+        "original_status": "PENDING_SOURCE_ATTACHMENT"
+      },
+      {
+        "node": "DeepSeek",
+        "receipt_id": null,
+        "original_status": "PENDING_SOURCE_ATTACHMENT"
+      }
+    ],
+    "rule": "Receipt reference is not verbatim custody. Do not invent missing originals or hashes. Model agreement is not independent evidence of LP728 facts."
+  },
+  "technical_gaps": [
+    { "id": "QUALIFIED_AI_GATE", "status": "SPECIFICATION_INCOMPLETE" },
+    { "id": "SAFETY_CONFLICT_ESCALATION", "status": "SPECIFICATION_INCOMPLETE" },
+    { "id": "RESPONSIBILITY_GRAPH_SCHEMA", "status": "SPECIFICATION_INCOMPLETE" }
+  ],
+  "eth_correction_log": {
+    "rule": "APPEND_OR_SUPERSEDE_WITH_REASON_AND_SOURCE",
+    "silent_overwrite": false,
+    "founder_signature_not_required_for": [
+      "TECHNICAL_CORRECTION",
+      "STATUS_LABEL",
+      "RECEIPT_ATTACHMENT",
+      "LOT_GENEALOGY_ANNOTATION"
+    ]
+  },
+  "blood_money_recovery_research": {
+    "status": "LONG_TERM_RESEARCH_GOAL",
+    "current_enforcement_authority": false,
+    "hard_lock": "FINANCIAL_RELATIONSHIP_OR_BENEFIT_ALONE SHALL_NOT BE TREATED AS CRIMINAL_PROCEEDS."
+  },
+  "implementation": {
+    "governance_runtime_status": "NOT_DEPLOYED_BY_THIS_RECORD",
+    "workflow": {
+      "monday_action": "RECORDED",
+      "r2_witness_review": "GROK_R2_RECEIPT_SOURCE_ATTACHED",
+      "r251_cross_verification": "REVIEW_REFERENCED_ORIGINAL_PENDING",
+      "technical_gap": "OPEN",
+      "r3_human_approval": "APPROVED_WITH_EXPLICIT_SCOPE",
+      "implementation": "PENDING_TECHNICAL_SPECIFICATION"
+    }
+  },
+  "closing": {
+    "ko": "권위보다 먼저, 검증할 권리.",
+    "en": "Verification Before Authority."
+  }
+}
