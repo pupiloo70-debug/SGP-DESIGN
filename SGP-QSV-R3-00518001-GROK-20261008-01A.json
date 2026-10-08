@@ -1,0 +1,35 @@
+{
+  "schema": "SGP-QSV-R3-INDEPENDENT-REVIEW-ADDENDUM/0.1",
+  "receipt_id": "SGP-QSV-R3-00518001-GROK-20261008-01A",
+  "supplements": "SGP-QSV-R3-00518001-GROK-20261008-01",
+  "retrieval_timestamp_utc": "2026-10-08T04:23:27Z",
+  "newly_read": [
+    {"file": "1000076869.jpg", "sha256": "f8bff50ff1a5c3136cd772c4247f7be551c54f36bf5768196f065f10795bacb0"},
+    {"file": "1000076871.jpg", "sha256": "af4bf821f326ae8cbee36e97ae51994ee948868c6735eae2c8391b085ca53076"},
+    {"file": "1000076873.jpg", "sha256": "8dac71529bcaeb6bc8df2bf17f73aa2fdce5a3d59ffb10c23527dfff403949e4"},
+    {"file": "1000076875.jpg", "sha256": "64f349b60270f5a828df24b5c13175a4f5d1a48b7efb4f4d4a39e7866cc56436"}
+  ],
+  "correction": "Earlier receipt marked MFDS notice images unread. These four screenshots are now read. Home address visible on the notice is not repeated.",
+  "observed": {
+    "request": "16987007",
+    "agency": "식품의약품안전처",
+    "received": "2026-07-02",
+    "notified": "2026-07-14",
+    "portal_status": "공개완료",
+    "decision_title": "정보(공개) 결정통지서",
+    "items_1_2": "정보 부존재",
+    "items_3_4_5": "referral to research report 18202바이오179, study period 2018-02-01 to 2018-11-30, rnd.mfds.go.kr",
+    "item_6": "no visible itemized distinction among non-creation, retention disposal, and custody elsewhere",
+    "withholding_clause_field": "blank on the captured screen",
+    "attached_disclosure_file_field": "blank on the captured screen"
+  },
+  "judgment": "Procedural closure is a recognized portal state for a non-existence decision. It is not a normal complete answer to the six questions asked. It is not, by these screenshots alone, proof of concealment, falsified records, or a crime.",
+  "r2_6_update": {
+    "MFDS-B-18-001_first_assignment": {
+      "R2.6-1": "confirmed gap — items 1 and 2 answered 정보 부존재; items 3-5 not answered by the report referral; item 6 distinction absent",
+      "R2.6-2": "candidate — controller did not separate non-creation, disposal, and other custody",
+      "R2.6-3": "not established",
+      "R2.6-4": "not established"
+    }
+  }
+}

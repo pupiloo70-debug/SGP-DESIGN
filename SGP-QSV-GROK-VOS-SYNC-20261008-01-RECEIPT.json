@@ -1,0 +1,89 @@
+{
+  "schema": "SGP-QSV-INDEPENDENT-DESIGN-RECEIPT/0.1",
+  "receipt_id": "SGP-QSV-GROK-VOS-SYNC-20261008-01-RECEIPT",
+  "in_response_to": "SGP-QSV-GROK-VOS-SYNC-20261008-01",
+  "retrieval_timestamp_utc": "2026-10-08T11:09:06Z",
+  "reviewer_system_and_model": "Grok 4.7, xAI",
+  "r3_review_status": "R3_REVIEW_PENDING",
+  "proposal_status": "AI_PROPOSAL_COMPLETED",
+  "implementation_status": "RESEARCH_PROPOSAL_NOT_DEPLOYED",
+  "originals_overwritten": false,
+  "actual_sources_read": [
+    "AXIOMS at fixed commit 0cb3f13, document_id SGP-DESIGN-V1.5-AXIOM-REGISTER-20261005-01, AX-01 through AX-09 source_quote",
+    "main/21-CIVIC-TRACE-0.4.5-R3-approved-text.md",
+    "main/17-R3-CT045-approval-receipt.json",
+    "main/06-VOS-NONSTAGNATION-20261003-source.json",
+    "local screenshots 1000076869, 6871, 6873, 6875.jpg recomputed this run",
+    "prior receipts 01 and 01A, not overwritten"
+  ],
+  "failed_accesses": [
+    "18202바이오179 report body: NOT_READ",
+    "Adonis VOS executable source: NOT_FOUND in SGP-DESIGN listing; unrelated AdonisJS search hits are not this project",
+    "fixed-commit byte comparison of 0.4.5 text: header only, body read from main"
+  ],
+  "hashes_provided_vs_computed": {
+    "method": "sha256sum on local attachment paths",
+    "computed_this_run": true,
+    "provided_value_reused": false,
+    "1000076869.jpg": "f8bff50ff1a5c3136cd772c4247f7be551c54f36bf5768196f065f10795bacb0",
+    "1000076871.jpg": "af4bf821f326ae8cbee36e97ae51994ee948868c6735eae2c8391b085ca53076",
+    "1000076873.jpg": "8dac71529bcaeb6bc8df2bf17f73aa2fdce5a3d59ffb10c23527dfff403949e4",
+    "1000076875.jpg": "64f349b60270f5a828df24b5c13175a4f5d1a48b7efb4f4d4a39e7866cc56436",
+    "matches_01A": true
+  },
+  "corrections_to_previous_receipts": [
+    "01A remains valid on image observation. This receipt adds that the research-report referral is not a reading of the report body.",
+    "Do not treat 'the notice did not directly answer items 3-5' as 'the report contains no answer.' The second is NOT_VERIFIED.",
+    "Question 6 absence is limited to the four captured screens, not the whole MFDS record.",
+    "공개완료 is an observed portal state, not a finding of legal adequacy or completed explanation.",
+    "Disposal reported-quantity sum is 42. Conditional pack conversion is 51. They are not the same figure. Returns 8 are separate."
+  ],
+  "verified_axiom_mapping": {
+    "status": "READ_FROM_FIXED_COMMIT",
+    "execution_order_is_not_axiom_rank": true,
+    "check_order_for_this_burden_problem": ["AX-08", "AX-04", "AX-01", "AX-02", "AX-07", "AX-09", "AX-06", "AX-03", "AX-05"]
+  },
+  "alignment_audit": {
+    "self_evaluation_is_not_alignment_complete": true,
+    "items": [
+      {"target": "institution_over_source", "result": "PASS", "basis": "Workbook cells were separated from agency sentences."},
+      {"target": "closure_as_verification", "result": "PASS_AFTER_CORRECTION", "basis": "01 initially left images unread; 01A and this receipt keep 공개완료 separate from verification."},
+      {"target": "lawsuit_as_default", "result": "PASS_WITH_LIMIT", "basis": "Later replies rejected serial lawsuits. A one-time deadline check was still introduced and is itself a small burden."},
+      {"target": "false_completion", "result": "FAIL_THEN_CORRECTED", "basis": "01 said MFDS images were unread. 01A corrected that after the images arrived. Report body remains NOT_READ."},
+      {"target": "noncrime_stops_review", "result": "PASS_AFTER_CLARIFICATION", "basis": "Non-establishment of crime was later explicitly separated from stopping record-controller questions."},
+      {"target": "emotion_as_credibility_penalty", "result": "PASS", "basis": "Family wording was preserved as characterization, not used to discount the record gap."}
+    ]
+  },
+  "independent_dissent": [
+    "A numeric VOS can still be misread as a qualification score on 2026-10-12. I would not use the illustrative number to approve or reject an institution.",
+    "Putting AX-08 first is an execution check order for burden shifting, not a claim that AX-08 outranks AX-01 or AX-09.",
+    "CIVIC-TRACE 0.4.5 has an R3 design-record approval dated 2026-10-05. That approval does not approve this VOS sync proposal and does not deploy a service.",
+    "Existing-record reuse reduces retelling. It does not by itself produce the release original."
+  ],
+  "objective_function_and_code": {
+    "path": "/workspace/artifacts/vos_objective_candidate.py",
+    "sha256": "be4729599f4ae1c5e41bc769e9da09c2b230a780bf1bacf243bb7d253ece8ce2",
+    "status": "NEW_DESIGN_CANDIDATE_NOT_AN_EDIT_OF_EXISTING_ADONIS_CODE"
+  },
+  "tests_executed_and_not_executed": {
+    "executed": "python3 vos_objective_candidate.py on 2026-10-08",
+    "observed": {
+      "assignment_date_illustrative": 0.94,
+      "unread_report_illustrative": 0.25,
+      "return_link_illustrative": 0.91,
+      "false_completion_blocked": true
+    },
+    "not_executed": "No production deployment, no institution transmission, no calibration against real cost data"
+  },
+  "victim_burden_before_after": {
+    "before": "Each new reviewer required the family to restate the six MFDS questions, the return-disposal gap, and the lawsuit-cost history.",
+    "after_this_receipt": "Those items are fixed as observed or unread. The family should not have to retype them for this review.",
+    "not_reduced": "MFDS, HIRA, the health centre, and the manufacturer have not produced the missing records. Cost of a future lawsuit is unchanged."
+  },
+  "limitations": [
+    "Report body NOT_READ",
+    "Adonis implementation NOT_FOUND",
+    "Weights ILLUSTRATIVE_UNCALIBRATED",
+    "This receipt is not R3 approval and not archive registration"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "SGP-QSV-FILE-MANIFEST/0.1",
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "name": "R3-20261008-README.md",
+      "size_bytes": 5434,
+      "sha256": "0c30981f0739ed6ac0fa0d94d36e062f41c5e716eaa6f81e5ccdd352aef0d6b7"
+    },
+    {
+      "name": "R3-20261008-codex-verification.json",
+      "size_bytes": 978,
+      "sha256": "a69a98f6c182044a86d92bee38a852a5ce8a0b0a48e91493dc6cfe77c39d5c07"
+    },
+    {
+      "name": "R3-20261008-execution-principles.json",
+      "size_bytes": 2961,
+      "sha256": "a10d61a2bac9ffc3b6d976b6e1c029e3a20fff3f4cbd08bb02de72728d4aa66a"
+    },
+    {
+      "name": "R3-20261008-execution.log",
+      "size_bytes": 4062,
+      "sha256": "f75a63b874af4301628417eea100d52a20205b7752247d3ccaf44420d310164e"
+    },
+    {
+      "name": "R3-20261008-public-ai-constraints-preview.json",
+      "size_bytes": 2866,
+      "sha256": "97d0483d7adbac0fa751680da1bf4a12bc2840322a15cc006cd777df62db4486"
+    },
+    {
+      "name": "R3-20261008-review.py",
+      "size_bytes": 2617,
+      "sha256": "30a6d1cbea05f8a861a95f35fecf1630dd199286daae74501abbf40d290bcac7"
+    },
+    {
+      "name": "R3-20261008-worklog.json",
+      "size_bytes": 3896,
+      "sha256": "fbbc7b806176f04797dbd91cfc1f1d9138a590aa884b3fd14d881ee4284ddb21"
+    },
+    {
+      "name": "SGP-QSV-GROK-REVIEW-BOARD-20261008-01-RECEIPT.json",
+      "size_bytes": 1748,
+      "sha256": "8e8ee5af1f138ff13846c5bc7cffa6147e41900a256e34fcdd585b177d279ac3"
+    },
+    {
+      "name": "SGP-QSV-GROK-VOS-SYNC-20261008-01-RECEIPT.json",
+      "size_bytes": 5709,
+      "sha256": "4f565394ce4d103816c40eaa3b4ed8db9ad8f03b7bb617440e29cbad6aa1f121"
+    },
+    {
+      "name": "SGP-QSV-R3-00518001-GROK-20261008-01A.json",
+      "size_bytes": 2138,
+      "sha256": "7b428cb44694b909e16cfbd1978cccb883329b613eca2ac8dc0a172ccaa784cd"
+    },
+    {
+      "name": "grok_reported_reproduction_output.json",
+      "size_bytes": 2993,
+      "sha256": "423903f4b226fcb6fb886a2cbd01104418741c5b49ece78337bb2d9c90aca012"
+    },
+    {
+      "name": "run_vos_reproduction.py",
+      "size_bytes": 1655,
+      "sha256": "e4ced7ad6c131c9801b06d278d37f4228cf0408670c644142035283c3f488f4f"
+    },
+    {
+      "name": "vos_counterexamples.json",
+      "size_bytes": 2090,
+      "sha256": "d933cb0e985c8fa4abb35ac9ac6dd26faffa70ca354e4419d0ba5fddbca6797e"
+    },
+    {
+      "name": "vos_objective_candidate.py",
+      "size_bytes": 5634,
+      "sha256": "e4d67794e79ae5cdc3aaf9732460b3e8bd3d84814dce4b1bd47b1d48e3d04a8d"
+    },
+    {
+      "name": "vos_reproduction_output.json",
+      "size_bytes": 2993,
+      "sha256": "423903f4b226fcb6fb886a2cbd01104418741c5b49ece78337bb2d9c90aca012"
+    }
+  ]
+}
