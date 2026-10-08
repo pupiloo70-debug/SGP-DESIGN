@@ -1,0 +1,149 @@
+=== Supplied runner stdout ===
+{
+  "adoption": false,
+  "r3_approval": false,
+  "counterexamples": [
+    {
+      "name": "string_bool",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [
+        "BOOL_TYPE:existing_record_reused"
+      ],
+      "hard_violations": [],
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    },
+    {
+      "name": "nan_units",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [
+        "NONFINITE_UNITS:victim_repeat_units_before"
+      ],
+      "hard_violations": [],
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    },
+    {
+      "name": "inf_units",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [
+        "NONFINITE_UNITS:victim_repeat_units_before"
+      ],
+      "hard_violations": [],
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    },
+    {
+      "name": "negative_units",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [
+        "UNIT_TYPE:victim_repeat_units_before"
+      ],
+      "hard_violations": [],
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    },
+    {
+      "name": "unknown_access",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ],
+      "hard_violations": [],
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    },
+    {
+      "name": "missing_report_marked_complete",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [],
+      "hard_violations": [
+        "UNREAD_MARKED_COMPLETE"
+      ],
+      "illustrative_score": null,
+      "score_status": "BLOCKED_BY_HARD_CONSTRAINT"
+    },
+    {
+      "name": "closure_as_done",
+      "exception": null,
+      "eligible_for_display": false,
+      "immunity": false,
+      "structure_errors": [],
+      "hard_violations": [
+        "CLOSURE_IS_NOT_VERIFICATION"
+      ],
+      "illustrative_score": null,
+      "score_status": "BLOCKED_BY_HARD_CONSTRAINT"
+    }
+  ],
+  "lp728_gaps_outside_score": {
+    "case_id": "LP728-LOT00518001",
+    "not_a_score": true,
+    "agency_claim": {
+      "16987007_items_1_2": "정보 부존재",
+      "portal_status": "공개완료",
+      "items_3_5": "research report referral only",
+      "item_6_distinction_on_captures": "NOT_VISIBLE"
+    },
+    "substantive_evaluation": {
+      "evaluator": "Grok 4.7",
+      "report_body": "NOT_READ",
+      "return_8_to_disposal_link": "UNRESOLVED",
+      "disposal_reported_sum": 42,
+      "conditional_pack_conversion": 51,
+      "access_failure_is_not_family_proof_failure": true
+    }
+  }
+}
+
+=== Supplied runner stderr ===
+
+=== Independent review ===
+{
+  "schema": "SGP-QSV-CODEX-LOCAL-REPRODUCTION/0.1",
+  "date": "2026-10-08",
+  "runtime": "3.12.14",
+  "command": "python3 R3-20261008-review.py",
+  "supplied_runner_exit_code": 0,
+  "seven_supplied_cases_match_reported_output": true,
+  "supplied_case_count": 7,
+  "additional_probes": [
+    {
+      "probe": "burden_increased",
+      "eligible_for_display": true,
+      "score": 0.85,
+      "burden_delta": -99,
+      "exception": null
+    },
+    {
+      "probe": "list_access",
+      "exception": "TypeError",
+      "message": "unhashable type: 'list'"
+    },
+    {
+      "probe": "missing_risk_defaults",
+      "eligible_for_display": true,
+      "score": 0.85,
+      "burden_delta": 0,
+      "exception": null
+    }
+  ],
+  "remaining_defect_count": 3,
+  "review_scope": "Provided Grok candidate only; not Gemini/DeepSeek/V6/V7/V8 full regression",
+  "implementation_pass": false,
+  "r3_approval": false,
+  "deployment": false,
+  "canonical_axiom_mapping": "NOT_VERIFIED"
+}
