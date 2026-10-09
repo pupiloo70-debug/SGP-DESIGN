@@ -9,8 +9,8 @@
     },
     {
       "name": "R3-20261008-codex-verification.json",
-      "size_bytes": 978,
-      "sha256": "a69a98f6c182044a86d92bee38a852a5ce8a0b0a48e91493dc6cfe77c39d5c07"
+      "size_bytes": 921,
+      "sha256": "be66bf0e85e221160f5c2cd36f3188d14daa771e8ef02752e98c2dfe4f130ec6"
     },
     {
       "name": "R3-20261008-execution-principles.json",
@@ -19,8 +19,8 @@
     },
     {
       "name": "R3-20261008-execution.log",
-      "size_bytes": 4062,
-      "sha256": "f75a63b874af4301628417eea100d52a20205b7752247d3ccaf44420d310164e"
+      "size_bytes": 13174,
+      "sha256": "e03be98b50ef5a40a4d8f1fbd0b3be2537d7ac94cfd47c69e18e41ebda185dd7"
     },
     {
       "name": "R3-20261008-public-ai-constraints-preview.json",
@@ -29,8 +29,8 @@
     },
     {
       "name": "R3-20261008-review.py",
-      "size_bytes": 2617,
-      "sha256": "30a6d1cbea05f8a861a95f35fecf1630dd199286daae74501abbf40d290bcac7"
+      "size_bytes": 2894,
+      "sha256": "7deb606d65c753d0880c5511b362b0f0600ff5303bafe160f2a1ed00a26b7f84"
     },
     {
       "name": "R3-20261008-worklog.json",
@@ -59,23 +59,28 @@
     },
     {
       "name": "run_vos_reproduction.py",
-      "size_bytes": 1655,
-      "sha256": "e4ced7ad6c131c9801b06d278d37f4228cf0408670c644142035283c3f488f4f"
+      "size_bytes": 1631,
+      "sha256": "0cd6552efd587e641b4dfc2b83275aafdcfba9cd118b6ff26cbeb53041ce067a"
     },
     {
       "name": "vos_counterexamples.json",
-      "size_bytes": 2090,
-      "sha256": "d933cb0e985c8fa4abb35ac9ac6dd26faffa70ca354e4419d0ba5fddbca6797e"
+      "size_bytes": 9769,
+      "sha256": "d3bdb1220f91110807ef5f4ebff286d50d5ef1f5f747aed9ed47300ab184435d"
     },
     {
       "name": "vos_objective_candidate.py",
-      "size_bytes": 5634,
-      "sha256": "e4d67794e79ae5cdc3aaf9732460b3e8bd3d84814dce4b1bd47b1d48e3d04a8d"
+      "size_bytes": 6545,
+      "sha256": "49fd2039ea5fccf3277c009c3a3c5bacb670368d77692f05dd55f4e6f06bbb11"
     },
     {
       "name": "vos_reproduction_output.json",
-      "size_bytes": 2993,
-      "sha256": "423903f4b226fcb6fb886a2cbd01104418741c5b49ece78337bb2d9c90aca012"
+      "size_bytes": 11223,
+      "sha256": "dd66dae3e20359a04c3e39a0f00b88eec3dd1e76dca60afeb227b4015c3b6106"
     }
-  ]
+  ],
+  "revision_date": "2026-10-09",
+  "parent_commit": "f0adef58d293c73b1b7d6b7e61c8bb1b4fd566fb",
+  "change_scope": "Three implementation defects; historical Grok report and 2026-10-08 worklog retained as historical records.",
+  "grok_reported_reproduction_output_status": "HISTORICAL_SUBMITTER_REPORT_NOT_CURRENT_EXPECTED_OUTPUT",
+  "current_expected_output_source": "vos_counterexamples.json / expected"
 }

@@ -1,90 +1,376 @@
 {
+  "schema": "SGP-QSV-LOCAL-REPRODUCTION/0.2",
+  "revision_date": "2026-10-09",
   "adoption": false,
   "r3_approval": false,
+  "deployment": false,
   "counterexamples": [
     {
       "name": "string_bool",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
+      "hard_violations": [],
       "structure_errors": [
         "BOOL_TYPE:existing_record_reused"
       ],
-      "hard_violations": [],
+      "components": {},
       "illustrative_score": null,
-      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     },
     {
       "name": "nan_units",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
+      "hard_violations": [],
       "structure_errors": [
         "NONFINITE_UNITS:victim_repeat_units_before"
       ],
-      "hard_violations": [],
+      "components": {},
       "illustrative_score": null,
-      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     },
     {
       "name": "inf_units",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
+      "hard_violations": [],
       "structure_errors": [
         "NONFINITE_UNITS:victim_repeat_units_before"
       ],
-      "hard_violations": [],
+      "components": {},
       "illustrative_score": null,
-      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     },
     {
       "name": "negative_units",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
+      "hard_violations": [],
       "structure_errors": [
         "UNIT_TYPE:victim_repeat_units_before"
       ],
-      "hard_violations": [],
+      "components": {},
       "illustrative_score": null,
-      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     },
     {
       "name": "unknown_access",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
+      "hard_violations": [],
       "structure_errors": [
         "SOURCE_ACCESS_NOT_VERIFIED"
       ],
-      "hard_violations": [],
+      "components": {},
       "illustrative_score": null,
-      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     },
     {
       "name": "missing_report_marked_complete",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
-      "structure_errors": [],
       "hard_violations": [
         "UNREAD_MARKED_COMPLETE"
       ],
+      "structure_errors": [],
+      "components": {
+        "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
+        "source_access": 0.0,
+        "existing_reuse": 0.0,
+        "controller_and_gap_identified": 1.0,
+        "victim_repeat_units_before": 1,
+        "victim_repeat_units_after": 0,
+        "victim_burden_delta": -1,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": null,
+        "risk_assessment_status": "UNKNOWN",
+        "lp728_gaps_outside_score": true
+      },
       "illustrative_score": null,
-      "score_status": "BLOCKED_BY_HARD_CONSTRAINT"
+      "score_status": "BLOCKED_BY_HARD_CONSTRAINT",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     },
     {
       "name": "closure_as_done",
       "exception": null,
       "eligible_for_display": false,
-      "immunity": false,
-      "structure_errors": [],
       "hard_violations": [
         "CLOSURE_IS_NOT_VERIFICATION"
       ],
+      "structure_errors": [],
+      "components": {
+        "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
+        "source_access": 1.0,
+        "existing_reuse": 1.0,
+        "controller_and_gap_identified": 1.0,
+        "victim_repeat_units_before": 1,
+        "victim_repeat_units_after": 1,
+        "victim_burden_delta": 0,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": null,
+        "risk_assessment_status": "UNKNOWN",
+        "lp728_gaps_outside_score": true
+      },
       "illustrative_score": null,
-      "score_status": "BLOCKED_BY_HARD_CONSTRAINT"
+      "score_status": "BLOCKED_BY_HARD_CONSTRAINT",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "list_access",
+      "exception": null,
+      "eligible_for_display": false,
+      "hard_violations": [],
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ],
+      "components": {},
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "dict_access",
+      "exception": null,
+      "eligible_for_display": false,
+      "hard_violations": [],
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ],
+      "components": {},
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "numeric_access",
+      "exception": null,
+      "eligible_for_display": false,
+      "hard_violations": [],
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ],
+      "components": {},
+      "illustrative_score": null,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "missing_risk_defaults",
+      "exception": null,
+      "eligible_for_display": false,
+      "hard_violations": [],
+      "structure_errors": [],
+      "components": {
+        "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
+        "source_access": 1.0,
+        "existing_reuse": 1.0,
+        "controller_and_gap_identified": 1.0,
+        "victim_repeat_units_before": 1,
+        "victim_repeat_units_after": 1,
+        "victim_burden_delta": 0,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": null,
+        "risk_assessment_status": "UNKNOWN",
+        "lp728_gaps_outside_score": true,
+        "unknown_risk_fields": [
+          "closure_treated_as_verification",
+          "gap_treated_as_immunity",
+          "gap_treated_as_victim_fault",
+          "crime_or_causation_asserted",
+          "crime_elements_established",
+          "unread_marked_complete",
+          "emotion_used_as_credibility_penalty"
+        ]
+      },
+      "illustrative_score": null,
+      "score_status": "PENDING_RISK_ASSESSMENT",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "burden_increased",
+      "exception": null,
+      "eligible_for_display": false,
+      "hard_violations": [],
+      "structure_errors": [],
+      "components": {
+        "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
+        "source_access": 1.0,
+        "existing_reuse": 1.0,
+        "controller_and_gap_identified": 1.0,
+        "victim_repeat_units_before": 1,
+        "victim_repeat_units_after": 100,
+        "victim_burden_delta": 99,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": "BURDEN_INCREASED",
+        "risk_assessment_status": "EXPLICIT_VALUES_PROVIDED_NOT_INDEPENDENTLY_VERIFIED",
+        "lp728_gaps_outside_score": true
+      },
+      "illustrative_score": null,
+      "score_status": "HELD_BURDEN_INCREASE",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "positive_known_no_increase",
+      "exception": null,
+      "eligible_for_display": true,
+      "hard_violations": [],
+      "structure_errors": [],
+      "components": {
+        "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
+        "source_access": 1.0,
+        "existing_reuse": 1.0,
+        "controller_and_gap_identified": 1.0,
+        "victim_repeat_units_before": 1,
+        "victim_repeat_units_after": 1,
+        "victim_burden_delta": 0,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": null,
+        "risk_assessment_status": "EXPLICIT_VALUES_PROVIDED_NOT_INDEPENDENTLY_VERIFIED",
+        "lp728_gaps_outside_score": true
+      },
+      "illustrative_score": 0.85,
+      "score_status": "ILLUSTRATIVE_UNCALIBRATED_NOT_A_VERDICT",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
+    },
+    {
+      "name": "positive_known_decrease",
+      "exception": null,
+      "eligible_for_display": true,
+      "hard_violations": [],
+      "structure_errors": [],
+      "components": {
+        "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
+        "source_access": 1.0,
+        "existing_reuse": 1.0,
+        "controller_and_gap_identified": 1.0,
+        "victim_repeat_units_before": 5,
+        "victim_repeat_units_after": 1,
+        "victim_burden_delta": -4,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": null,
+        "risk_assessment_status": "EXPLICIT_VALUES_PROVIDED_NOT_INDEPENDENTLY_VERIFIED",
+        "lp728_gaps_outside_score": true
+      },
+      "illustrative_score": 0.85,
+      "score_status": "ILLUSTRATIVE_UNCALIBRATED_NOT_A_VERDICT",
+      "immunity": false,
+      "cannot_decide": [
+        "guilt",
+        "causation",
+        "compensation",
+        "forfeiture",
+        "rights_restriction",
+        "adoption"
+      ]
     }
   ],
   "lp728_gaps_outside_score": {
@@ -104,5 +390,6 @@
       "conditional_pack_conversion": 51,
       "access_failure_is_not_family_proof_failure": true
     }
-  }
+  },
+  "lp728_record_scope": "Inherited submitter report; not independently reread by this code correction."
 }

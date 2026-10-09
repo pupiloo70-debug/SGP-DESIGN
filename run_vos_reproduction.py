@@ -1,51 +1,39 @@
-"""One-command reproduction. Prints counterexample results and LP728 gaps."""
-
+"""Run public fixtures and write full actual output. No adoption or approval."""
 import json
-import math
+from dataclasses import asdict
 from pathlib import Path
-
 import vos_objective_candidate as vos
 
 
-def load_value(value):
-    if value == "NaN":
-        return float("nan")
-    if value == "Infinity":
-        return float("inf")
-    return value
-
-
-def main() -> None:
+def run_cases():
     here = Path(__file__).resolve().parent
-    rows = json.loads((here / "vos_counterexamples.json").read_text(encoding="utf-8"))
+    cases = json.loads((here / 'vos_counterexamples.json').read_text(encoding='utf-8'))
     results = []
-    for row in rows:
-        name = row.pop("name")
-        item = vos.IssueInput(issue_id=name, **{key: load_value(value) for key, value in row.items()})
+    for source in cases:
+        row = dict(source)
+        name = row.pop('name')
+        row.pop('expected', None)
+        for key in vos.UNIT_FIELDS:
+            if row.get(key) == 'NaN':
+                row[key] = float('nan')
+            elif row.get(key) == 'Infinity':
+                row[key] = float('inf')
         try:
-            ev = vos.evaluate(item)
-            results.append({
-                "name": name,
-                "exception": None,
-                "eligible_for_display": ev.eligible_for_display,
-                "immunity": ev.immunity,
-                "structure_errors": ev.structure_errors,
-                "hard_violations": ev.hard_violations,
-                "illustrative_score": ev.illustrative_score,
-                "score_status": ev.score_status,
-            })
+            actual = asdict(vos.evaluate(vos.IssueInput(issue_id=name, **row)))
+            results.append({'name': name, 'exception': None, **actual})
         except Exception as exc:
-            results.append({"name": name, "exception": type(exc).__name__, "error": str(exc)})
-    payload = {
-        "adoption": False,
-        "r3_approval": False,
-        "counterexamples": results,
-        "lp728_gaps_outside_score": vos.LP728_GAPS_OUTSIDE_SCORE,
-    }
-    text = json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False)
-    (here / "vos_reproduction_output.json").write_text(text + "\n", encoding="utf-8")
-    print(text)
+            results.append({'name': name, 'exception': type(exc).__name__, 'error': str(exc)})
+    return {'schema': 'SGP-QSV-LOCAL-REPRODUCTION/0.2', 'revision_date': '2026-10-09',
+            'adoption': False, 'r3_approval': False, 'deployment': False,
+            'counterexamples': results, 'lp728_gaps_outside_score': vos.LP728_GAPS_OUTSIDE_SCORE,
+            'lp728_record_scope': 'Inherited submitter report; not independently reread by this code correction.'}
 
 
-if __name__ == "__main__":
+def main():
+    payload = run_cases()
+    text = json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False) + '\n'
+    (Path(__file__).resolve().parent / 'vos_reproduction_output.json').write_text(text, encoding='utf-8')
+    print(text, end='')
+
+if __name__ == '__main__':
     main()

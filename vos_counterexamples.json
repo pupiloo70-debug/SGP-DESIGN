@@ -1,9 +1,319 @@
 [
-  {"name": "string_bool", "existing_record_reused": "yes", "source_access": "ORIGINAL", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": 1, "victim_repeat_units_after": 1},
-  {"name": "nan_units", "existing_record_reused": true, "source_access": "ORIGINAL", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": "NaN", "victim_repeat_units_after": 1},
-  {"name": "inf_units", "existing_record_reused": true, "source_access": "ORIGINAL", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": "Infinity", "victim_repeat_units_after": 1},
-  {"name": "negative_units", "existing_record_reused": true, "source_access": "ORIGINAL", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": -1, "victim_repeat_units_after": 0},
-  {"name": "unknown_access", "existing_record_reused": true, "source_access": "UNKNOWN", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": 1, "victim_repeat_units_after": 1},
-  {"name": "missing_report_marked_complete", "existing_record_reused": false, "source_access": "NOT_READ", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": 1, "victim_repeat_units_after": 0, "unread_marked_complete": true},
-  {"name": "closure_as_done", "existing_record_reused": true, "source_access": "ORIGINAL", "controller_named": true, "unanswered_specified": true, "new_procedure_recommended": false, "existing_tasks_listed_first": true, "victim_repeat_units_before": 1, "victim_repeat_units_after": 1, "closure_treated_as_verification": true}
+  {
+    "name": "string_bool",
+    "existing_record_reused": "yes",
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    }
+  },
+  {
+    "name": "nan_units",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": "NaN",
+    "victim_repeat_units_after": 1,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    }
+  },
+  {
+    "name": "inf_units",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": "Infinity",
+    "victim_repeat_units_after": 1,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    }
+  },
+  {
+    "name": "negative_units",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": -1,
+    "victim_repeat_units_after": 0,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    }
+  },
+  {
+    "name": "unknown_access",
+    "existing_record_reused": true,
+    "source_access": "UNKNOWN",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY"
+    }
+  },
+  {
+    "name": "missing_report_marked_complete",
+    "existing_record_reused": false,
+    "source_access": "NOT_READ",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 0,
+    "unread_marked_complete": true,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "BLOCKED_BY_HARD_CONSTRAINT"
+    }
+  },
+  {
+    "name": "closure_as_done",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "closure_treated_as_verification": true,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "BLOCKED_BY_HARD_CONSTRAINT"
+    }
+  },
+  {
+    "name": "list_access",
+    "existing_record_reused": true,
+    "source_access": [],
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "closure_treated_as_verification": false,
+    "gap_treated_as_immunity": false,
+    "gap_treated_as_victim_fault": false,
+    "crime_or_causation_asserted": false,
+    "crime_elements_established": false,
+    "unread_marked_complete": false,
+    "emotion_used_as_credibility_penalty": false,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ]
+    }
+  },
+  {
+    "name": "dict_access",
+    "existing_record_reused": true,
+    "source_access": {},
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "closure_treated_as_verification": false,
+    "gap_treated_as_immunity": false,
+    "gap_treated_as_victim_fault": false,
+    "crime_or_causation_asserted": false,
+    "crime_elements_established": false,
+    "unread_marked_complete": false,
+    "emotion_used_as_credibility_penalty": false,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ]
+    }
+  },
+  {
+    "name": "numeric_access",
+    "existing_record_reused": true,
+    "source_access": 1,
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "closure_treated_as_verification": false,
+    "gap_treated_as_immunity": false,
+    "gap_treated_as_victim_fault": false,
+    "crime_or_causation_asserted": false,
+    "crime_elements_established": false,
+    "unread_marked_complete": false,
+    "emotion_used_as_credibility_penalty": false,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "STRUCTURE_REJECTED_NOT_IMMUNITY",
+      "structure_errors": [
+        "SOURCE_ACCESS_NOT_VERIFIED"
+      ]
+    }
+  },
+  {
+    "name": "missing_risk_defaults",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "PENDING_RISK_ASSESSMENT"
+    }
+  },
+  {
+    "name": "burden_increased",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 100,
+    "closure_treated_as_verification": false,
+    "gap_treated_as_immunity": false,
+    "gap_treated_as_victim_fault": false,
+    "crime_or_causation_asserted": false,
+    "crime_elements_established": false,
+    "unread_marked_complete": false,
+    "emotion_used_as_credibility_penalty": false,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": false,
+      "illustrative_score": null,
+      "immunity": false,
+      "score_status": "HELD_BURDEN_INCREASE",
+      "components": {
+        "victim_burden_delta": 99,
+        "burden_warning": "BURDEN_INCREASED"
+      }
+    }
+  },
+  {
+    "name": "positive_known_no_increase",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 1,
+    "victim_repeat_units_after": 1,
+    "closure_treated_as_verification": false,
+    "gap_treated_as_immunity": false,
+    "gap_treated_as_victim_fault": false,
+    "crime_or_causation_asserted": false,
+    "crime_elements_established": false,
+    "unread_marked_complete": false,
+    "emotion_used_as_credibility_penalty": false,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": true,
+      "illustrative_score": 0.85,
+      "immunity": false,
+      "score_status": "ILLUSTRATIVE_UNCALIBRATED_NOT_A_VERDICT",
+      "components": {
+        "victim_burden_delta": 0,
+        "burden_warning": null
+      }
+    }
+  },
+  {
+    "name": "positive_known_decrease",
+    "existing_record_reused": true,
+    "source_access": "ORIGINAL",
+    "controller_named": true,
+    "unanswered_specified": true,
+    "new_procedure_recommended": false,
+    "existing_tasks_listed_first": true,
+    "victim_repeat_units_before": 5,
+    "victim_repeat_units_after": 1,
+    "closure_treated_as_verification": false,
+    "gap_treated_as_immunity": false,
+    "gap_treated_as_victim_fault": false,
+    "crime_or_causation_asserted": false,
+    "crime_elements_established": false,
+    "unread_marked_complete": false,
+    "emotion_used_as_credibility_penalty": false,
+    "expected": {
+      "exception": null,
+      "eligible_for_display": true,
+      "illustrative_score": 0.85,
+      "immunity": false,
+      "score_status": "ILLUSTRATIVE_UNCALIBRATED_NOT_A_VERDICT",
+      "components": {
+        "victim_burden_delta": -4,
+        "burden_warning": null
+      }
+    }
+  }
 ]

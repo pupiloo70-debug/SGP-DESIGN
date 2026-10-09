@@ -1,5 +1,7 @@
 """Defect-fixed research candidate. Not adopted. Not an R3 approval.
 
+Revision: 2026-10-09. Local correction candidate, not a governance approval.
+
 Confirmed defects closed here:
 - non-bool values no longer score as true
 - NaN and Inf no longer produce a score
@@ -30,6 +32,7 @@ BOOL_FIELDS = (
     "unread_marked_complete",
     "emotion_used_as_credibility_penalty",
 )
+RISK_FIELDS = BOOL_FIELDS[5:]
 UNIT_FIELDS = ("victim_repeat_units_before", "victim_repeat_units_after")
 
 
@@ -44,13 +47,13 @@ class IssueInput:
     existing_tasks_listed_first: Any
     victim_repeat_units_before: Any
     victim_repeat_units_after: Any
-    closure_treated_as_verification: Any = False
-    gap_treated_as_immunity: Any = False
-    gap_treated_as_victim_fault: Any = False
-    crime_or_causation_asserted: Any = False
-    crime_elements_established: Any = False
-    unread_marked_complete: Any = False
-    emotion_used_as_credibility_penalty: Any = False
+    closure_treated_as_verification: Any = None
+    gap_treated_as_immunity: Any = None
+    gap_treated_as_victim_fault: Any = None
+    crime_or_causation_asserted: Any = None
+    crime_elements_established: Any = None
+    unread_marked_complete: Any = None
+    emotion_used_as_credibility_penalty: Any = None
 
 
 @dataclass
@@ -76,9 +79,11 @@ def _finite_nonnegative_int(value: Any) -> bool:
 def structure_errors(item: IssueInput) -> list[str]:
     found = []
     for name in BOOL_FIELDS:
+        if getattr(item, name) is None and name in RISK_FIELDS:
+            continue
         if type(getattr(item, name)) is not bool:
             found.append(f"BOOL_TYPE:{name}")
-    if item.source_access not in SOURCE_ACCESS:
+    if not isinstance(item.source_access, str) or item.source_access not in SOURCE_ACCESS:
         found.append("SOURCE_ACCESS_NOT_VERIFIED")
     for name in UNIT_FIELDS:
         value = getattr(item, name)
@@ -118,7 +123,7 @@ def evaluate(item: IssueInput) -> Evaluation:
     access = SOURCE_ACCESS[item.source_access]
     reuse = 1.0 if item.existing_record_reused else 0.0
     identified = 1.0 if item.controller_named and item.unanswered_specified else 0.0
-    burden_delta = item.victim_repeat_units_before - item.victim_repeat_units_after
+    burden_delta = item.victim_repeat_units_after - item.victim_repeat_units_before
     components = {
         "weight_status": "ILLUSTRATIVE_UNCALIBRATED",
         "source_access": access,
@@ -127,11 +132,21 @@ def evaluate(item: IssueInput) -> Evaluation:
         "victim_repeat_units_before": item.victim_repeat_units_before,
         "victim_repeat_units_after": item.victim_repeat_units_after,
         "victim_burden_delta": burden_delta,
+        "burden_delta_definition": "AFTER_MINUS_BEFORE",
+        "burden_warning": "BURDEN_INCREASED" if burden_delta > 0 else None,
+        "risk_assessment_status": "UNKNOWN" if any(getattr(item, n) is None for n in RISK_FIELDS) else "EXPLICIT_VALUES_PROVIDED_NOT_INDEPENDENTLY_VERIFIED",
         "lp728_gaps_outside_score": True,
     }
     if violations:
         return Evaluation(False, violations, [], components, None, "BLOCKED_BY_HARD_CONSTRAINT", False)
-    score = (0.35 * access) + (0.25 * reuse) + (0.25 * identified) + (0.15 * max(burden_delta, 0) / 5)
+    unknown = [name for name in RISK_FIELDS if getattr(item, name) is None]
+    if unknown:
+        components["unknown_risk_fields"] = unknown
+        return Evaluation(False, [], [], components, None, "PENDING_RISK_ASSESSMENT", False)
+    if burden_delta > 0:
+        return Evaluation(False, [], [], components, None, "HELD_BURDEN_INCREASE", False)
+    # Support-only illustrative score; burden cannot improve or offset it.
+    score = (0.35 * access) + (0.25 * reuse) + (0.25 * identified)
     return Evaluation(
         True, [], [], components, round(min(score, 1.0), 4),
         "ILLUSTRATIVE_UNCALIBRATED_NOT_A_VERDICT", False
