@@ -1,0 +1,138 @@
+{
+  "schema": "SGP-QSV-CT-RULE-6.3-REVIEW-PACKET/1.0",
+  "packet_id": "CT63-LP728-20261012-01",
+  "protocol": "CIVIC-TRACE 0.4.5",
+  "parent_rule": "CT-RULE-6.3",
+  "trigger_rule": "CT045-ES-01",
+  "created_at": "2026-10-12",
+  "timezone": "Asia/Seoul",
+  "status": "REVIEW_PACKET_DRAFT",
+  "runtime_deployed": false,
+  "case_transition": false,
+  "scope": [
+    "LP728-LOT-01",
+    "LP728-NFS-01"
+  ],
+  "epistemic_locks": {
+    "medical_causation": "UNRESOLVED",
+    "experimental_administration": "NOT_ESTABLISHED",
+    "R2.6-3_substantiated_obstruction": "NOT_ESTABLISHED",
+    "R2.6-4_legally_established_misconduct": "NOT_ESTABLISHED",
+    "automatic_guilt": false,
+    "automatic_immunity": false,
+    "record_absence_equals_event_absence": false,
+    "authority_reply_equals_verification_complete": false
+  },
+  "preserved_questions": [
+    {
+      "question_id": "Q-LOT-IDENTITY",
+      "text": "2018년 국가출하승인 LOT 00518001은 어느 품목·수량·포장의 상용 완제품이며, 후보 4,070병 및 MFDS-B-18-001과 제조번호가 물리적으로 구별되는가"
+    },
+    {
+      "question_id": "Q-RELEASE-SOURCE",
+      "text": "출하승인 원본, 제조·품질관리요약서, BMR·CoA의 식별 항목은 어디에 있으며 누가 보유하는가"
+    },
+    {
+      "question_id": "Q-HIRA-GAP",
+      "text": "심평원 첫 추출의 반품 2건과 둘째 추출의 폐기 3행은 왜 달랐으며, 반품 8개와 폐기 행은 연결되는가"
+    },
+    {
+      "question_id": "Q-NFS-SPECIMEN",
+      "text": "국과수 병리 슬라이드·파라핀 블록의 생성·폐기·복구 가능 여부는 무엇인가"
+    }
+  ],
+  "controller_packets": [
+    {
+      "controller": "식품의약품안전처",
+      "source_refs": [
+        "민원 1AA-2607-1310486",
+        "청구 15523793",
+        "청구 17331954"
+      ],
+      "cited_closure": "의약품안전나라 검색상 00518001 출하승인 1건, 39,130바이알. 2017-09-23은 최초 전자화 이력.",
+      "not_answered": [
+        "출하승인 원본의 품목기준코드·포장단위별 수량",
+        "시험에 사용한 국가표준품 관리번호와 사용 원기록",
+        "후보 4,070병 제조번호와의 분리",
+        "MFDS-B-18-001 최초 부여일과 2018년 상용 로트의 비동일"
+      ],
+      "closure_type": "AUTHORITY_SUMMARY_NOT_SOURCE_RECORD",
+      "next_action": "제조·품질관리요약서와 출하승인 원본의 제출 또는 부존재·보유자·폐기 경위 설명"
+    },
+    {
+      "controller": "제조사(보령바이오파마)",
+      "source_refs": [
+        "내용증명 2024–2025",
+        "영업비밀 비공개 회신",
+        "2차 기한 내 무응답"
+      ],
+      "cited_closure": "영업비밀 비공개. 이후 기한 내 답변 없음.",
+      "not_answered": [
+        "00518001 BMR·CoA의 품목명·제조일·유효기한·충전·출하 수량",
+        "상용 완제품과 후보물질의 제조번호 대조"
+      ],
+      "closure_type": "TRADE_SECRET_OR_NONRESPONSE",
+      "next_action": "식별 항목만 부분공개하거나, 비밀 해당 호와 대체 검증 경로를 항목별로 특정"
+    },
+    {
+      "controller": "건강보험심사평가원",
+      "source_refs": [
+        "17457832",
+        "17630553"
+      ],
+      "cited_closure": "2021–2026.7 공급보고. 5년 보존으로 2021년 이전 통계 비산출. 업체명 영업비밀.",
+      "not_answered": [
+        "첫 추출에 폐기 3행이 빠진 조회 조건",
+        "반품 8개와 폐기 행의 일련번호 연결",
+        "2022-09-21 기타 폐기의 실제 역할",
+        "2019년 접종 당시 출고 경로"
+      ],
+      "closure_type": "SCOPE_LIMITED_EXTRACT",
+      "next_action": "2021년 이후 행의 누락 이유와, 2019년 경로가 자기 소관이 아님을 구분해 설명"
+    },
+    {
+      "controller": "노원구보건소",
+      "source_refs": [
+        "2021 역학조사",
+        "출하증명 폐기 통지 2024–2025"
+      ],
+      "cited_closure": "00518001 출하승인서를 나중에 폐기했다고 통지. 포함 근거는 추가 질의 중.",
+      "not_answered": [
+        "2019년 입고 서류에 출하승인서 사본이 있었는지",
+        "폐기 목록과 00518001 승인서의 연결 근거",
+        "거래명세표와 생물학적제제 증명서의 차이"
+      ],
+      "closure_type": "DISPOSAL_NOTICE_WITHOUT_ITEM_LINK",
+      "next_action": "편철·검색·폐기 결정의 항목별 제출 또는 설명"
+    },
+    {
+      "controller": "국립과학수사연구원",
+      "source_refs": [
+        "2019-M-17306",
+        "정보공개 16839968"
+      ],
+      "cited_closure": "병리 슬라이드·파라핀 블록은 폐기 완료로 미보유.",
+      "not_answered": [
+        "생성 개수",
+        "폐기일·승인·당시 규정",
+        "사본·사진·복구 경로"
+      ],
+      "closure_type": "DISPOSAL_ASSERTED",
+      "next_action": "생성·폐기 경과와 잔존 자료의 제출 또는 설명. R2.6-3 승격 조건은 별도"
+    }
+  ],
+  "state_now": {
+    "R2.6-1_verification_loss": "FRAMEWORK_CONFIRMED_FOR_REVIEW",
+    "R2.6-2_control_failure": "AUDIT_PENDING",
+    "R2.6-3": "NOT_ESTABLISHED",
+    "R2.6-4": "NOT_ESTABLISHED",
+    "owner_acceptance": "PROCESS_ASSIGNMENT_GAP",
+    "external_delivery": "NOT_SENT"
+  },
+  "required_output_not_done_by_this_packet": [
+    "담당 수락 영수증",
+    "외부 발송·수신 증거",
+    "상태 전환 영수증",
+    "인과 또는 위법 판단"
+  ]
+}

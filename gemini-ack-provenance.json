@@ -1,0 +1,13 @@
+{
+  "source_document_id": "SGP-QSV-GEMINI-ACK-20261012-01",
+  "source_type": "USER_PROVIDED_MODEL_OUTPUT",
+  "model_identity": "AS_REPORTED_BY_USER",
+  "issued_time": "MODEL_REPORTED_NOT_INDEPENDENTLY_AUTHENTICATED",
+  "preserved_source_status": "R3_SUBORDINATE_RULES_ACKNOWLEDGED_AND_REGISTERED",
+  "archive_status": "SOURCE_ATTACHED_USER_PROVIDED",
+  "persistent_registration_verified": false,
+  "corporate_adoption_verified": false,
+  "owner_acceptance_verified": false,
+  "cross_model_independent_proof": false,
+  "boundary": "로컬 세션 등록 응답으로 보존. 영구 등록·향후 모든 작업 적용·기업 채택·담당 수락은 별도 실행 증거로 확인."
+}

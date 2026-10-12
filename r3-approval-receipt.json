@@ -1,0 +1,116 @@
+{
+  "schema": "SGP-QSV-R3-SUBORDINATE-EXECUTION-SUPPORT-APPROVAL-ARCHIVE/1.0",
+  "document_id": "SGP-QSV-R3-CT045-EXECUTION-SUPPORT-20261012-01",
+  "record_version": "1.0.0",
+  "approval_date": "2026-10-12",
+  "timezone": "Asia/Seoul",
+  "status": "R3_APPROVED_SUBORDINATE_EXECUTION_SUPPORT_RULES",
+  "approver": {
+    "name": "강숙경",
+    "role": "R3_HUMAN_CHAIR"
+  },
+  "approval_basis": {
+    "type": "EXPLICIT_R3_MESSAGE",
+    "statement": "너의 제안 맥락에 동의한다. 그럼 이번주는 10월5일 승인한 CIVIC-TRACE 0.4.5 집행 지원 하위 규칙만 승인한다."
+  },
+  "parent": {
+    "protocol": "CIVIC-TRACE 0.4.5",
+    "approval_date": "2026-10-05",
+    "document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-APPROVED-20261005-01",
+    "reapproval": false
+  },
+  "scope": "SUBORDINATE_EXECUTION_SUPPORT_ONLY",
+  "axioms": "AX-01–AX-09_LOCKED_UNCHANGED",
+  "new_axiom_hierarchy": false,
+  "stage": "STAGE_V_NON_THRONE",
+  "approved_principle": "고위험 VOS에서는 피해와 질문 보존, 통제자의 제출·설명, 독립 재검증 경로 확보를 권위에 따른 종결보다 먼저 수행한다. 고의·공모의 최종 입증을 검토 개시 조건으로 삼지 않는다.",
+  "application_order": [
+    {
+      "order": 1,
+      "function": "PRESERVE_HARM_MEMORY_AND_QUESTIONS",
+      "axioms": [
+        "AX-08",
+        "AX-05"
+      ]
+    },
+    {
+      "order": 2,
+      "function": "VERIFY_PRIMARY_RECORDS_AND_CONTROLLERS",
+      "axioms": [
+        "AX-01",
+        "AX-02",
+        "AX-04"
+      ]
+    },
+    {
+      "order": 3,
+      "function": "REVIEW_VERIFICATION_ADEQUACY_OF_CLOSURE",
+      "axioms": [
+        "AX-03",
+        "AX-07"
+      ]
+    },
+    {
+      "order": 4,
+      "function": "ROUTE_ACCOUNTABILITY_AND_REMEDY",
+      "axioms": [
+        "AX-06"
+      ]
+    }
+  ],
+  "cross_cutting_axiom": "AX-09",
+  "approved_rules": [
+    {
+      "rule_id": "CT045-ES-01",
+      "title": "권위에 따른 자동 종결 차단",
+      "required": "미해결 질문과 처분 보존, 자동 검증 완료 보류, CT-RULE-6.3 패킷 생성과 원자료·독립 검토 경로 연결"
+    },
+    {
+      "rule_id": "CT045-ES-02",
+      "title": "검토 개시와 고의·공모 판단의 분리",
+      "required": "구체적 단서로 검토 개시. 인과·범죄·고의·공모 최종 입증을 접수 조건으로 요구하지 않음. 고의와 공모는 별도 증거 검토"
+    },
+    {
+      "rule_id": "CT045-ES-03",
+      "title": "규정의 존재와 검증 차단의 정당성 분리",
+      "required": "당시 적용·예외·경과조치와 제도 설계·이해충돌을 병렬 검토. 규정 존재는 자동 면책이 아니며 규정 비판은 고의·공모 입증이 아님"
+    },
+    {
+      "rule_id": "CT045-ES-04",
+      "title": "담당 수락과 실행 기한의 연결",
+      "required": "실제 담당 수락·최초 편입·외부 수신·다음 행동·기한·지연·상향 기록. 유족 자동 담당 금지"
+    },
+    {
+      "rule_id": "CT045-ES-05",
+      "title": "시험과 실행 영수증",
+      "required": "초안·발송권한·발송·수신·담당수락·조치확인 분리. 수행한 단계만 기록"
+    },
+    {
+      "rule_id": "CT045-ES-06",
+      "title": "근거별 상태 전환과 재검토",
+      "required": "증거·행위자·행위·영향·반론·검토자·전환 영수증으로 상태 전환. 이번 승인으로 사건 상태 전환하지 않음"
+    }
+  ],
+  "internal_targets": {
+    "hours_preservation": 72,
+    "business_days_assignment": 5,
+    "business_days_plan": 15,
+    "days_first_review": 60,
+    "extension_count_max": 1,
+    "extension_days_max": 30,
+    "statutory_deadline": false
+  },
+  "execution": {
+    "runtime_deployed": false,
+    "external_delivery": "NOT_SENT",
+    "owner_acceptance": "PROCESS_ASSIGNMENT_GAP",
+    "case_transition": false
+  },
+  "provenance": {
+    "serialization": "승인 대화에 발행한 JSON의 승인 범위를 요약 등록한 아카이브 영수증; 원문 대화 JSON 자체의 바이트 복제는 아님",
+    "signature_reproduced": false,
+    "publication_instruction": "2026-10-12 사용자 명시적 홈페이지 저장·정렬 업데이트 요청",
+    "nonce": "CT045-ES-20261012-8f5c6724a628411aaf7977c72af9331f",
+    "nonce_role": "archive uniqueness, not identity authentication"
+  }
+}

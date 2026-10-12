@@ -1,0 +1,40 @@
+{
+  "schema": "CT045-ES-ACTION-ARTIFACT-MANIFEST/1.0",
+  "date": "2026-10-12",
+  "status": "ARCHIVE_INTEGRITY_RECORD",
+  "identity_authentication_claim": false,
+  "files": [
+    {
+      "name": "algorithm-alignment-audit.json",
+      "sha256": "2a93e58f5699609abccaefea61980dea24612dc74494a635367c2d53d5fc6999"
+    },
+    {
+      "name": "ct045_execution_support.py",
+      "sha256": "da29bd485b7635f10469c88f362ace3bdaa6cdaf93a87e7fe1e9a697daeb212f"
+    },
+    {
+      "name": "ct63-lp728-review-packet.json",
+      "sha256": "2c87336761ef3828b7bdde3b927cc6cd8dd4da5bd01162a8d3e5ae1e399d7c20"
+    },
+    {
+      "name": "gemini-ack-provenance.json",
+      "sha256": "1c33b2080153d72df6cb7bc45f86ae27ed9ee7ffb669bb96c493f3a55244547d"
+    },
+    {
+      "name": "gemini-ack-user-provided.json",
+      "sha256": "f11cd3b9886e0a93b54cfd0567c4ea823db16489f705e48a861b4503bb40ac99"
+    },
+    {
+      "name": "packet-provenance-review.json",
+      "sha256": "7a6a4a75310db5ed3a64e0a2789f45de764b281edd91a21ff49c6ff4036cd979"
+    },
+    {
+      "name": "r3-approval-receipt.json",
+      "sha256": "01a5fa0bcb36125d03085f90982af92221313610971fa805368c7ef0ac87c95b"
+    },
+    {
+      "name": "test_ct045_execution_support.py",
+      "sha256": "7bf72012146354a7f279cf3862df6655ae49c11575bfaa7fcb8675005ea16131"
+    }
+  ]
+}

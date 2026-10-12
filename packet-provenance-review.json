@@ -1,0 +1,18 @@
+{
+  "packet_id": "CT63-LP728-20261012-01",
+  "basis": "USER_PROVIDED_PACKET",
+  "claim_status": "기관별 요약과 미응답 주장 중 이번 작업에서 원문 재대조하지 않은 부분은 사용자 제공 검토 주장으로 보존. 접수번호 존재만으로 본문 확인 완료 아님.",
+  "important_checks": [
+    "반품 2건은 보고행 수, 8개는 수량 합계로 구분하고 수량 단위 원본 대조",
+    "유효기간 이후 보고일과 실제 처리일 분리",
+    "최초 추출 조건·수정 이력 없이 누락 고의 추정 금지",
+    "심평원 2019 자료 비산출과 당시 타기관 원자료 소실 구분",
+    "노원 출하승인서와 생물학적제제 출하증명서의 종류·편철·폐기 항목 연결 대조",
+    "후보 4070병과 상용 제품·표준품의 관계 미해결 유지"
+  ],
+  "linked_review": "/foi/20261012/two-requests/record.json",
+  "internal_first_intake_exact_timestamp": null,
+  "date_only_is_not_clock_origin": true,
+  "external_intake_evidence": null,
+  "clock_status": "CLOCK_UNVERIFIED"
+}
