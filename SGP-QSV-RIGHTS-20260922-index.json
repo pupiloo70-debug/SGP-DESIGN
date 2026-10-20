@@ -1,0 +1,68 @@
+{
+  "schema": "SGP-QSV-CHARTER-SOURCE-INDEX/1.0",
+  "document_id": "SGP-QSV-RIGHTS-INTL-2026-09-22-01",
+  "title": "Standing Charter of Civic Verification Rights",
+  "status": "R3 FOUNDATIONAL SOURCE RECORD",
+  "issued_at": "2026-09-22",
+  "publication_provenance": "Monday Action Briefing · 2026-09-21",
+  "immediate_parent": "CIVIC-TRACE 0.4.3 Official R3 Issued Record",
+  "website_transfer_date": "2026-10-20",
+  "source_status_basis": "USER_SUPPLIED_ORIGINAL_RECORDS_NOT_INDEPENDENT_TIMESTAMP_AUTHENTICATION",
+  "current_governance": {
+    "AX_01_TO_09": "LOCKED_UNCHANGED",
+    "CIVIC_TRACE_0_4_5": "R3_APPROVED_DESIGN_RECORD",
+    "CIVIC_TRACE_0_4_6": "APPROVAL_DEFERRED"
+  },
+  "rights_layers": [
+    "EXISTING_INTERNATIONAL_HUMAN_RIGHTS",
+    "QSV_INTERPRETIVE_APPLICATION",
+    "PROSPECTIVE_NORMATIVE_RIGHTS"
+  ],
+  "files": [
+    {
+      "original_filename": "SGP-QSV_Standing_Charter_Civic_Verification_Rights_2026-09-22-1.pdf",
+      "public_filename": "charter-20260922-paginated.pdf",
+      "size_bytes": 232790,
+      "sha256": "7873c27a1ed5d0e575b2cafdd8c75d207141234d3dff32ef62edd166cc8fc7c9",
+      "preservation": "ORIGINAL_BYTES_UNCHANGED"
+    },
+    {
+      "original_filename": "SGP-QSV_Standing_Charter_Civic_Verification_Rights_2026-09-22 (1).pdf",
+      "public_filename": "charter-20260922-alternate.pdf",
+      "size_bytes": 145332,
+      "sha256": "3d09e28c26a8320b4a97288e7f6cf2a64c470f45b4e8141970a639ef87e92399",
+      "preservation": "ORIGINAL_BYTES_UNCHANGED"
+    },
+    {
+      "original_filename": "02-SGP-QSV_Standing_Charter_Civic_Verification_Rights_2026-09-22.docx",
+      "public_filename": "charter-20260922.docx",
+      "size_bytes": 45627,
+      "sha256": "632dcaaa8b097393b6bf8d9ceb09c30d01a03a88f5e1d80f03cfbfdcd43792dd",
+      "preservation": "ORIGINAL_BYTES_UNCHANGED"
+    },
+    {
+      "original_filename": "SGP-QSV_Victim-First_Pain_Vector_2026-09-19-1.pdf",
+      "public_filename": "victim-first-pain-vector-20260919.pdf",
+      "size_bytes": 65874,
+      "sha256": "6ec6c5cabf0ef592189f1f2084d0041a1ffff192882040ce20db071d0298e35f",
+      "preservation": "ORIGINAL_BYTES_UNCHANGED"
+    },
+    {
+      "original_filename": "SGP-QSV_LP728_International_Petition_Archive_Clarification_20260927_KO_EN-1.pdf",
+      "public_filename": "lp728-petition-clarification-20260927.pdf",
+      "size_bytes": 146473,
+      "sha256": "49e6310892a0a2defde5824ce640fd00fb3e40408029c91726f1eb868cc1a293",
+      "preservation": "ORIGINAL_BYTES_UNCHANGED"
+    }
+  ],
+  "original_json_attachment": "NOT_PROVIDED_AS_LOCAL_ATTACHMENT; this index is a new derived catalogue, not the historical JSON",
+  "external_submission": "NOT_PERFORMED_BY_THIS_UPDATE",
+  "case_transition": false,
+  "issuer": {
+    "name_ko": "강숙경",
+    "name_en": "Suk-Gyeong Kang",
+    "role": "SGP-QSV Network 공동창립자 · R3 Human Authority"
+  },
+  "source_post_url": "https://m.blog.naver.com/PostView.naver?blogId=pupilteacher&logNo=224419534824",
+  "source_file_hash_scope": "Received bytes only; not historical issuance authentication or custody-chain proof"
+}

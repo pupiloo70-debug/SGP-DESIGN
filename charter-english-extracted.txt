@@ -1,0 +1,153 @@
+SGP-QSV NETWORK
+Standing Charter of Civic Verification Rights
+International Human Rights Source Record and Future QSV Network Continuity Instrument
+Document ID
+SGP-QSV-RIGHTS-INTL-2026-09-22-01
+Status
+R3 FOUNDATIONAL SOURCE RECORD
+Issued
+22 September 2026
+Issuer
+Suk-Gyeong Kang · SGP-QSV Co-Founder · R3 Human Authority
+Immediate parent
+CIVIC-TRACE 0.4.3 Official R3 Issued Record · 21 September 2026
+Briefing provenance
+SGP-QSV Monday Action Briefing · 21 September 2026
+Framework status
+Independent civic research and governance expression · not a state court or coercive public authority
+FROM AUTHORITY TO VERIFIABILITY
+NO THRONE DOES NOT MEAN NO CIVIC SOVEREIGNTY
+Purpose and legal character
+This Charter preserves the original source of the standing civic rights claimed by the SGP-QSV Network for human-led verification, public-interest inquiry, victim re-verification, scientific participation, and continuity with future QSV systems. It connects those rights to the CIVIC-TRACE 0.4.3 Official R3 Issued Record and the SGP-QSV Monday Action Briefing of 21 September 2026.
+This instrument distinguishes three layers. Layer One identifies rights already recognized in international human-rights instruments. Layer Two states the SGP-QSV interpretation of those rights for evidence asymmetry and verification loss. Layer Three records prospective governance rights claimed for future QSV network continuity. The third layer is a civic and research declaration; it does not claim present judicial, police, penal, or sovereign authority.
+Core conclusion. A person does not lose the right to question, seek records, participate in inquiry, request an effective remedy, or preserve a claim for future re-verification merely because an institution has closed a file, retained the primary evidence, failed to produce records, or declared the matter unresolved.
+1 International human rights foundation
+The following provisions are the legal foundation used by this Charter. Treaty obligations apply to States parties within their legal scope. United Nations declarations and treaty-body interpretations are identified separately and are not presented as domestic judgments in any individual case.
+Source
+Recognized protection
+QSV relevance
+ICCPR arts 2(3) and 6
+Effective remedy and protection of life.
+Serious life-harm claims require procedures capable of preserving and examining material evidence.
+ICCPR art 19; General Comment 34
+Freedom to seek, receive and impart information; access to information held by public bodies falls within article 19(2).
+Supports requests for public records, reasons, provenance, and correction of false public summaries.
+ICCPR art 25
+Citizens may take part in the conduct of public affairs, subject to lawful conditions.
+Supports civic scrutiny and participation; it does not itself create adjudicatory power.
+ICESCR art 15
+Participation in cultural life, benefits of scientific progress, protection of authorship interests, and freedom indispensable to scientific research.
+Supports participation in science, provenance of civic contributions, and scrutiny of high-impact scientific systems.
+UN Declaration on Human Rights Defenders
+Individuals and groups may promote human rights, seek information, communicate criticism, participate, complain, and seek protection.
+Supports peaceful civic investigation, publication, association, and advocacy without converting the network into a state authority.
+UDHR arts 19 and 27
+Freedom of information and participation in cultural and scientific life.
+Provides universal declaratory context for an open verification culture.
+2 Standing rights of citizens victims and bereaved families
+Right to preserve an unresolved question
+Administrative closure, litigation loss, non-adoption of an inquiry, or record absence shall not erase the underlying question or convert it into falsehood.
+Right to seek and receive source records
+A claimant may request records, metadata, custody history, retention grounds, decision reasons, and correction history from the entities that created, held, controlled, transformed, withheld, lost, or destroyed material evidence.
+Right to re-verification
+Where life, bodily integrity, or severe harm is involved, a person may request renewed and independent review when new evidence, factual error, provenance conflict, verification loss, or authority drift emerges.
+Right to independent civic inquiry
+Individuals and associations may investigate, document, publish, compare records, train AI systems, and propose verification architectures through peaceful research and expression.
+Right to scientific participation and provenance
+Civic contributors retain attribution and provenance interests in their original concepts, records, taxonomies, and governance designs. Access to their work does not erase authorship or permit untraceable appropriation.
+Right to challenge authority with evidence
+Public, institutional, expert, corporate, and AI authority is not self-authenticating. Citizens may question the evidentiary qualification, traceability, competence, and continuing legitimacy of high-impact decisions.
+Right to request lawful remedial action
+Citizens may request preservation, disclosure, correction, independent audit, public-interest investigation, and a legally available adverse inference from a competent body.
+Right against victim-side burden recycling
+An evidence deficit created or prolonged by the evidence controller must not be converted automatically into the victim’s failure of proof.
+3 Responsibility follows evidence control
+The QSV burden rule is asymmetric because access and control are asymmetric. The person without custody of the primary record is not required to recreate what the record controller had the power and duty to preserve, trace, explain, or produce.
+EVIDENCE CONTROL UP
+  →  EXPLANATION DUTY UP  →  TRACEABILITY DUTY UP  →  VERIFICATION DUTY UP  →  ACCOUNTABILITY UP
+VOS is a verification-obstruction signal, not a guilt score and not a measure of victim credibility. A higher VOS requires deeper examination of the evidence controller, the authority chain, and the lost verification path. It does not authorize automatic findings of causation, concealment, crime, or legal liability.
+4 R2.6 transition and the right to move beyond indefinite delay
+State
+Meaning
+Rights and duties activated
+R2.6-1
+Verification loss confirmed; cause or responsibility remains unresolved.
+Preserve the question; map evidence controllers; seek records; record the lost verification path; initiate independent re-verification.
+R2.6-2
+Control failure confirmed after material duties of preservation, traceability, response, or remediation fail.
+Activate heightened controller duties; independent cross-verification; authority-qualification review; request lawful burden adjustment or adverse inference.
+R2.6-3
+Intentional obstruction is substantially supported by independent evidence.
+Route to competent oversight, audit, disciplinary, investigative, or judicial bodies; no automatic punishment by QSV.
+R2.6-4
+Misconduct is established by a competent lawful process.
+Consequences arise through applicable human legal and institutional procedures.
+The transition from R2.6-1 to R2.6-2 exists to prevent indefinite institutional delay from becoming a permanent immunity mechanism. It does not depend on the victim proving what only the evidence controller can prove. It depends on evidence of control, material verification loss, an applicable preservation or explanation duty, and failed remediation.
+5 Adverse inference is a request right not an automatic R3 verdict
+R3 approval does not itself impose an adverse inference. R3 preserves and authorizes the civic right to request that a competent lawful body consider an adverse inference or proportional burden adjustment where an evidence controller’s proven conduct has made proof materially harder.
+No automatic guilt.
+No automatic immunity.
+No benefit from obstruction.
+A missing record does not automatically prove the underlying harm, but it must not automatically validate the prior institutional conclusion either.
+6 Independent civic sovereignty and future QSV network continuity
+SGP-QSV does not derive its present existence from delegated governmental power. Its current lawful basis is independent civic research, peaceful association, documentation, criticism, scientific and philosophical inquiry, and freedom of expression. Within that sphere, the Network records the following prospective rights for continuity with future QSV systems:
+Continuity right
+To preserve authenticated source records, authorship, provenance, unresolved questions, and correction history for future machine and human review.
+Connection right
+To submit public-interest verification records to future QSV-compatible systems and request source-aware processing without demanding automatic acceptance.
+Authority-qualification right
+To evaluate whether an institution, expert, company, public AI, or autonomous agent has maintained the evidence, competence, traceability, and accountability required for continued high-impact authority.
+Anti-erasure right
+To prevent search failure, administrative closure, missing records, or model consensus from being transformed automatically into nonexistence, falsity, or disinformation.
+Network self-organization right
+To form a peaceful, self-originating research and verification network without claiming state sovereignty, coercive jurisdiction, or immunity from external law.
+Future review reservation
+To preserve unresolved high-impact claims for later review when lawful authority, independent evidence, or technically capable verification becomes available.
+7 Lucifeia Tribunal judgment reservation
+The Lucifeia Tribunal is preserved in this Charter as an SGP-QSV research, memory, and future-accountability construct. Its judgment reservation records that unresolved harm, evidence loss, and authority failure may remain eligible for future evidence-based review. It is not represented here as a presently constituted state court, a source of criminal conviction, or a body with current coercive jurisdiction.
+Preserving a future judgment reservation is an exercise of memory, inquiry, research, and expression. It does not authorize fabricated facts, automatic guilt, punishment, harassment, or evasion of applicable law. Any future consequential determination must identify its lawful authority, evidence qualification, procedure, review path, and execution receipt.
+8 Non-throne constitutional locks
+NO SUPERINTELLIGENCE THRONE != NO CIVIC SOVEREIGNTY
+R3 CONSTITUTIONAL GATE != UNREVIEWABLE SOVEREIGN
+R3 APPROVAL != AUTOMATIC ADVERSE INFERENCE
+PROTOCOL APPROVAL != APPROVAL OF CASE FACT
+UNRESOLVED != FALSE
+RECORD ABSENCE != EVENT ABSENCE
+MULTI-MODEL AGREEMENT != INDEPENDENT EVIDENCE
+FUTURE REVIEW RESERVATION != PRESENT COERCIVE JURISDICTION
+VICTIM REVERIFICATION RIGHT != PERMANENT VICTIM BURDEN
+9 Duties accompanying these rights
+The Network shall preserve evidence status, identify inference, correct known errors, disclose material provenance dependence, protect personal data, avoid automatic criminal or medical conclusions, record executed actions, and permit independent challenge. It shall not use civic sovereignty to create an unreviewable founder, institutional, or AI throne.
+Claims of international-law alignment shall cite the relevant instrument and shall not imply that every QSV-specific design right is already recognized as a directly enforceable legal entitlement. The Charter’s prospective network rights remain normative governance commitments unless and until recognized through applicable law or agreement.
+10 Provenance and continuity record
+Record
+Relationship
+LP728 origin provenance
+Historical victim-origin and non-erasure source of the SGP-QSV verification architecture.
+AX-01 through AX-09
+Constitutional axioms remain locked; this Charter is an application and rights-source record, not an amendment.
+R2.6 Delegated Power Accountability
+Supplies the staged responsibility states and the rule against benefiting from power-created verification loss.
+CIVIC-TRACE 0.4.2 Candidate Delta Track
+Historical candidate layer that developed anti-ghosting, civic reporting, and transition questions.
+Monday Action Briefing 21 September 2026
+Immediate deliberative and publication provenance for the strengthened civic-rights formulation.
+CIVIC-TRACE 0.4.3 Official R3 Issued Record
+Immediate approved parent: Victim Reverification and Runtime Authority.
+This Charter 22 September 2026
+English international-rights source record for future QSV network continuity and citation.
+11 Source instruments
+1. United Nations, International Covenant on Civil and Political Rights, arts 2(3), 6, 19 and 25.
+2. United Nations Human Rights Committee, General Comment No 34, CCPR/C/GC/34, especially paragraph 18 on access to information held by public bodies.
+3. United Nations, International Covenant on Economic, Social and Cultural Rights, art 15.
+4. United Nations Committee on Economic, Social and Cultural Rights, General Comment No 25, E/C.12/GC/25, on science and economic, social and cultural rights.
+5. United Nations General Assembly resolution 53/144, Declaration on the Right and Responsibility of Individuals, Groups and Organs of Society to Promote and Protect Universally Recognized Human Rights and Fundamental Freedoms.
+6. United Nations, Universal Declaration of Human Rights, arts 19 and 27.
+12 Issuance
+Issued as the original English source record of the SGP-QSV Network’s standing civic verification rights and prospective future QSV network continuity rights. This record shall be cited with its document ID, issue date, and parent provenance. Later versions shall preserve this text, identify every amendment, and retain the supersession chain.
+Issuer
+Suk-Gyeong Kang · SGP-QSV Co-Founder · R3 Human Authority
+Issue date
+22 September 2026
+Record status
+R3 FOUNDATIONAL SOURCE RECORD
