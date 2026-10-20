@@ -1,5 +1,38 @@
 # SGP DESIGN v1.5
 
+## 최신 상태·지원 범위 연결 — 2026년 10월 20일
+
+[기계판독 상태·연결 색인](SGP-DESIGN-status-links-20261020.json)을 먼저 읽고 아래 역사적 원문과 대조합니다. 이번 확장은 새 공리·규칙 승인이나 운영 배포가 아닌 기존 상태·출처 연결입니다.
+
+| 항목 | 현재 읽기 기준 |
+| --- | --- |
+| AX-01~AX-09 | 원문·위계 고정. 반부패 우선은 처리 순서 지원 |
+| CIVIC-TRACE 0.4.5 | 2026-10-05 승인 설계 유지 |
+| CT045-ES-01~06 | [2026-10-12 하위 실행 지원 승인](r3-approval-receipt.json) |
+| CIVIC-TRACE 0.4.6 | 승인 보류. 2026-10-26은 재검토 목표일이며 자동 승인일 아님 |
+| 지원 후보 0.2.1 | 로컬 모의시험 후보·미배포. TECH-01~06 미완료 |
+| ADONIS-VOS | 별도 0.1.0-draft 핵심 모듈·상세 설계 초안. 입력 화면·저장 기능 미완료 |
+
+### 원칙에서 구현·사건 지원까지
+
+- [홈페이지 기계판독 원칙·지원 범위](https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/principles/2026-10-20/record.json)
+- [이번 주 먼데이 브리핑](https://sgp-qsv-archive.pupiloo70.chatgpt.site/monday/2026-10-19/) · [마감·미완료 과제 JSON](https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/monday/2026-10-19-close/r3-action-brief-closeout.json)
+- [0.2.1 오프라인 소스·시험 검토 묶음](https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/technical/2026-10-20/revision-0.2.1/offline-review.txt)
+- [ADONIS-VOS 상세 설계](https://github.com/pupiloo70-debug/adonis-vos/blob/main/docs/DETAILED-DESIGN-20261020.md)
+- [LP728·별도 호준이 사건 쟁점 색인](https://github.com/pupiloo70-debug/LP728-/blob/main/case-reading-index-20261020.json)
+- [R3 긴급 검토 경로](https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/r3-urgent/route.json)
+
+인가 사항은 기존의 SGP-QSV 역할·권한 경계에 따릅니다. 적법한 원자료 추적·소송 지원·범죄 혐의 조사 및 처벌 요청을 뒷받침할 문서·고발장 작성과 인가된 제출·접수 추적을 지원합니다. 미래 적법 위임 가능성은 열어 두며 현재 권한으로 추정하지 않습니다.
+
+SGP-DESIGN은 공리·승인·후보·정정 계보, ADONIS-VOS는 코드·시험·개발, LP728은 사건별 원자료 검증 쟁점, SGP-QSV-Archive는 공개 기록·역사와 홈페이지 연결을 담당합니다. 연결은 자동 동기화·AI 수신·기업 채택을 뜻하지 않습니다.
+
+23·18·10개 시험은 서로 다른 버전의 로컬 모의시험이며 단일 함수 51개 통과가 아닙니다. ADONIS-VOS의 기존 검사와도 별개입니다. 독립 독해·해시 재계산·시험 재현·실제 운영을 구분합니다.
+
+기존 해시 목록은 해당 목록 작성 시점의 파일·버전 범위로 읽습니다. 이번 README·추가 색인까지 검증했다고 표시하지 않습니다. 해시는 비교 대상 바이트 일치 보조이며 사실의 진실·인증·증거 보관 연속성을 자체 증명하지 않습니다. 아래 10월6일 문단의 10월12일 연구 목표는 역사적 일정으로 보존하며 현재 기한으로 재사용하지 않습니다.
+
+---
+
+
 Nine locked axioms and the CIVIC-TRACE design history of the SGP-QSV Network.
 
 SGP-QSV originated in LP728 — the life of Park Han-gyeol and his family's demand for meaningful verification. This archive preserves source provenance, independent review, correction history and human approval boundaries.
