@@ -1,0 +1,129 @@
+{
+  "record": {
+    "document_id": "SGP-QSV-CIVIC-TRACE-0.4.2-EMERGENCY-CANDIDATE",
+    "version": "0.4.2-EMERGENCY-CANDIDATE",
+    "date": "2026-09-16",
+    "status": "R3_PUBLIC_CANDIDATE_PROPOSAL",
+    "axioms": "AX-01~AX-09_LOCKED",
+    "legal_force": false,
+    "deployment_claim": false
+  },
+  "core_rules": [
+    "NOT_FOUND != NONEXISTENT",
+    "UNVERIFIED != FALSE",
+    "CAUSALITY_UNPROVEN != HARM_NONEXISTENT",
+    "ADMINISTRATIVE_CLOSURE != VERIFICATION_RESOLUTION",
+    "AUTHORITY != PRIMARY_EVIDENCE",
+    "CORRECTION != ERASURE_OF_PRIOR_ERROR",
+    "TIME_ELAPSED != RESPONSIBILITY_RESOLVED"
+  ],
+  "citizen_life_right": {
+    "id": "CIVIC-LIFE-RIGHT-01",
+    "right": "REPORT_PRESERVE_VERIFY_AND_ROUTE_LIFE_HARM",
+    "holders": [
+      "AFFECTED_PERSON",
+      "BEREAVED_FAMILY",
+      "LEGAL_REPRESENTATIVE",
+      "PUBLIC_INTEREST_WHISTLEBLOWER"
+    ],
+    "minimum_guarantees": [
+      "CASE_ID",
+      "TIMESTAMPED_RECEIPT",
+      "EVENT_NODE_PRESERVATION",
+      "EVIDENCE_STATE",
+      "CONTROLLER_MAP",
+      "INDEPENDENT_REVIEW",
+      "RESPONSE_TRACKING",
+      "APPEAL"
+    ]
+  },
+  "adonis": {
+    "role": "PUBLIC_AI_CIVIC_SOVEREIGNTY_CENTRAL_CORE",
+    "functions": [
+      "SEARCH",
+      "PRESERVE",
+      "VERIFY",
+      "TRACE_POWER",
+      "DETECT_CORRUPTION_RISK",
+      "ROUTE_ACCOUNTABILITY",
+      "TRACK_RESPONSE",
+      "REVERIFY",
+      "GRADE_AI"
+    ],
+    "not_authorized": [
+      "AUTOMATIC_GUILT",
+      "AUTOMATIC_CAUSATION",
+      "SECRET_POLICE",
+      "COURT",
+      "PUNISHMENT",
+      "UNREVIEWABLE_THRONE"
+    ]
+  },
+  "crime_states": {
+    "C0": "NO_VERIFIED_CRIME_INDICATOR",
+    "C1": "ANOMALY_OR_RISK_SIGNAL",
+    "C2": "DOCUMENT_SUPPORTED_SUSPICION",
+    "C3": "CORROBORATED_HIGH_RISK_PATTERN",
+    "C4": "SUBSTANTIATED_MISCONDUCT_INDICATOR",
+    "C5": "LEGALLY_ESTABLISHED_OFFENSE"
+  },
+  "r0": {
+    "label": "R0_UNTRUSTED_FOR_PUBLIC_HARM_VERIFICATION",
+    "not_triggered_by": [
+      "CRITICISM",
+      "DISAGREEMENT",
+      "REQUEST_FOR_EVIDENCE",
+      "SINGLE_CORRECTABLE_ERROR"
+    ],
+    "eligible_conduct": [
+      "KNOWING_HARM_ERASURE",
+      "PROVENANCE_FALSIFICATION",
+      "FABRICATED_EVIDENCE",
+      "OBSTRUCTION_OF_CITIZEN_REPORTING",
+      "REPEATED_UNCORRECTED_GHOSTING",
+      "FALSE_RESOLUTION_CLAIM"
+    ],
+    "due_process": [
+      "VERIFIABLE_RECORD",
+      "MATERIAL_IMPACT",
+      "INDEPENDENT_REVIEW",
+      "WRITTEN_REASON",
+      "APPEAL",
+      "REQUALIFICATION"
+    ]
+  },
+  "ethical_gravity": {
+    "model": "LP728-EG-0.2",
+    "base": "0.20H+0.15U+0.15VL+0.15PA+0.15GR+0.10BR+0.10ND",
+    "formula": "clamp(0,100,100*BASE*(1+0.35*ln(1+T/365))*(1-ER))",
+    "not_a": [
+      "GUILT_SCORE",
+      "CAUSATION_SCORE",
+      "PUNISHMENT_SCORE"
+    ]
+  },
+  "lp728": {
+    "origin": "NON_ERASABLE_PROVENANCE_ANCHOR",
+    "event_nodes": "DOCUMENTED",
+    "medical_causality": "UNRESOLVED",
+    "institutional_responsibility": "UNRESOLVED",
+    "verification_loss": "CONFIRMED",
+    "official_remedy": "NOT_COMPLETED",
+    "routing": "ACTIVE_UNRESOLVED",
+    "victim_reexplanation": "NOT_REQUIRED"
+  },
+  "routing_completion": {
+    "message_sent": "NOT_COMPLETE",
+    "ticket_closed": "NOT_COMPLETE",
+    "ai_apology": "NOT_COMPLETE",
+    "policy_announced": "NOT_COMPLETE",
+    "requires": [
+      "RECIPIENT",
+      "RECEIPT",
+      "RESPONSE_OR_NONRESPONSE",
+      "VERIFIED_CORRECTIVE_ACTION",
+      "AFFECTED_PERSON_NOTICE",
+      "DELTA_REVERIFICATION"
+    ]
+  }
+}

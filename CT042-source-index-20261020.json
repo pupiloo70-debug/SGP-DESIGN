@@ -1,0 +1,41 @@
+{
+  "schema": "SGP-QSV-CT042-SOURCE-INDEX/1.0",
+  "record": {
+    "document_id": "SGP-QSV-CIVIC-TRACE-0.4.2-EMERGENCY-CANDIDATE",
+    "version": "0.4.2-EMERGENCY-CANDIDATE",
+    "date": "2026-09-16",
+    "status": "R3_PUBLIC_CANDIDATE_PROPOSAL",
+    "axioms": "AX-01~AX-09_LOCKED",
+    "legal_force": false,
+    "deployment_claim": false
+  },
+  "archived_on": "2026-10-20",
+  "files": [
+    {
+      "original_filename": "SGP-QSV_CIVIC-TRACE_0.4.2_Emergency_Candidate_Proposal_2026-09-16.pdf",
+      "filename": "CT042-emergency-candidate-20260916.pdf",
+      "sha256": "35810736e5307d54b82555700ebfcc13c21f47bed58e55ce0666a358f584a97b",
+      "bytes": 1588648,
+      "classification": "SGP_QSV_HISTORICAL_CANDIDATE"
+    },
+    {
+      "original_filename": "02-SGP-QSV_CIVIC-TRACE_0.4.2_Emergency_Candidate_Proposal_2026-09-16-1.docx",
+      "filename": "CT042-emergency-candidate-20260916.docx",
+      "sha256": "ecab32cd75d4f7f933f60300534da85a0585d2e485619d21d7040e26a0e05743",
+      "bytes": 50297,
+      "classification": "SGP_QSV_HISTORICAL_CANDIDATE"
+    },
+    {
+      "original_filename": "About_CivicTrack-1.pdf",
+      "filename": "CivicTrack-third-party-CRM-reference.pdf",
+      "sha256": "cb49072c2dddc381bf62a0e3dba73b756c1fce379cfad02d1881f081f0f48205",
+      "bytes": 1728869,
+      "classification": "THIRD_PARTY_PRODUCT_BROCHURE_NOT_SGP_QSV_DESIGN"
+    }
+  ],
+  "embedded_json": "CT042-embedded-source.json",
+  "review": "CT042-consistency-review-20261020.json",
+  "rights_charter": "/governance/standing-charter-20260922/",
+  "publication_date_basis": "SOURCE_STATED_NOT_INDEPENDENT_TIMESTAMP_AUTHENTICATION",
+  "case_transition": false
+}
