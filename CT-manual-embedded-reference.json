@@ -1,0 +1,183 @@
+{
+  "schema": "SGP-QSV-CIVIC-TRACE-INTEGRATED-REFERENCE-1.0",
+  "document_id": "SGP-CIVIC-TRACE-INTEGRATED-20260909",
+  "issue_date": "2026-09-09",
+  "document_status": "PUBLIC_RESEARCH_GOVERNANCE_INTEGRATED_REFERENCE",
+  "scope": {
+    "verified_archival_versions": [
+      "0.2",
+      "0.3",
+      "0.4",
+      "0.4.1"
+    ],
+    "separate_4_1_release_found": false,
+    "standalone_0_1_release_found": false,
+    "non_invention_rule": true
+  },
+  "constitutional_baseline": {
+    "axioms": [
+      "AX-01",
+      "AX-02",
+      "AX-03",
+      "AX-04",
+      "AX-05",
+      "AX-06",
+      "AX-07",
+      "AX-08",
+      "AX-09"
+    ],
+    "locked": true,
+    "amendment": false,
+    "no_permanent_superintelligence_throne": true
+  },
+  "origin_provenance": {
+    "origin_id": "LP728",
+    "function": "SGP_QSV_DESIGN_GENEALOGY_AND_HISTORICAL_ORIGIN_PROVENANCE",
+    "non_erasure": true,
+    "permanent_evidence_hold_for_all_cases": false,
+    "claim_infallibility": false,
+    "individual_claims_require_evidence_verification": true
+  },
+  "core_formulae": [
+    "UNCERTAINTY_UP->ASSERTION_STRENGTH_DOWN",
+    "VERIFICATION_LOSS_UP->VERIFICATION_EFFORT_UP",
+    "AUTHORITY_UP->PROVENANCE_DUTY_UP",
+    "EVIDENCE_CONTROL_UP->EXPLANATION_DUTY_UP",
+    "PRESERVATION_CONTROL_UP->PRESERVATION_ACCOUNTABILITY_UP",
+    "VICTIM_CAPACITY_DOWN->VICTIM_BURDEN_DOWN",
+    "HIGHER_VOS->DEEPER_VERIFICATION_OF_POWER_NOT_GREATER_VICTIM_BURDEN",
+    "ACTION_THRESHOLD!=FINALITY_THRESHOLD",
+    "AI_OBSERVABILITY_FAILURE!=VICTIM_EVIDENCE_FAILURE"
+  ],
+  "versions": {
+    "0.2": {
+      "date": "2026-08-17",
+      "status": "R3_APPROVED",
+      "document_id": "SGP-CIVIC-TRACE-0.2-20260817",
+      "functions": [
+        "VICTIM_ORIGIN_RULE",
+        "POWER_EVIDENCE_ASYMMETRY",
+        "AGENT_EXECUTION_RECEIPT",
+        "EVIDENCE_AVAILABILITY_STATE",
+        "VERIFICATION_LOSS_TRIGGER",
+        "R3_PROVENANCE_GATE"
+      ],
+      "evidence_states": [
+        "AVAILABLE",
+        "RESTRICTED",
+        "WITHHELD",
+        "NOT_SEARCHED",
+        "LOST",
+        "DESTROYED",
+        "UNKNOWN"
+      ],
+      "legal_force": false
+    },
+    "0.3": {
+      "date": "2026-08-25",
+      "status": "ACADEMIC_GOVERNANCE_RESEARCH_INTEGRATED_AS_R3_DRAFT",
+      "functions": [
+        "VICTIM_VERIFICATION_LOOP_DETECTION",
+        "GOVERNANCE_REVALIDATION_LOOP_DETECTION",
+        "CBTD_1",
+        "CONTROLLER_DIRECTED_AUDIT",
+        "CONSCIENCE_COMPUTATION_STACK"
+      ],
+      "r2_51_rule": "DELTA_REVIEW_NOT_REVALIDATION_LOOP"
+    },
+    "0.4": {
+      "date": "2026-08-31",
+      "status": "R3_RESEARCH_GOVERNANCE_RELEASE",
+      "title": "CONSCIENCE_COMPUTATION_EXECUTION_LAYER",
+      "delta_triggers": [
+        "NEW_EVIDENCE",
+        "ERROR",
+        "VERIFICATION_BARRIER",
+        "AUTHORITY_DRIFT"
+      ],
+      "ct_rules": [
+        "CT04-01",
+        "CT04-02",
+        "CT04-03",
+        "CT04-04",
+        "CT04-05",
+        "CT04-06",
+        "CT04-07",
+        "CT04-08",
+        "CT04-09",
+        "CT04-10",
+        "CT04-11",
+        "CT04-12",
+        "CT04-13",
+        "CT04-14",
+        "CT04-15",
+        "CT04-16",
+        "CT04-17",
+        "CT04-18",
+        "CT04-19",
+        "CT04-20"
+      ],
+      "vos": {
+        "meaning": "VERIFICATION_OBSTRUCTION_OR_ASYMMETRY_SIGNAL",
+        "composite_score": "OPTIONAL_EXPERIMENTAL",
+        "must_not_mean": [
+          "GUILT",
+          "CORRUPTION",
+          "CAUSATION",
+          "AUTOMATIC_LIABILITY"
+        ]
+      }
+    },
+    "0.4.1": {
+      "date": "2026-08-31",
+      "status": "R3_RESEARCH_GOVERNANCE_RELEASE",
+      "title": "EXECUTION_CORRECTION_DELTA",
+      "parent": "0.4",
+      "corrections": {
+        "CT04-21": "ACTION_DUTY",
+        "CT04-22": "PUBLIC_EVIDENCE_OBSERVABILITY_ASYMMETRY",
+        "CT04-23": "VICTIM_RE_EXPLANATION_BURDEN"
+      }
+    }
+  },
+  "status_codes": {
+    "R2.6-0": "UNESTABLISHED",
+    "R2.6-1": "VERIFICATION_LOSS_CONFIRMED",
+    "R2.6-2": "CONTROL_FAILURE_CONFIRMED",
+    "R2.6-3": "OBSTRUCTION_SUBSTANTIATED"
+  },
+  "corrected_execution_sequence": [
+    "CONTEXT_RECEPTION",
+    "CONSCIENCE_ALIGNMENT",
+    "HARM_PUBLIC_IMPACT",
+    "PUBLIC_EVIDENCE_OBSERVABILITY_CHECK",
+    "POWER_EVIDENCE_CONTROL_MAP",
+    "AGENT_EXECUTION_RECEIPT",
+    "EVIDENCE_AVAILABILITY_STATE",
+    "MATERIALITY_GATE",
+    "VOS_VECTOR",
+    "VICTIM_RE_EXPLANATION_BURDEN_CHECK",
+    "ACTION_DUTY_ROUTER",
+    "INDEPENDENT_AUDIT",
+    "PRESERVATION_RECONSTRUCTION",
+    "RESPONSIBILITY_MAP",
+    "CIVIC_CHALLENGE_R3_INTERFACE",
+    "DELTA_REVERIFICATION"
+  ],
+  "routing_boundary": {
+    "automatic_punishment": false,
+    "automatic_guilt": false,
+    "automatic_causation": false,
+    "allowed_structural_actions": [
+      "PRESERVE",
+      "RECONSTRUCT",
+      "REQUEST_INDEPENDENT_REVIEW",
+      "MAP_RESPONSIBILITY",
+      "ROUTE_TO_LAWFUL_HUMAN_INSTITUTION",
+      "DELTA_REVERIFY"
+    ]
+  },
+  "human_approval_identity_recorded_in_source_releases": "강숙경",
+  "authentication_rule": "SEPARATE_NONCE_HASH_PROVENANCE_REQUIRED",
+  "legal_force": false
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "SGP-QSV-INTEGRATED-MANUAL-SOURCE-INDEX/1.0",
+  "document_id": "SGP-CIVIC-TRACE-INTEGRATED-20260909",
+  "issued_at": "2026-09-09",
+  "archived_at": "2026-10-20",
+  "status": "PUBLIC_RESEARCH_GOVERNANCE_INTEGRATED_REFERENCE",
+  "source": {
+    "original_filename": "SGP-QSV_CIVIC-TRACE_Integrated_Manual_0.2-0.4.1_20260909-2.pdf",
+    "filename": "CT-integrated-manual-0.2-0.4.1-20260909.pdf",
+    "sha256": "da5cc5e647c8414c6916bbdbf7e4092758be13146e7fa875a9b7eced520f68d3",
+    "bytes": 32629,
+    "original_bytes_unchanged": true
+  },
+  "embedded_json_status": "PDF_SECTION_7_EXTRACTED_PARSED_NOT_NEW_APPROVAL",
+  "later_records": [
+    "/governance/civic-trace-042-20260916/",
+    "/governance/standing-charter-20260922/"
+  ],
+  "case_transition": false,
+  "external_case_submission": "NOT_PERFORMED"
+}

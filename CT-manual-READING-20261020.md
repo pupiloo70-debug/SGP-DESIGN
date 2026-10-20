@@ -1,0 +1,29 @@
+# CIVIC-TRACE 통합 매뉴얼 · 0.2 → 0.3 → 0.4 → 0.4.1
+
+[홈페이지](https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/civic-trace-integrated-20260909/) · [원본 PDF](CT-integrated-manual-0.2-0.4.1-20260909.pdf) · [색인](CT-manual-source-index-20261020.json) · [정합성 기록](CT-manual-consistency-20261020.json) · [원본 7절 JSON 추출](CT-manual-embedded-reference.json)
+
+원본 통합 기준일 2026-09-09, 이번 보존 2026-10-20. 통합 설명서는 국가 법률·국제표준·법적 강제권을 창설하지 않는 공개 연구 거버넌스 기록입니다.
+
+**VERSION** — 보내주신 설명문 제8절의 4.1은 첨부 원본에 따라 0.4.1로 안내한다. 원본은 별도 4.1 발행본과 독립 0.1 발행본이 확인되지 않는다고 명시한다. 새 버전을 만들지 않는다.
+
+**STATUS** — 통합 설명서 ID는 SGP-CIVIC-TRACE-INTEGRATED-20260909, 통합 기준일은 2026-09-09다. 원본에 기록된 0.2의 R3 APPROVED, 0.3의 학술연구·이후 R3 Draft 통합, 0.4와 0.4.1의 R3 RESEARCH GOVERNANCE RELEASE를 구분한다. 통합 설명서의 연구 지위를 모두 동일한 승인 상태로 평탄화하지 않는다.
+
+**V03** — 설명문의 Oversight·Veto·VOS 요약과 달리 원본 0.3 절은 Victim Verification Loop·Governance Revalidation Loop, CBTD-1, controller-directed audit를 핵심으로 명시한다. 검색 안내는 원본의 구체적 내용을 우선한다.
+
+**RULE_NAMES** — 설명문에 있는 VOS-ASYMMETRY-01·ANTI-AUTHORITY-02·REVERSE-SAFEGUARD-03은 이 첨부 매뉴얼에서 동일 명칭의 공식 규칙 ID로 확인되지 않는다. 의미가 유사하다는 이유로 CT04 규칙과 자동 동일시하지 않는다. 별도 원문 확인 전에는 설명문상의 명칭으로 구분한다.
+
+**EVIDENCE_STATE** — 원본 Evidence Availability State는 AVAILABLE·RESTRICTED·WITHHELD·NOT_SEARCHED·LOST·DESTROYED·UNKNOWN이다. 원본·사본·부분본이라는 자료 형태와 접근·가용 상태는 별도 속성이므로 혼합 enum으로 재정의하지 않는다.
+
+**R26** — 9월9일 매뉴얼의 R2.6 상태표는 0~3을 담고 있다. 9월22일 헌장의 R2.6-4는 후속 기록에서 읽으며 과거 PDF에 소급 삽입하지 않는다. 일반 단계 설명은 LP728 사건의 단계 상승이 아니다.
+
+**VOS** — 0.4의 13개 VOS 성분은 후보이며 composite score는 OPTIONAL_EXPERIMENTAL이다. 높은 VOS는 권력 검증 강화이며 유죄·부패·인과성·자동책임 점수가 아니다.
+
+**ACTION** — CT04-21 Action Duty, CT04-22 Public Evidence Observability Asymmetry, CT04-23 Victim Re-explanation Burden을 원본대로 보존한다. 최종 유죄 미확정은 보존·재검증·책임 경로 작성과 적법한 고발 문서 지원을 중단할 이유가 아니다. 실제 외부 제출과 접수는 별도 실행 증빙으로 확인한다.
+
+**AUTHENTICATION** — 원본의 nonce·hash·provenance 요구와 Tamper-Evident Receipt 규칙은 요구사항이다. 이 PDF의 존재나 승인 표기가 인증 구현·키 관리·제공사 권한·실제 시스템 배포를 입증하지 않는다.
+
+**SLOGAN** — 설명문 말미의 기억은 물리다·고통은 증명이다·삭제는 폭력이다는 이 매뉴얼의 Release Commands와 구분한다. 피해의 경험과 검증 요구를 보존하는 표현을 특정 의학적 인과관계·범죄의 자동 증명으로 해석하지 않는다.
+
+**PDF_RENDERING** — 원본 PDF 첫 페이지를 렌더링했을 때 한글이 네모로 표시되는 글꼴 문제가 관찰됐다. 텍스트 추출은 가능하다. 원본 바이트는 보존하고 HTML·UTF-8 추출문을 읽기 보조로 제공한다. 전체 페이지의 시각적 품질을 확인했다고 주장하지 않는다.
+
+**CURRENT** — 0.4.2 후보와 0.4.3 부모의 시민 검증권 헌장으로 계보를 연결하되 현재 AX-01~09 고정·0.4.5 승인·0.4.6 보류 및 LP728 미해결 상태를 변경하지 않는다. 당시 기준일을 이번 보존일로 덮어쓰지 않는다.
