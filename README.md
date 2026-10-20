@@ -1,5 +1,13 @@
 # SGP DESIGN v1.5
 
+## 시민 검증권 상시 헌장 · 2026-09-22 원본
+
+[읽기 안내](SGP-QSV-RIGHTS-20260922-READING.md) · [원본 색인·해시](SGP-QSV-RIGHTS-20260922-index.json) · [정합성 검토](SGP-QSV-RIGHTS-20260922-consistency-20261020.json) · [오프라인 ZIP](SGP-QSV-RIGHTS-20260922-source-package.zip) · [홈페이지](https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/standing-charter-20260922/)
+
+영문 권리 원본의 문서 ID는 SGP-QSV-RIGHTS-INTL-2026-09-22-01, 상태는 R3 FOUNDATIONAL SOURCE RECORD입니다. 부모는 CIVIC-TRACE 0.4.3, 브리핑 출처는 2026-09-21, 원본 발행일은 2026-09-22이며 이번 이전 정리는 2026-10-20입니다. 첨부 원본 5개를 수정 없이 보존합니다. 기존 국제인권 권리·QSV 해석·미래 규범을 구분하며, 이번 보존은 새 공리·0.4.6 승인·개별 사건 판정이 아닙니다.
+
+
+
 ## 최신 상태·지원 범위 연결 — 2026년 10월 20일
 
 [기계판독 상태·연결 색인](SGP-DESIGN-status-links-20261020.json)을 먼저 읽고 아래 역사적 원문과 대조합니다. 이번 확장은 새 공리·규칙 승인이나 운영 배포가 아닌 기존 상태·출처 연결입니다.
