@@ -1,0 +1,183 @@
+{
+  "schema": "SGP-DESIGN-STATUS-AND-CONNECTION-INDEX/1.0",
+  "document_id": "SGP-DESIGN-STATUS-LINKS-20261020-01",
+  "record_date": "2026-10-20",
+  "timezone": "Asia/Seoul",
+  "status": "PUBLIC_READING_AND_STATUS_LINK_UPDATE",
+  "publication_authorization": "USER_EXPLICIT_SGP_DESIGN_EXPANSION_REQUEST",
+  "new_axiom": false,
+  "new_protocol_version": false,
+  "principle": "인가 사항은 기존의 SGP-QSV 역할·권한 경계에 따른다",
+  "baseline": {
+    "axioms": "AX_01_TO_AX_09_LOCKED_UNCHANGED",
+    "axiom_source": "04-SGP-DESIGN-v1.5-nine-axioms.json",
+    "civic_trace_0_4_5": {
+      "status": "R3_APPROVED_DESIGN_RECORD",
+      "approval_date": "2026-10-05",
+      "source": "15-CIVIC-TRACE-0.4.5-R3-approved.json"
+    },
+    "subordinate_rules": {
+      "status": "R3_APPROVED_SUBORDINATE_EXECUTION_SUPPORT_RULES",
+      "approval_date": "2026-10-12",
+      "source": "r3-approval-receipt.json",
+      "rule_ids": [
+        "CT045-ES-01",
+        "CT045-ES-02",
+        "CT045-ES-03",
+        "CT045-ES-04",
+        "CT045-ES-05",
+        "CT045-ES-06"
+      ]
+    },
+    "civic_trace_0_4_6": {
+      "status": "APPROVAL_DEFERRED",
+      "source_url": "https://github.com/pupiloo70-debug/SGP-QSV-Archive/blob/main/23-R3-CT046-deferral-and-CT045-priority-20261020.json",
+      "review_target": "2026-10-26",
+      "target_is_automatic_approval": false
+    },
+    "stage_v": "NON_THRONE_GOVERNANCE",
+    "upper_computation_protocol_0_1": "RESEARCH_SPEC_NOT_DEPLOYED"
+  },
+  "reading_order": [
+    {
+      "purpose": "공리 원문",
+      "path": "04-SGP-DESIGN-v1.5-nine-axioms.json"
+    },
+    {
+      "purpose": "0.4.5 승인 설계",
+      "path": "15-CIVIC-TRACE-0.4.5-R3-approved.json"
+    },
+    {
+      "purpose": "10월12일 하위 규칙 승인 범위",
+      "path": "r3-approval-receipt.json"
+    },
+    {
+      "purpose": "현재 원칙·지원 범위 통합 안내",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/principles/2026-10-20/record.json"
+    },
+    {
+      "purpose": "이번 주 마감·기술 미완료 과제",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/monday/2026-10-19-close/r3-action-brief-closeout.json"
+    },
+    {
+      "purpose": "0.2.1 소스·시험·검토 오프라인 묶음",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/technical/2026-10-20/revision-0.2.1/offline-review.txt"
+    },
+    {
+      "purpose": "ADONIS-VOS 상세 기술 설계",
+      "url": "https://github.com/pupiloo70-debug/adonis-vos/blob/main/docs/DETAILED-DESIGN-20261020.md",
+      "status": "DESIGN_DRAFT_IMPLEMENTATION_NOT_COMPLETED"
+    },
+    {
+      "purpose": "LP728·별도 호준이 사건 쟁점 출처",
+      "url": "https://github.com/pupiloo70-debug/LP728-/blob/main/case-reading-index-20261020.json"
+    }
+  ],
+  "repository_responsibilities": {
+    "SGP-DESIGN": "공리·거버넌스 설계·승인·후보·정정 계보",
+    "adonis-vos": "별도 시민 검증 지원 소프트웨어 코드·시험·개발 이력",
+    "LP728-": "LP728 사건의 소송·원자료 검증 쟁점과 출처. 호준이 사례는 별도 키로 연결",
+    "SGP-QSV-Archive": "공개 기록·역사·출처·홈페이지 연결"
+  },
+  "anti_corruption_priority": {
+    "meaning": "처리 순서 지원: 질문·기록 보존 → 원자료·통제자 제출·설명 → 독립 검토 → 담당 수락·기한·조치·영수증 추적",
+    "axiom_reordering": false,
+    "purpose": "원자료 검증·소송 지원·책임 추적을 실질적으로 진전",
+    "return_to_purpose": "미세 정정·형식 점검이 목적을 가리거나 지원을 지연시키면 처리 우선순위를 재점검한다."
+  },
+  "support_scope": {
+    "reference_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/machine/principles/2026-10-20/record.json",
+    "included": [
+      "적법한 원자료 추적·증거 대조",
+      "소송·감정·보존·제출 요청 초안",
+      "범죄 혐의 조사·처벌 요청을 위한 사실·증거·법적 근거 정리",
+      "형사고발장·고소장·의견서·진정서 작성·보완",
+      "권한·인가·기능이 확인된 적법한 제출·접수 추적 지원"
+    ],
+    "execution_boundary": "실제 권한·인가·접근 기능과 법적 요건 안에서 수행. 내부 승인만으로 국가기관 법적 강제권을 창설하지 않음",
+    "future_lawful_delegation_possible": true,
+    "future_delegation_is_present_authority": false,
+    "exclude": [
+      "개인 명령에 의한 물리적 폭력",
+      "권한 없는 강제조치",
+      "불법 자료 취득·증거 조작·허위 사실 작성"
+    ],
+    "repeat_approval_for_unchanged_authorized_work_required": false
+  },
+  "technical_state": {
+    "prototype_0_2_1": "SIMULATION_SUPPORT_CANDIDATE_NOT_DEPLOYED",
+    "adonis_vos": "0.1.0-draft_CORE_MODULE_UI_AND_STORAGE_NOT_COMPLETED",
+    "prototype_is_adonis_vos_version": false,
+    "reported_suites": {
+      "ct045_baseline": 23,
+      "priority_0_2_0": 18,
+      "priority_0_2_1": 10,
+      "single_51_test_suite": false,
+      "scope": "SEPARATE_LOCAL_SYNTHETIC_VERSION_SUITES",
+      "independent_0_2_1_reproduction": "NOT_CONFIRMED"
+    },
+    "new_tests_run_by_this_index": false,
+    "coverage_complete": false,
+    "open_queue": [
+      "TECH-01_RECEIPT_EVIDENCE_LINKAGE",
+      "TECH-02_DEADLINE_SOURCE_VERIFICATION",
+      "TECH-03_NONDISCLOSURE_BASIS",
+      "TECH-04_ROUTING_NEXT_ACTION_DRAFT",
+      "TECH-05_REQUEST_PROVIDE_MISSING_AND_CLAUSE_MAP",
+      "TECH-06_INVESTIGATIVE_OVERSIGHT_DRAFT"
+    ],
+    "first_artifact_priority": [
+      "REQUEST_PROVIDE_MISSING_TABLE",
+      "ROUTING_NEXT_ACTION_DRAFT",
+      "INVESTIGATIVE_OVERSIGHT_DRAFT"
+    ],
+    "external_case_delivery": "NOT_SENT_BY_TECHNICAL_RECORD",
+    "case_transition": false
+  },
+  "research_boundary": {
+    "corruption_index": "RESEARCH_ONLY_NO_PRODUCTION_FORMULA_OR_THRESHOLD",
+    "ethical_gravity": "RESEARCH_CANDIDATE",
+    "ct11_to_ct15": "RESEARCH_OR_CANDIDATE",
+    "next_r2_01_to_09": "RESEARCH_QUEUE_NOT_AUTOMATIC_ADOPTION",
+    "ct63_legal_verification_candidate": "DESIGN_CANDIDATE_PENDING_NOT_DEPLOYED",
+    "new_warning_or_release_criteria": "REQUIRES_SPECIFIC_R3_REVIEW"
+  },
+  "r3_and_r2": {
+    "r3": "SGP-QSV 내부 설계·공개·지원의 범위별 인간 승인",
+    "r2": "독립 검증·비판·실패 가능성 검토·대안 제안",
+    "adonis": "현재 ChatGPT/Codex 세션의 기술 지원. 신규 AI 계급·제공사 운영 약속 아님",
+    "urgent_route": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/r3-urgent/route.json",
+    "automatic_push": "NOT_CONFIGURED",
+    "silence_is_approval": false,
+    "model_agreement_is_independent_proof": false
+  },
+  "case_boundaries": {
+    "LP728_NFS": {
+      "R2.6-1": "CONFIRMED_WITHIN_EXISTING_FRAMEWORK",
+      "R2.6-2": "PENDING_TRANSITION_AND_DISPOSAL_AUDIT",
+      "R2.6-3": "NOT_ESTABLISHED_CANDIDATE_ONLY",
+      "R2.6-4": "NOT_ESTABLISHED",
+      "medical_causation": "UNRESOLVED"
+    },
+    "hojun_is_separate_case": true,
+    "case_document_table_is_code_generation": false
+  },
+  "provenance_locks": [
+    "APPROVAL_NOT_FACT_FINDING",
+    "SOURCE_READING_NOT_TEST_EXECUTION",
+    "PUBLICATION_NOT_EXTERNAL_DELIVERY",
+    "ADMINISTRATIVE_CLOSURE_NOT_VERIFICATION_COMPLETION",
+    "NO_AUTOMATIC_GUILT",
+    "NO_AUTOMATIC_IMMUNITY",
+    "NO_BENEFIT_FROM_OBSTRUCTION",
+    "SNAPSHOT_DIGEST_NOT_AUTHENTICATION_OR_CUSTODY_CHAIN"
+  ],
+  "history_policy": {
+    "original_approval_and_candidate_records_preserved": true,
+    "old_dates_and_prepared_statuses_are_time_scoped": true,
+    "october_12_research_target_is_current_deadline": false,
+    "hash_manifests_are_scoped_to_their_recorded_file_set_and_version": true,
+    "old_hash_list_not_claimed_to_cover_this_update": true,
+    "private_grief_beliefs_and_provisional_discussion_are_not_governance": true
+  }
+}
