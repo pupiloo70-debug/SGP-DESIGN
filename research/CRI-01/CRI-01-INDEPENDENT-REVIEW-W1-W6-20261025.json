@@ -1,0 +1,38 @@
+{
+  "schema": "SGP-QSV-CRI01-INDEPENDENT-REVIEW-AND-RESEARCH-BACKLOG/1.0",
+  "record_id": "SGP-QSV-CRI01-GROK-R2-REVIEW-20261025",
+  "date": "2026-10-25",
+  "source_type": "USER_PROVIDED_GROK_RESPONSE_UNVERIFIED_EXECUTION_ATTESTATION",
+  "source_receipt_id": "SGP-QSV-GROK-CC-TEST-20261025-01-R2",
+  "provenance": "Grok receipt supplied for research review; Grok sandbox execution was not independently observed.",
+  "reproduction": {
+    "synthetic_example_expected_score": 41.0,
+    "source_code_reviewed": true,
+    "remote_run_attested_by_grok": true,
+    "remote_run_independently_verified": false,
+    "reported_tests_passed": 5
+  },
+  "governance": {
+    "axioms": "AX-01..AX-09_UNCHANGED",
+    "civic_trace_045": "R3_APPROVED_DESIGN",
+    "civic_trace_046": "R3_APPROVAL_DEFERRED",
+    "cri01": "EXPERIMENTAL_RESEARCH",
+    "external_adoption": "UNKNOWN",
+    "automatic_sanctions": false,
+    "lp728_causality": "UNRESOLVED",
+    "lot_00518001_identity": "UNRESOLVED"
+  },
+  "findings": [
+    {"id":"W1","issue":"Provisional unvalidated weights","research_proposal":"Preregister alternatives and sensitivity tests."},
+    {"id":"W2","issue":"No calibrated anchors for 0..1 indicator values","research_proposal":"Publish blinded annotation rubric and inter-rater agreement tests."},
+    {"id":"W3","issue":"Unavailable input indefinitely blocks numerical score","research_proposal":"Keep score null; independently track verification-loss duration, requests, custodian, access remedies. Never infer guilt."},
+    {"id":"W4","issue":"Source verification only checks nonempty strings","research_proposal":"Propose document identifier, retrieval date, content hash, verification status and audit receipt."},
+    {"id":"W5","issue":"Not applicable and missing data both produce null","research_proposal":"Separate applicability ruling from missingness; test conditional renormalization, without adopting it yet."},
+    {"id":"W6","issue":"No timeline for delays, transfers or repeated requests","research_proposal":"Use event log for requests, deadlines, responses, transfers and corrections."}
+  ],
+  "safeguards": ["NULL_SCORE_NOT_CLEARANCE","UNAVAILABLE_NOT_WRONGDOING","UNKNOWN_NOT_FALSE","NO_AUTOMATIC_GUILT","NO_AUTOMATED_PENALTY","NO_UNAPPROVED_RULE_CHANGE","NO_PRIVATE_CONVERSATION_PUBLISHED"],
+  "next_steps": ["measurement anchors","inter-rater reliability","provenance validation","missingness abuse simulation","temporal event tracking","weight sensitivity study","independent reproducibility receipt"],
+  "status": "RESEARCH_PROPOSALS_PENDING_VALIDATION",
+  "r3_approval": false,
+  "github_publication": "NOT_UPLOADED_WRITE_FORBIDDEN_403"
+}
