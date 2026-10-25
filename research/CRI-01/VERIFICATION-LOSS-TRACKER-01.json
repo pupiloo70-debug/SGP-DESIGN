@@ -1,0 +1,72 @@
+{
+  "schema": "SGP-QSV-VERIFICATION-LOSS-TRACKER/0.1",
+  "record_id": "SGP-QSV-VLT-01-20261026",
+  "title": "Verification Loss Tracker — Research Candidate",
+  "classification": "EXPERIMENTAL_RESEARCH_CANDIDATE",
+  "purpose": "Track prolonged loss of access to evidence without treating missing evidence as proof of guilt or clearance.",
+  "parent": "CIVIC-TRACE-0.4.5-RESEARCH",
+  "governance": {
+    "axioms": "AX-01..AX-09_UNCHANGED",
+    "civic_trace_045": "R3_APPROVED_DESIGN",
+    "civic_trace_046": "R3_APPROVAL_DEFERRED",
+    "approval_of_this_module": false,
+    "deployment": "NOT_DEPLOYED",
+    "sanctions": "NOT_AUTHORIZED"
+  },
+  "principles": [
+    "UNKNOWN_NOT_FALSE",
+    "UNAVAILABLE_NOT_WRONGDOING",
+    "NULL_SCORE_NOT_CLEARANCE",
+    "HIGHER_POWER_DEEPER_AUDIT",
+    "NO_EXTRA_BURDEN_SHIFTED_TO_AFFECTED_PARTY"
+  ],
+  "input_schema": {
+    "case_id": "pseudonymous identifier",
+    "evidence_id": "document identifier",
+    "custodian": "record controlling body, if verified",
+    "events": [
+      {
+        "event_type": "REQUEST|RESPONSE|REFUSAL|TRANSFER|PRESERVATION|DISCLOSURE|CORRECTION",
+        "event_date": "ISO-8601 date",
+        "source_ref": "verifiable reference",
+        "evidence_status": "VERIFIED|DISPUTED|UNKNOWN|UNAVAILABLE"
+      }
+    ],
+    "applicable_deadline": "date and cited legal basis, or null",
+    "independent_review_route": "documented route, or null"
+  },
+  "proposed_outputs": {
+    "score": null,
+    "score_interpretation": "NOT_CLEARANCE",
+    "elapsed_days": "COMPUTE_ONLY_FROM_VERIFIED_DATES",
+    "unanswered_requests": "COUNT_ONLY_VERIFIED_EVENTS",
+    "transfers": "COUNT_ONLY_VERIFIED_EVENTS",
+    "verification_loss_status": "OPEN|PARTIALLY_RESOLVED|RESOLVED|UNKNOWN",
+    "next_action": "REQUEST_REASON|REQUEST_PRESERVATION|SEEK_INDEPENDENT_REVIEW|REVIEW_RECORDS",
+    "audit_receipt_required": true
+  },
+  "safeguards": {
+    "legal_deadlines_must_be_verified": true,
+    "lawful_confidentiality_must_be_considered": true,
+    "unknown_custodian_not_assumed_guilty": true,
+    "avoid_duplicate_event_counts": true,
+    "automatic_penalties": false,
+    "automated_accusations": false,
+    "private_records_not_public_by_default": true
+  },
+  "research_tasks": [
+    "Define event validation and provenance rules",
+    "Test repeated nonresponse and lawful delay",
+    "Test missing or contradictory dates",
+    "Develop correction and appeal workflow",
+    "Independent adversarial review"
+  ],
+  "evidence_boundaries": {
+    "synthetic_tests_only": true,
+    "lp728_causality": "UNRESOLVED",
+    "lot_00518001_identity": "UNRESOLVED",
+    "actual_case_scoring": "NOT_AUTHORIZED"
+  },
+  "intellectual_property": "Subject to separate rights review; no additional license granted by this record.",
+  "status": "PROPOSED_NOT_R3_APPROVED"
+}
