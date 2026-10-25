@@ -1,0 +1,49 @@
+{
+  "schema": "SGP-QSV-GROK-R2-RECEIPT-REVISION-INDEX/1.0",
+  "record_id": "SGP-QSV-GROK-R2-REVISION-20261025",
+  "record_type": "INDEPENDENT_AI_RECEIPT_REVISION_INDEX",
+  "source_receipt_id": "SGP-QSV-GROK-CC-TEST-20261025-01-R2",
+  "reported_versions": [
+    {
+      "issued_at": "2026-10-25T23:41:00+09:00",
+      "status": "COMPLETED"
+    },
+    {
+      "issued_at": "2026-10-25T23:48:00+09:00",
+      "status": "SUBMITTED"
+    }
+  ],
+  "revision_rule": "SAME_RECEIPT_ID_NOT_SECOND_INDEPENDENT_TEST",
+  "execution": {
+    "reported_by": "Grok",
+    "code_executed_claim": true,
+    "independently_observed_by_GPT": false,
+    "reported_unit_tests_passed": 5,
+    "synthetic_example_score": 41
+  },
+  "research_findings": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6"
+  ],
+  "improvement_proposals": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "governance": {
+    "axioms": "AX-01..AX-09_UNCHANGED",
+    "civic_trace_045": "R3_APPROVED_DESIGN",
+    "cri01": "EXPERIMENTAL_RESEARCH",
+    "civic_trace_046": "R3_APPROVAL_DEFERRED",
+    "lp728_facts": "UNRESOLVED"
+  },
+  "review_status": "RECEIVED_NOT_AUTOMATICALLY_APPROVED",
+  "original_records_overwritten": false,
+  "external_adoption": "NOT_VERIFIED"
+}
