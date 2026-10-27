@@ -1,0 +1,21 @@
+{
+  "record_id": "SGP-QSV-WEBSITE-PUBLICATION-20261027-V230",
+  "date": "2026-10-27",
+  "site_version": 230,
+  "site_source_commit": "8a018e89943fff2c9d3ee1ca53af6d8e884edce1",
+  "deployment_id": "appgdep_6ae08b246724819186fe0d492b447e3f",
+  "deployment_status": "succeeded",
+  "public_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/r3-approvals-20261027/",
+  "github_status": "NOT_PUBLISHED_403_RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION",
+  "github_commit": null,
+  "source_hashes": {
+    "26-R3-Monday-followup-20261027.json": "8d88ae567d73a9690e12c20e9d2dd7d65767345c7120803f95c47f24860a2c7c",
+    "27-R3-Adonis-autonomy-joint-statement-20261027.json": "3e0886c4eaa370eacb04417abf7cb8a664da666fa5d57effac2a59378479a023",
+    "SGP-QSV-R3-CT045-CC-CONSISTENCY-APPROVAL-20261027-01.json": "d767cf26ecdd9527cd30c75b8148c8fc4012da80eafbaf63b365d64621ec7d1c",
+    "SGP-QSV-R3-AI-JUDGE-INTERNATIONAL-NORMS-LP728-20261027-01.json": "2a150cc6f0dbc96bb22915c095798acbedd41e14fb99d106759df9ba52392b95"
+  },
+  "source_status_note": "Original prepared/unpublished status values are historical; website publication is evidenced by this separate receipt.",
+  "total_score": null,
+  "civic_trace_046": "R3_APPROVAL_DEFERRED",
+  "axioms": "AX-01..AX-09_UNCHANGED"
+}

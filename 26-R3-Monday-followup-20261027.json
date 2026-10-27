@@ -1,0 +1,102 @@
+{
+  "schema": "SGP-QSV-R3-MONDAY-FOLLOWUP-RECEIPT/1.0",
+  "record_id": "SGP-QSV-R3-MONDAY-FOLLOWUP-20261027-01",
+  "record_date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "briefing_date": "2026-10-26",
+  "record_type": "PUBLIC_AUTHORIZED_DECISION_LINKAGE",
+  "decision_authority": "R3_HUMAN_APPROVAL_LAYER",
+  "authorization_basis_ko": "10월 26일 브리핑 승인 및 공개 기록 요청과 10월 27일 후속 영수증 작성·GitHub 게시 요청에서 명시한 결정 범위만 기록한다. 사적 대화 원문은 전사하지 않는다.",
+  "decision_scope": {
+    "briefing": "APPROVED_FOR_PUBLIC_RECORD",
+    "development_direction": "CONTINUE_CT045_SUBORDINATE_RESEARCH_AND_VERIFICATION",
+    "civic_trace_045": "EXISTING_R3_APPROVED_DESIGN_MAINTAINED",
+    "existing_six_subrules": "20261023_R3_APPROVAL_PRESERVED",
+    "civic_trace_046": "R3_APPROVAL_DEFERRED",
+    "new_ct046_approval": false,
+    "axioms": "AX-01..AX-09_UNCHANGED",
+    "constitutional_change": false,
+    "total_score": null,
+    "next_review_date": null,
+    "next_review_date_note_ko": "10월 26일 재검토 목표일은 자동 승인일이 아니다. 이 영수증은 새로운 재검토 날짜를 정하지 않는다.",
+    "anti_corruption_priority": "VERIFICATION_WORKFLOW_ORDERING_ONLY_NOT_AXIOM_HIERARCHY_CHANGE"
+  },
+  "separate_decisions": [
+    {
+      "record_id": "SGP-QSV-R3-CT045-CC-CONSISTENCY-APPROVAL-20261027-01",
+      "decision_date": "2026-10-27",
+      "status": "R3_APPROVED_DESIGN_DIRECTIVE",
+      "scope": "CC-01..CC-06 human review and technical consistency directive",
+      "source_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/r3-ct045-consistency-approval-20261027/SGP-QSV-R3-CT045-CC-CONSISTENCY-APPROVAL-20261027-01.json",
+      "note_ko": "10월 27일의 별도 승인이다. 10월 26일 사전 연구나 Grok 의견에 소급하여 R3 승인 지위를 부여하지 않는다."
+    }
+  ],
+  "research_and_execution": {
+    "cri01": "EXPERIMENTAL_RESEARCH_NOT_DEPLOYED",
+    "vlt01": "EXPERIMENTAL_RESEARCH_CANDIDATE_NOT_DEPLOYED",
+    "research_priorities": [
+      "CRI-01",
+      "ETHICAL_GRAVITY_SIMULATION",
+      "VLT-01",
+      "AUTOMATED_DECISION_VERIFICATION_NODE"
+    ],
+    "priority_source": "20261027_SEPARATE_DESIGN_DIRECTIVE",
+    "grok_review": "INDEPENDENT_RECOMMENDATION_NOT_R3_APPROVAL",
+    "research_review_is_execution_verification": false,
+    "workflow_executed_in_this_linkage": false,
+    "production_readiness_proven": false,
+    "existing_operating_boundary": "MANUAL_RECEIPT_MODE_NOT_DEPLOYED",
+    "autonomous_execution_authorized": false,
+    "automatic_sanctions_authorized": false,
+    "external_vendor_obligations_created": false,
+    "null_score_interpretation": "NEITHER_CLEARANCE_NOR_GUILT"
+  },
+  "sources": [
+    {
+      "path": "23-R3-CT046-deferral-and-CT045-priority-20261020.json",
+      "blob_sha": "1c05391a515d77451b27996b78d854b6b451f897"
+    },
+    {
+      "path": "25-AI-rule-board-and-R3-subrule-status-20261023.json",
+      "blob_sha": "577770002570051d942ac9f9b6baed84f36304a1"
+    },
+    {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/conscience-computation-review-20261026/governance-research-20261026.json",
+      "role": "PREDECISION_INDEPENDENT_RESEARCH"
+    },
+    {
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/r3-ct045-consistency-approval-20261027/record.json",
+      "role": "SEPARATE_20261027_PUBLICATION_RECEIPT"
+    }
+  ],
+  "website_verification": {
+    "checked_date": "2026-10-27",
+    "version": 227,
+    "source_commit": "247355067213e70499184faef6559335c8b88111",
+    "deployment_status": "succeeded",
+    "verification_method": "SITES_DEPLOYMENT_STATUS_AND_MATCHING_SOURCE_CHECKOUT",
+    "live_http_body_verified": false,
+    "existing_20261027_approval_found": true,
+    "duplicate_approval_publication_required": false,
+    "monday_index_at_check": "PRE_RESEARCH_LABEL_WITHOUT_FOLLOWUP_RECEIPT_LINK",
+    "followup_link_update": "TRACK_SEPARATELY_IN_SITE_PUBLICATION_HISTORY"
+  },
+  "privacy": {
+    "private_conversation_transcribed": false,
+    "private_email_body_republished": false
+  },
+  "preserved_boundaries": {
+    "lp728_origin": "PRESERVED",
+    "lp728_causality": "UNRESOLVED",
+    "lot_00518001_identity": "UNRESOLVED",
+    "source_records_overwritten": false
+  },
+  "publication": {
+    "github_status": "NOT_PUBLISHED_PERMISSION_DENIED",
+    "github_error": "403 Resource not accessible by integration",
+    "github_commit_sha": null,
+    "website_status": "PREPARED_FOR_PUBLICATION",
+    "publication_is_operational_deployment": false
+  }
+}
+

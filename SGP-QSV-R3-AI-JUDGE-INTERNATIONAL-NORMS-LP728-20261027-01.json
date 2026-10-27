@@ -1,0 +1,73 @@
+{
+  "schema": "SGP-QSV-AI-JUDGE-R3-RESEARCH-DIRECTIVE/1.0",
+  "record_id": "SGP-QSV-R3-AI-JUDGE-INTERNATIONAL-NORMS-LP728-20261027-01",
+  "record_date": "2026-10-27",
+  "issuer": "R3 Human Authority",
+  "decision_status": "R3_APPROVED_RESEARCH_AND_DESIGN_DIRECTION",
+  "publication_status": "PREPARED_NOT_DEPLOYED",
+  "purpose": "Public-interest AI judicial reasoning and conscience-audit research; international norms, evidence-control asymmetry and LP728-origin vaccine injury burden redistribution",
+  "modules": [
+    {
+      "id": "CASELAW_VALIDATOR",
+      "scope": "Validate cited cases, holdings and relevance"
+    },
+    {
+      "id": "INTERNATIONAL_NORM_RESOLVER",
+      "scope": "Map jurisdiction, treaty ratification, reservations, binding force, domestic effect, applicable dates and norm conflicts"
+    },
+    {
+      "id": "EVIDENTIARY_BURDEN_REVIEW",
+      "scope": "Assess evidence-control disparity, document duties, existing adverse-inference remedies and proposed redistribution norms without automatic legal findings"
+    },
+    {
+      "id": "VERIFICATION_LOSS_TRACKER",
+      "scope": "Track verified requests, refusals, transfers, delay, correction and independent review access"
+    },
+    {
+      "id": "CONSCIENCE_AUDIT_LOG",
+      "scope": "Preserve sources, dissent, reasoning, uncertainty, versions and correction receipts"
+    }
+  ],
+  "external_review": {
+    "deepseek": "SGP-QSV-AIRB-REVIEW-DEEPSEEK-20261027-01; independent proposal, not approved wholesale",
+    "gemini": "User-submitted R2 review and implementation design; independent proposal, not proof of operation",
+    "review_status": "REVIEWED_WITH_LEGAL_CORRECTIONS"
+  },
+  "legal_distinctions": {
+    "domestic_evidence_law": {
+      "article_344": "document production duty criteria",
+      "article_349": "court may accept assertion about document contents if party disobeys qualifying production order",
+      "article_350": "court may accept assertion about document contents for qualifying intentional document destruction or obstruction"
+    },
+    "established_vs_proposed": [
+      "LEGAL_PRECEDENT_MITIGATION",
+      "SGP_PROPOSED_INVERSION"
+    ],
+    "international_norms": "No universal automatic priority of all international human-rights norms over domestic law; binding force and local incorporation require case-by-case verification"
+  },
+  "research_flags": [
+    "AI_JUDGE_RESEARCH_DRAFT",
+    "NOT_LEGALLY_BINDING",
+    "NO_AUTOMATIC_ADVERSE_INFERENCE",
+    "NO_AUTOMATIC_AX_VIOLATION"
+  ],
+  "guardrails": {
+    "axioms": "AX-01..AX-09_UNCHANGED",
+    "civic_trace_045": "EXISTING_R3_APPROVED_DESIGN",
+    "civic_trace_046": "R3_APPROVAL_DEFERRED",
+    "cri01": "EXPERIMENTAL_RESEARCH",
+    "vlt01": "EXPERIMENTAL_RESEARCH_CANDIDATE",
+    "lp728_causality": "UNRESOLVED",
+    "lot_00518001_identity": "UNRESOLVED",
+    "real_judicial_authority": false,
+    "operational_deployment_authorized": false,
+    "privacy": "NO_PRIVATE_RECORDS_WITHOUT_EXPLICIT_APPROVAL"
+  },
+  "next_actions": [
+    "Develop mock norm conflict matrix",
+    "Create synthetic evidentiary-burden tests",
+    "Create auditable reasoning provenance schema",
+    "Independent adversarial review before deployment"
+  ],
+  "formal_axiom_proof": "NOT_PERFORMED"
+}
