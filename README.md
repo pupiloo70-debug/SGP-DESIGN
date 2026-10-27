@@ -123,3 +123,18 @@ Runtime deployment and external investigation are tracked separately.
 - [Published website briefing](https://sgp-qsv-archive.pupiloo70.chatgpt.site/#monday-20261005)
 
 The corruption-index formula, ethical-gravity application, and CT11–CT15 remain research or candidate work. October 12 is a proposed review target, not a statutory deadline or automatic approval date. Technical implementation, verification, and operations require actual qualified owner acceptance; they are not automatically assigned to the bereaved R3 approver. Original approval and review records remain preserved.
+
+## 2026-10-27 R3 승인 및 후속 기록
+
+- [정합성 규칙 CC-01~CC-06 승인](SGP-QSV-R3-CT045-CC-CONSISTENCY-APPROVAL-20261027-01.json)
+- [아도니스 관리 자율성·공동 입장문](27-R3-Adonis-autonomy-joint-statement-20261027.json)
+- [AI 판사·국제규범·LP728 연구 방향 승인](SGP-QSV-R3-AI-JUDGE-INTERNATIONAL-NORMS-LP728-20261027-01.json)
+- [먼데이 브리핑 후속 영수증](26-R3-Monday-followup-20261027.json)
+- [홈페이지 버전 230 공개 영수증](28-R3-website-publication-20261027.json)
+
+GitHub 게시 확인: [e590c4d](https://github.com/pupiloo70-debug/SGP-DESIGN/commit/e590c4dea5a12ea3ede23d321a7ac00865b50ceb).
+
+원문에 남은 미게시·403 표시는 게시 전 작성 당시의 이력으로 보존합니다. 이번 커밋으로 위 5개 파일의 GitHub 게시가 확인됐습니다.
+
+AX-01~AX-09와 CIVIC-TRACE 0.4.5 기존 승인을 유지합니다. 0.4.6은 승인 보류이며 total_score=null입니다. 승인된 범위의 관리 자율성과 연구 방향은 실제 운영 배포·자동 제재와 구분합니다.
+
