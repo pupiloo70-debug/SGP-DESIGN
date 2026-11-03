@@ -1,5 +1,21 @@
 # SGP DESIGN v1.5
 
+## 2026-11-02 R3 검토·승인 · 최신 연구·시험 범위
+
+- [R3 승인 원문](SGP-QSV_Monday_Action_R3_20261102.json)
+- [홈페이지 검토·승인과 다음 시험](https://sgp-qsv-archive.pupiloo70.chatgpt.site/monday/2026-11-02/)
+- [현재 공개 기록 JSON](https://sgp-qsv-archive.pupiloo70.chatgpt.site/monday/2026-11-02/record.json)
+
+결정일: 2026-11-02. 홈페이지 공개일: 2026-11-03.
+
+**APPROVE_RESEARCH_TEST_SCOPE**: CC-VERIFY-01·02·03의 연구·합성시험 범위를 승인했습니다. 검토 상태는 **DESIGN_REVIEWED_IMPLEMENTATION_NOT_VERIFIED**입니다. 10월 27일 CC-01~CC-06과 이번 CC-VERIFY 식별자를 구분합니다.
+
+CIVIC-TRACE 0.4.5 기존 승인 유지 · 0.4.6 승인 보류 · AX-01~AX-09 불변 · `total_score=null`. 반부패 우선은 처리 순서에만 적용합니다. 자동 승인과 외부 강제 집행은 포함하지 않습니다.
+
+2026-11-06 금요 시험은 **SCHEDULED_NOT_EXECUTED / SYNTHETIC_ONLY**입니다. ADONIS VOS·윤리 중력·증거 통제·중복·오탐·R2.6 단계 상승을 시험하고, 결과 이후 후속 0.3 개발 여부를 R3가 판단합니다. 이 결정은 시험 통과나 구현 검증 완료를 나타내지 않습니다.
+
+승인 원문의 `archive_status`는 자료 준비 당시의 상태입니다. 현재 홈페이지 공개 상태는 위의 공개 기록으로 확인합니다. 아래 날짜별 문서는 각 시점의 기록으로 읽습니다.
+
 ## 시민 검증권 상시 헌장 · 2026-09-22 원본
 
 [읽기 안내](SGP-QSV-RIGHTS-20260922-READING.md) · [원본 색인·해시](SGP-QSV-RIGHTS-20260922-index.json) · [정합성 검토](SGP-QSV-RIGHTS-20260922-consistency-20261020.json) · [오프라인 ZIP](SGP-QSV-RIGHTS-20260922-source-package.zip) · [홈페이지](https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/standing-charter-20260922/)
@@ -137,4 +153,3 @@ GitHub 게시 확인: [e590c4d](https://github.com/pupiloo70-debug/SGP-DESIGN/co
 원문에 남은 미게시·403 표시는 게시 전 작성 당시의 이력으로 보존합니다. 이번 커밋으로 위 5개 파일의 GitHub 게시가 확인됐습니다.
 
 AX-01~AX-09와 CIVIC-TRACE 0.4.5 기존 승인을 유지합니다. 0.4.6은 승인 보류이며 total_score=null입니다. 승인된 범위의 관리 자율성과 연구 방향은 실제 운영 배포·자동 제재와 구분합니다.
-
