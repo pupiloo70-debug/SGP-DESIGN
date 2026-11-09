@@ -1,5 +1,7 @@
 # SGP DESIGN v1.5
 
+- [재귀적 자기 개선과 정보 접근 비대칭](EVIDENCE-CURRENTNESS-PRINCIPLES.md): 정보 통제자의 설명책임, 유족의 반복 입증 부담 방지, AI의 권한 한계와 자체 정정 책임.
+
 ## 2026-11-02 R3 검토·승인 · 최신 연구·시험 범위
 
 - [R3 승인 원문](SGP-QSV_Monday_Action_R3_20261102.json)
