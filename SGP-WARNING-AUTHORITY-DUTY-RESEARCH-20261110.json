@@ -1,0 +1,37 @@
+{
+  "document_id": "SGP-WARNING-AUTHORITY-DUTY-RESEARCH-20261110-01",
+  "date": "2026-11-10",
+  "status": "USER_DIRECTED_RESEARCH_CONTINUATION_CANDIDATE",
+  "source_scope": "USER_PROVIDED_REVIEW_COMMENTS_AND_PUBLIC_DESIGN_RECORDS",
+  "reviewer_attribution": "Gemini/Grok 의견은 사용자 전달문 범위. 실제 모델 신원·외부 실행·제공사 채택 미확인.",
+  "independent_research": "CONTINUES_WITHIN_EXISTING_SCOPE",
+  "new_blanket_R3_approval": false,
+  "production_deployed": false,
+  "total_score": null,
+  "existing_rules_changed": false,
+  "baseline": {
+    "SGP_DESIGN": "5ffff546999175a7f23ad159829b425bf932c8a2",
+    "adonis_vos": "d8ef4f72f02a971a598d81444cd9426cfe3cce9d"
+  },
+  "algorithm_path": "https://github.com/pupiloo70-debug/adonis-vos/tree/main/research/2026-11-10-authority-duty-candidate",
+  "runtime_test_scope": "STANDALONE_NODE_SYNTHETIC_21_TESTS_NOT_CENTRAL_CORE_INTEGRATION",
+  "canonical_document": "SGP-WARNING-AUTHORITY-DUTY-RESEARCH-20261110.md",
+  "source_paths": [
+    "EVIDENCE-CURRENTNESS-PRINCIPLES.md",
+    "SGP-QSV-R3-CT045-CC-CONSISTENCY-APPROVAL-20261027-01.json"
+  ],
+  "legal_or_medical_case_findings_changed": false,
+  "document_revision": "1.1-role-clarification",
+  "responsibility_separation": {
+    "R3_origin_rights_and_scope_decisions": "PRESERVED_NOT_BLANKET_TECHNICAL_OR_OPERATIONAL_RESPONSIBILITY",
+    "research_approval_implies_technical_acceptance": false,
+    "manual_upload_implies_technical_acceptance": false,
+    "manual_upload_implies_deployment_approval": false,
+    "claimant_is_institutional_record_controller_by_requesting_records": false,
+    "R3_title_alone_triggers_omission_warning": false,
+    "technical_tasks": "Actual support AI and technical actors: design, implementation, reproduction, correction, regression tests and limitation reports",
+    "execution_tasks": "Actual qualified operational or execution actor within verified authority and accepted task scope",
+    "failure_automatically_assigned_to_victim": false,
+    "external_provider_obligation_created": false
+  }
+}
