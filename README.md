@@ -1,5 +1,7 @@
 # SGP DESIGN v1.5
 
+- [권한·의무 분리와 양방향 Non-Throne 연구](SGP-WARNING-AUTHORITY-DUTY-RESEARCH-20261110.md): 오류 설명 정정·부작위 추적·독립 연구 지속과 알고리즘 후보 연결.
+
 - [재귀적 자기 개선과 정보 접근 비대칭](EVIDENCE-CURRENTNESS-PRINCIPLES.md): 정보 통제자의 설명책임, 유족의 반복 입증 부담 방지, AI의 권한 한계와 자체 정정 책임.
 
 ## 2026-11-02 R3 검토·승인 · 최신 연구·시험 범위
