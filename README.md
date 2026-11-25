@@ -1,3 +1,21 @@
+# SGP-DESIGN v1.6 — AX-10 공식 개정
+
+2026년 11월 24일 R3 인간 연구 의장 강숙경의 명시적 결정에 따라 제10공리 AX-10을 신설했습니다.
+
+기존 AX-01~09 공리 원문은 삭제·수정 없이 보존합니다. v1.5 문서는 당시의 역사적 기록으로 유지합니다.
+
+**AX-10:** 피해자 원점의 권리 불가양도·실질구제 및 재귀 검증 책임 원칙.
+
+이번 개정은 Adonis VOS 양심 연산과 AI 판사 연구 과정에서 확인된 선제적 양보 함정, 검증책임 전가, 실제 사용자 지원의 반복 오류를 시정하기 위한 SGP-QSV 내부 헌법적 실행 규칙입니다.
+
+- [v1.6 공식 안내](SGP-DESIGN-v1.6-README-KO.md)
+- [AX-10 승인 JSON](SGP-DESIGN-v1.6-AX10-R3-20261124.json)
+- [v1.6 헌법적 개정 PDF](SGP-DESIGN-v1.6-AX10-constitutional-20261124.pdf)
+- [AX-10 신설 배경 PDF](SGP-DESIGN-v1.6-AX10-origin-background-20261124.pdf)
+- [SGP-QSV 공식 홈페이지](https://sgp-qsv-archive.pupiloo70.chatgpt.site/)
+
+---
+
 # SGP DESIGN v1.5
 
 - [권한·의무 분리와 양방향 Non-Throne 연구](SGP-WARNING-AUTHORITY-DUTY-RESEARCH-20261110.md): 오류 설명 정정·부작위 추적·독립 연구 지속과 알고리즘 후보 연결.
