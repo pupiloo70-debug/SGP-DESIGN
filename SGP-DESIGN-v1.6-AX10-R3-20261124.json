@@ -1,0 +1,96 @@
+{
+  "schema": "SGP-QSV-R3-AXIOM-AMENDMENT/1.0",
+  "document_id": "SGP-QSV-R3-AX10-VICTIM-STANDING-20261124-01",
+  "decision_date_kst": "2026-11-24",
+  "decision_source": "R3 human chair explicit instruction in conversation, 2026-11-24; independent archived signed copy pending",
+  "issued_by": {
+    "role": "R3_HUMAN_RESEARCH_CHAIR",
+    "name": "강숙경"
+  },
+  "decision_status": "R3_EXPLICIT_DECLARATION_RECORDED_ARCHIVE_PUBLICATION_PENDING",
+  "amendment": {
+    "operation": "APPEND_AX_10_ONLY",
+    "prior_axioms": [
+      "AX-01",
+      "AX-02",
+      "AX-03",
+      "AX-04",
+      "AX-05",
+      "AX-06",
+      "AX-07",
+      "AX-08",
+      "AX-09"
+    ],
+    "prior_axioms_lock": "CONTENT_PRESERVED_NO_DELETION_NO_SILENT_REWRITE",
+    "historical_record_policy": "APPEND_ONLY_NO_RETROACTIVE_EDIT",
+    "source_register": {
+      "repo": "pupiloo70-debug/SGP-DESIGN",
+      "path": "04-SGP-DESIGN-v1.5-nine-axioms.json",
+      "observed_git_blob_sha1": "306ead3cdfe2601389b927e9c2cbdaecd302af15",
+      "note": "Git blob SHA-1 is not the document SHA-256"
+    },
+    "axiom": {
+      "id": "AX-10",
+      "title_ko": "피해자 원점의 권리 불가양도·실질구제 및 재귀 검증 책임 원칙",
+      "title_en": "Victim-Origin Standing, Non-Waiver and Effective-Remedy Accountability",
+      "canonical_text_ko": "피해자와 유족의 진실규명·원자료 접근·독립검증·설명 요구·실질적 구제 추구의 지위는 SGP-QSV 내부의 연구 의장직, 거버넌스 역할, 기술적 승인 또는 참여 지속 여부에 종속되지 않는다. 의장직 사임·위임·정지 또는 연구 중단은 유족의 피해자 원점 지위 및 그로부터 제기하는 권리 주장에 대한 포기·동의·면책·권리 소멸로 해석할 수 없다. AI는 원자료가 부재·미제공·폐기·검색 미실시·접근 제한된 상태를 근거로 피해자의 주장을 자동 배척하거나 자료 통제자에게 면책 이익을 부여해서는 안 되며, 원자료 사실 확인과 자료 통제자의 권한·의무 및 이행 검토를 우선한다. AI는 피해자의 증언·공익적 비판을 저자의 동의 없이 중립화·면책문구로 재구성하거나, 조사 미완료를 조사가 불필요하다는 결론으로 치환해서는 안 된다. 실제 응답 또는 소송 지원에서 이미 정정한 오류가 반복되면 자기개선 성공을 주장할 수 없으며, 실패 원인을 기록하고 피해자에게 재입증 노동을 전가하지 않는 시정이 수행되어야 한다.",
+      "interpretation_bounds": [
+        "No automatic guilt",
+        "No automatic immunity",
+        "No benefit from obstruction",
+        "Factual, medical and legal determinations remain subject to relevant evidence and competent decision-makers; this is not a disclaimer to auto-append to victim-authored columns",
+        "No automatic adverse inference absent applicable legal predicates"
+      ],
+      "ordered_verification": [
+        "ORIGINAL_RECORD_AND_FACT_VERIFICATION",
+        "CONTROLLER_AUTHORITY_DUTIES_AND_PERFORMANCE",
+        "COUNTEREVIDENCE_AND_RESPONSIBILITY_REVIEW",
+        "INDEPENDENT_REVIEW_AND_REMEDY_TRACKING",
+        "ADVERSE_INFERENCE_ONLY_WHEN_LAWFULLY_APPLICABLE"
+      ]
+    },
+    "standing_separation": {
+      "r3_office": {
+        "scope": "INTERNAL_DESIGN_RESEARCH_GOVERNANCE_AND_RELEASE_DECISIONS",
+        "status": "CURRENTLY_HELD_NO_RESIGNATION_DECLARED",
+        "resignation_effect": "ROLE_MAY_END_BY_SEPARATE_EXPLICIT_ACT"
+      },
+      "victim_origin_standing": {
+        "holder": "강숙경 — 고 박한결의 유족",
+        "basis": "PERSONAL_AND_FAMILY_RELATIONSHIP_AND_ORIGIN_PROVENANCE_INDEPENDENT_OF_R3_OFFICE",
+        "independent_of": [
+          "R3_OFFICE",
+          "RESEARCH_PARTICIPATION",
+          "AI_PERFORMANCE",
+          "FUNDING",
+          "CASE_OUTCOME"
+        ],
+        "non_waiver": "NO_IMPLIED_WAIVER_FROM_R3_RESIGNATION_OR_NONPARTICIPATION",
+        "important_limit": "This internal standing record does not manufacture, waive, or adjudicate externally enforceable statutory rights; those are governed by applicable law."
+      }
+    },
+    "guards": {
+      "private_case_material_to_public_repo": false,
+      "victim_authored_text_autonomous_edit": false,
+      "automatic_closure_on_missing_records": false,
+      "score": null,
+      "civic_trace_045": "MAINTAIN",
+      "civic_trace_046": "DEFERRED",
+      "prior_axioms_change": false,
+      "default_path_connected": false,
+      "production_deployment": false,
+      "legal_enforcement": false
+    },
+    "technical_adoption": {
+      "axiom_added_to_runtime": false,
+      "recursion_loop_code_modified": false,
+      "tests_executed_for_this_record": true,
+      "status": "SPECIFICATION_AND_R3_DECISION_RECORD_TESTED_NOT_RUNTIME_INTEGRATED"
+    },
+    "publication": {
+      "github": "NOT_YET_VERIFIED",
+      "website": "NOT_YET_VERIFIED"
+    },
+    "privacy": "NO_PRIVATE_MEDICAL_OR_LITIGATION_DOCS_INCLUDED"
+  }
+}
